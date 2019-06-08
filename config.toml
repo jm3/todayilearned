@@ -1,4 +1,4 @@
-baseURL = "http://todayilearned.jm3.net/"
+baseURL = "https://todayilearned.jm3.net/"
 languageCode = "en-us"
 title = "Today I learned"
 theme = "minimal"
@@ -14,7 +14,7 @@ googleAnalytics = ""
     font = "Cinzel" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "html", "css", "js", "python", "ruby"]
+    highlightLanguages = ["go", "html", "css", "javascript", "python", "ruby"]
     css = ["/theme-override-jm3.css"]
 
 [[menu.main]]
