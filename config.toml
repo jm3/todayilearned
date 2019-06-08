@@ -14,7 +14,7 @@ googleAnalytics = ""
     font = "Cinzel" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "html", "css", "javascript", "python", "ruby"]
+    highlightLanguages = ["go", "css", "javascript", "python", "ruby"]
     css = ["/theme-override-jm3.css"]
 
 [[menu.main]]
