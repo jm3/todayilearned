@@ -1,12 +1,11 @@
-baseURL = "http://example.com/"
+baseURL = "http://todayilearned.jm3.net/"
 languageCode = "en-us"
-title = "TIL"
+title = "Today I learned"
 theme = "minimal"
-# disqusShortname = "username" # delete this to disable disqus comments
 googleAnalytics = ""
 
 [params]
-    author = "Calin Tataru"
+    author = "John Manoogian III (jm3)"
     description = "#todayilearned"
     githubUsername = "jm3"
     accent = "#4a1386"
@@ -15,7 +14,7 @@ googleAnalytics = ""
     font = "Cinzel" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    highlightLanguages = ["go", "html", "css", "js", "python", "ruby"]
     css = ["/theme-override-jm3.css"]
 
 [[menu.main]]
@@ -36,11 +35,6 @@ googleAnalytics = ""
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
 # The list of available icons can be found at http://fontawesome.io/icons/
-
-[[menu.icon]]
-    url = "mailto:me@example.com"
-    name = "envelope-o"
-    weight = 1
 
 [[menu.icon]]
     url = "https://github.com/jm3/"
