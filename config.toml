@@ -52,6 +52,6 @@ googleAnalytics = ""
     weight = 4
 
 [[menu.icon]]
-    url = "https://www.stackoverflow.com/jm3/"
+    url = "https://stackoverflow.com/users/187833/jm3"
     name = "stack-overflow"
     weight = 5
