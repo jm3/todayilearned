@@ -2,7 +2,7 @@ baseURL = "https://todayilearned.jm3.net/"
 languageCode = "en-us"
 title = "Today I learned"
 theme = "minimal"
-googleAnalytics = ""
+googleAnalytics = "UA-228926-19"
 
 [permalinks]
   posts = "/:year/:month/:day/:title/"
