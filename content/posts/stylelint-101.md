@@ -13,4 +13,3 @@ My config (synced + backed up with [Mackup](https://github.com/lra/mackup), of c
 
 {{< gist jm3 32d5a7a52c96cb932bdc114565759fd3 >}}
 
-https://gist.github.com/jm3/32d5a7a52c96cb932bdc114565759fd3
