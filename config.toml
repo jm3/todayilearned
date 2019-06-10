@@ -23,38 +23,38 @@ googleAnalytics = "UA-228926-19"
   showBorder = true
 
 [[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
+  url = "/"
+  name = "Home"
+  weight = 1
 
 [[menu.main]]
-    url = "/posts/"
-    name = "Posts"
-    weight = 2
+  url = "/posts/"
+  name = "Posts"
+  weight = 2
 
 [[menu.main]]
-    url = "/projects/"
-    name = "Projects"
-    weight = 3
+  url = "/projects/"
+  name = "Projects"
+  weight = 3
 
 # Social link names should match an icon name at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "https://github.com/jm3/"
-    name = "github"
-    weight = 2
+  url = "https://github.com/jm3/"
+  name = "github"
+  weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/jm3/"
-    name = "twitter"
-    weight = 3
+  url = "https://twitter.com/jm3/"
+  name = "twitter"
+  weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/manoogian/"
-    name = "linkedin"
-    weight = 4
+  url = "https://www.linkedin.com/in/manoogian/"
+  name = "linkedin"
+  weight = 4
 
 [[menu.icon]]
-    url = "https://stackoverflow.com/users/187833/jm3"
-    name = "stack-overflow"
-    weight = 5
+  url = "https://stackoverflow.com/users/187833/jm3"
+  name = "stack-overflow"
+  weight = 5
