@@ -4,6 +4,9 @@ title = "Today I learned"
 theme = "minimal"
 googleAnalytics = ""
 
+[permalinks]
+  posts = "/:year/:month/:day/:title/"
+
 [params]
     author = "John Manoogian III (jm3)"
     description = "#todayilearned"
