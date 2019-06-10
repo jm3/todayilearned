@@ -8,17 +8,17 @@ googleAnalytics = "UA-228926-19"
   posts = "/:year/:month/:day/:title/"
 
 [params]
-    author = "John Manoogian III (jm3)"
-    description = "#todayilearned"
-    githubUsername = "jm3"
-    accent = "#4a1386"
-    showBorder = true
-    backgroundColor = "#FFFFFF"
-    font = "raleway" # match the name of a Google Font
-    highlight = true
-    highlightStyle = "solarized-dark"
-    highlightLanguages = ["go", "css", "javascript", "python", "ruby"]
-    css = ["/theme-override-jm3.css"]
+  accent = "#4a1386"
+  author = "John Manoogian III (jm3)"
+  backgroundColor = "#FFFFFF"
+  css = ["/theme-override-jm3.css"]
+  description = "#todayilearned"
+  font = "raleway" # match the name of a Google Font
+  githubUsername = "jm3"
+  highlight = true
+  highlightLanguages = ["go", "css", "javascript", "python", "ruby"]
+  highlightStyle = "solarized-dark"
+  showBorder = true
 
 [[menu.main]]
     url = "/"
