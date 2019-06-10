@@ -19,6 +19,7 @@ googleAnalytics = "UA-228926-19"
   highlight = true
   highlightLanguages = ["go", "css", "javascript", "python", "ruby"]
   highlightStyle = "solarized-dark"
+  MathJax = false
   showBorder = true
 
 [[menu.main]]
