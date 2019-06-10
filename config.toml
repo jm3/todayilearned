@@ -11,6 +11,7 @@ googleAnalytics = "UA-228926-19"
   accent = "#4a1386"
   author = "John Manoogian III (jm3)"
   backgroundColor = "#FFFFFF"
+  copyright = "<i class='fa fa-copyright fa-flip-horizontal'></i> copyleft <abbr title='John Manoogian III'>jm3</abbr> &mdash; all rights reserved, all wrongs reversed, no punches pulled"
   css = ["/theme-override-jm3.css"]
   description = "#todayilearned"
   font = "raleway" # match the name of a Google Font
