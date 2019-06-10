@@ -14,7 +14,7 @@ googleAnalytics = "UA-228926-19"
     accent = "#4a1386"
     showBorder = true
     backgroundColor = "#FFFFFF"
-    font = "raleway" # should match the name on Google Fonts!
+    font = "raleway" # match the name of a Google Font
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "css", "javascript", "python", "ruby"]
@@ -35,9 +35,7 @@ googleAnalytics = "UA-228926-19"
     name = "Projects"
     weight = 3
 
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
+# Social link names should match an icon name at http://fontawesome.io/icons/
 
 [[menu.icon]]
     url = "https://github.com/jm3/"
