@@ -1,3 +1,4 @@
 [submodule "themes/minimal"]
-	path = themes/minimal
-	url = https://github.com/jm3/minimal-hugo-theme.git
+  path = themes/minimal
+  url = /Users/jm3/Dropbox/Git/minimal-hugo-theme.git/
+  branch = dev
