@@ -1,7 +1,7 @@
 baseURL = "https://todayilearned.jm3.net/"
 languageCode = "en-us"
 title = "#todayilearned"
-theme = "ezhil"
+theme = "rocker-panel"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true

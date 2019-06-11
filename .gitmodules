@@ -2,7 +2,7 @@
   path = themes/minimal
   url = /Users/jm3/Dropbox/Git/minimal-hugo-theme.git/
   branch = dev
-[submodule "themes/ezhil"]
-	path = themes/ezhil
-	url = /Users/jm3/Dropbox/Git/ezhil-hugo-theme.git
+[submodule "themes/rocker-panel"]
+	path = themes/rocker-panel
+	url = git@github.com:jm3/rocker-panel.git
 	branch = dev
