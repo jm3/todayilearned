@@ -4,4 +4,5 @@
   branch = dev
 [submodule "themes/ezhil"]
 	path = themes/ezhil
-	url = git@github.com:vividvilla/ezhil.git
+	url = /Users/jm3/Dropbox/Git/ezhil-hugo-theme.git
+	branch = dev

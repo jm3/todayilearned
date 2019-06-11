@@ -1,7 +1,7 @@
 baseURL = "https://todayilearned.jm3.net/"
 languageCode = "en-us"
 title = "#todayilearned"
-theme = "ezhil-clone-symlink"
+theme = "ezhil"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
