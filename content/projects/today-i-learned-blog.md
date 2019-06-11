@@ -8,4 +8,12 @@ draft: false
 ---
 
 A show-as-you-go log of daily front-end web development learnings as I
-level up my skills.
+level up my skills. I chose [Hugo](https://gohugo.io/) for the static
+site generator after considering [Jekyll](https://jekyllrb.com/) and
+[Gatsby](https://www.gatsbyjs.org/) because Jekyll seems slow, outdated,
+and less deeply considered than Hugo. Gatsby might be reasonable if you
+need everything to be fairly complicated React app and think seventeen
+layers of Javascript is a normal, healthy state of affairs.
+
+I regret nothing.
+
