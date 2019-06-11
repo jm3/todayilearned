@@ -2,6 +2,7 @@ baseURL = "https://todayilearned.jm3.net/"
 languageCode = "en-us"
 title = "#todayilearned"
 theme = "rocker-panel"
+#theme = "rocker-panel-clone-symlink"
 
 pygmentsstyle = "vs"
 pygmentscodefences = true
