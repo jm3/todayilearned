@@ -1,5 +1,5 @@
 ---
-title: "Today I Learned blog"
+title: "This blog (todayilearned)"
 description: "Daily updates on the journey to fast-forward merge my front-end skills to 2019"
 tags: ["CSS3", "hugo"]
 date: 2019-06-01
@@ -38,33 +38,38 @@ villain, is cool again? Now everyone's using VS Code (rebranded from
 Visual Studio Code). "GitHub, a Microsoft product"? What the actual huh?
 
 Suddenly, in a fractally expanding world of new technology, my
-wizard-like web developer stylings were far from wizardly! I went from
-being a full-stack web developer who was dangerous in about 3 web
-frameworks to someone who felt baffled when viewing the source of any
-modern website.
+wizard-like web developer stylings weren't so wizardly. I went from
+being a full-stack web developer dangerous in 3 web frameworks to
+someone who felt baffled looking at the source of any modern website.
 
 I missed being the only one in the building who knows the exact curl
 command that will tee off 30% of live production API traffic to the dev
-build. I pine for the days when I could offhandedly diagnose issues with
+build. I pined for the days when I could offhandedly diagnose issues with
 the cantankerous distributed content management system I'd built using
 an obscure functional language not meant for production use.
 
-The cadence of feelings of mastery (alternated with frustration)
-interleaved with the opportunity to completely lose oneself in an
-abstract world free from the messy problems of real life, is something I
-missed.
+I missed the rush of feeling smart (alternated with
+feelings of total frustration and idiocy) interleaved with the
+opportunity to completely lose oneself in an abstract world free from
+the messy problems of real life. And really, whether or not my next job
+even requires being able to tear a website down the rocker-panels and
+rebuild it, why not regain the ability to do so?
 
-So this, then, is a daily log of my 2019 summer mission. Just a few days
-ago I quit my job as co-founder of a venture-backed startup due to
-massive, deep-seated differences with the co-founder who recruited me. I
-have a family trip planned to visit Michigan in August, which will take
-me away from the keyboard for about two weeks (since they don't have
-computers in Michigan).
-
-That gives me a hard deadline of just two months to
-
-[...]
+So, yeah. Let's do it.
 
 <!--
-  fast-forward merge https://ariya.io/2013/09/fast-forward-git-merge
+Last Friday I quit my job as co-founder running product at a pre-launch
+venture-backed startup. The project had the potential to become an
+interesting business, but I've never been farther apart in values than I
+was with the co-founder who recruited me, to the point that working
+together was actually impossible.
 -->
+
+I'm starting this project in June and I have a family trip to Michigan
+in two months, so that gives me a rare, firm window of team between the
+job I just left and whatever comes next. So this, then, is a daily log
+of my 2019 summer mission: to upgrade my desultory, slapdash front-end
+web development skills to a uniform, 2019, level, to the point that I
+can teach others and build whatever I want.
+
+Here we go.
