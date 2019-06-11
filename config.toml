@@ -12,8 +12,9 @@ googleAnalytics = "UA-228926-19"
 [params]
 	excludedTypes = ["page"] # Content types excluded from recent posts + archives page
 	featherIconsCDN = true
+  font = "Rubik" # should match the name of a Google Font
 	recentPostsCount = 10
-  subtitle = "Daily updates from my journey [fast-forward merging](https://ariya.io/2013/09/fast-forward-git-merge) my front-end skills up to 2019"
+  subtitle = "Daily updates as I [fast-forward merge](https://ariya.io/2013/09/fast-forward-git-merge) my web skills up to 2019 levels"
   copyright = "© ← copyleft <abbr title='John Manoogian III'>jm3</abbr> &mdash; all rights reserved, all wrongs reversed, no punches pulled"
 
 [[menu.main]]
