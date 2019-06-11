@@ -4,5 +4,6 @@ front-end training progress blog
 
 ### Uses:
 
-- Hugo for static site gen: `hugo serve` (new tab) `open http://localhost:1313/`
-- a fork of vividvilla's "ezhil" theme for Hugo (because it doesn't use Bootstrap)
+- AWS Amplify for continuous integration / deployment / hosting / CDN / SSL
+- Hugo for static site generation: `hugo serve` (new tab) `open http://localhost:1313/`
+- a simple, Boostrap-less Hugo theme, "[rocker panel](https://github.com/jm3/rocker-panel)"
