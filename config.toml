@@ -59,4 +59,4 @@ icon = "rss"
 url = "/index.xml"
 
 [taxonomies]
-   tag = "tags"
+tag = "tags"
