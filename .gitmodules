@@ -2,3 +2,6 @@
   path = themes/minimal
   url = /Users/jm3/Dropbox/Git/minimal-hugo-theme.git/
   branch = dev
+[submodule "themes/ezhil"]
+	path = themes/ezhil
+	url = git@github.com:vividvilla/ezhil.git
