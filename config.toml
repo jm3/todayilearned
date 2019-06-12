@@ -4,10 +4,6 @@ title = "#todayilearned"
 theme = "rocker-panel"
 #theme = "rocker-panel-clone-symlink"
 
-pygmentsstyle = "vs"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
 googleAnalytics = "UA-228926-19"
 
 [params]
