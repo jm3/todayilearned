@@ -1,0 +1,752 @@
+{
+    "records": [
+        {
+            "createdTime": "2019-05-31T05:21:24.000Z",
+            "fields": {
+                "Date": "2019-05-30",
+                "Details": "npx stylelint --fix styles.scss",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS",
+                    "Command Line"
+                ],
+                "Week": 22,
+                "Win": "ran stylelint on the cli"
+            },
+            "id": "recBbQkwdMnWsPaz8"
+        },
+        {
+            "createdTime": "2019-05-31T05:22:59.000Z",
+            "fields": {
+                "Date": "2019-05-30",
+                "Details": "which is AMAZING",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS",
+                    "Command Line"
+                ],
+                "Week": 22,
+                "Win": "ID\u2019d unsupported CSS with stylelint using the no-unsupported-browser-features plugin"
+            },
+            "id": "reckw92CGB4zrfU7C"
+        },
+        {
+            "createdTime": "2019-05-29T19:38:13.000Z",
+            "fields": {
+                "Date": "2019-05-29",
+                "Details": "expand in simplified with SHIFT SPACE",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Editor"
+                ],
+                "Week": 22,
+                "Win": "Installed Emmet (simplified) into Atom"
+            },
+            "id": "rechDqF0XJpGoqwxw"
+        },
+        {
+            "createdTime": "2019-05-29T20:04:04.000Z",
+            "fields": {
+                "Date": "2019-05-29",
+                "Details": "boom",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "HTML",
+                    "Editor"
+                ],
+                "Week": 22,
+                "Win": "Fixed errors found by HTML hint"
+            },
+            "id": "recRkP3HDF93aNvOl"
+        },
+        {
+            "createdTime": "2019-05-28T17:47:20.000Z",
+            "fields": {
+                "Date": "2019-05-28",
+                "Details": "\ud83d\udca5",
+                "Link": "https://www.jm3.net/css-grid/",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS",
+                    "Parcel"
+                ],
+                "Week": 22,
+                "Win": "Deployed single-page site with linked (S)CSS + assets to prod successfully with parcel"
+            },
+            "id": "rec6QFaut3efmaGmo"
+        },
+        {
+            "createdTime": "2019-05-28T22:51:51.000Z",
+            "fields": {
+                "Date": "2019-05-28",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "HTML",
+                    "CSS"
+                ],
+                "Week": 22,
+                "Win": "Placed content into a grid implicitly by element order"
+            },
+            "id": "rec7oFdkbjVRSOtAq"
+        },
+        {
+            "createdTime": "2019-05-28T22:52:03.000Z",
+            "fields": {
+                "Date": "2019-05-28",
+                "Details": "Weird and wacky visual row syntax!",
+                "Link": "https://codepen.io/jm3/pen/EzeYvJ",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 22,
+                "Win": "Placed content into Grid by named area"
+            },
+            "id": "recBom3kep13CeTId"
+        },
+        {
+            "createdTime": "2019-05-28T23:50:50.000Z",
+            "fields": {
+                "Date": "2019-05-28",
+                "Details": "2 grids!",
+                "Link": "https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 22,
+                "Win": "Used Firefox Grid Inspector to debug a grid"
+            },
+            "id": "rec5zBOX2nQmpqgvX"
+        },
+        {
+            "createdTime": "2019-05-27T07:17:06.000Z",
+            "fields": {
+                "Date": "2019-05-27",
+                "Details": "grid-column & grid-row both support a shorthand \u201cslash\u201d syntax where the first value represents the column or row start and the second value represents the column or row end.\n\n.a {\n  grid-column: 1 / 2;\n  grid-row: 1 / 2;\n}\u201d\n\nFrom Rachel Andrew\u2019s, Getting Ready for CSS Grid Layout",
+                "Link": "https://github.com/abookapart/css-grid-layout-code/blob/master/ch1-line-based-shorthand.html",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 22,
+                "Win": "css grid area start / end \u201cslash\u201d shortcuts"
+            },
+            "id": "recimReiP7vLYvLiI"
+        },
+        {
+            "createdTime": "2019-05-25T13:28:46.000Z",
+            "fields": {
+                "Date": "2019-05-25",
+                "Details": "Due to JS limitations on unquoted object keys, you can\u2019t use kebab case on the left hand side of bind object expressions, so\ncamelCase will be evaluated to dash-case syntax (ie: fontSize to font-size). WEIRD",
+                "Link": "https://github.com/vuejs/vue/issues/4184",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 21,
+                "Win": "Magical key mapping from camel case to kabob case in bind object expressions"
+            },
+            "id": "recrwMQka2nXi53zu"
+        },
+        {
+            "createdTime": "2019-05-24T23:56:42.000Z",
+            "fields": {
+                "Date": "2019-05-24",
+                "Details": "It turns out that SVG scales differently depending on whether it\u2019s online or referenced externally",
+                "Link": "https://codepen.io/jm3/pen/vwZWPz",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS",
+                    "HTML"
+                ],
+                "Week": 21,
+                "Win": "Scale inline SVG proportionally using calc() and var()"
+            },
+            "id": "recOm3H8SO8jIa1o7"
+        },
+        {
+            "createdTime": "2019-05-25T01:03:28.000Z",
+            "fields": {
+                "Date": "2019-05-24",
+                "Link": "https://codepen.io/ste-vg/pen/pKNjZE",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 21,
+                "Win": "name CSS classes with emoji \ud83d\ude02 "
+            },
+            "id": "recyMQQK2X4RKtBJf"
+        },
+        {
+            "createdTime": "2019-05-25T01:29:05.000Z",
+            "fields": {
+                "Date": "2019-05-24",
+                "Details": "i never loved nth-child, and nth-of-type often seems more resilient",
+                "Link": "https://css-tricks.com/almanac/selectors/n/nth-of-type/",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 21,
+                "Win": ":NTH-OF-TYPE(num) selector"
+            },
+            "id": "rec6Vud6vMiTpw66O"
+        },
+        {
+            "createdTime": "2019-05-25T03:11:13.000Z",
+            "fields": {
+                "Date": "2019-05-24",
+                "Details": ".grid div:nth-of-type(even) { ... }",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 21,
+                "Win": "even + odd keywords in selectors"
+            },
+            "id": "recA1GnJaiaThQhCQ"
+        },
+        {
+            "createdTime": "2019-05-25T03:15:54.000Z",
+            "fields": {
+                "Date": "2019-05-24",
+                "Details": "Ooh select last el or count backwards from the end?! so nice.",
+                "Link": "https://www.geeksforgeeks.org/css-nth-last-child-selector/",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 21,
+                "Win": ":NTH-LAST-CHILD(num) selector"
+            },
+            "id": "recGJBFEixa5VJTLR"
+        },
+        {
+            "createdTime": "2019-05-23T22:49:17.000Z",
+            "fields": {
+                "Date": "2019-05-23",
+                "Details": "path:first-of-type {\n  fill: black;\n}",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 21,
+                "Win": "Use the el:first-of-type selector to select the first of some element"
+            },
+            "id": "recn2XbilzUaOIlkM"
+        },
+        {
+            "createdTime": "2019-05-24T00:02:55.000Z",
+            "fields": {
+                "Date": "2019-05-23",
+                "Details": "works with both CSS Grid properties grid-template-columns AND grid-template-rows.\n\nSupports units of\n- px\n- percent\n- fractional fr's\n- auto\n- min-content(?)\n- max-content(?)\n- minmax(?)\n- fit-content(200px) (?)",
+                "Link": "https://developer.mozilla.org/en-US/docs/Web/CSS/repeat",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 21,
+                "Win": "Understand (if not yet deploy) the CSS repeat() function"
+            },
+            "id": "recgScyKeFuksaubd"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:25.000Z",
+            "fields": {
+                "Date": "2019-05-20",
+                "Details": "it can wrap + align attributes, if you like:\n\npossible values: auto, force, force-aligned, force-expand-multiline, aligned-multiple, preserve, preserve-aligned\n\ncommand-line:\n -A, --wrap-attributes",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "HTML"
+                ],
+                "Week": 21,
+                "Win": "Format HTML + CSS with JS-beautify"
+            },
+            "id": "recJVmkYS3ilROE1U"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:25.000Z",
+            "fields": {
+                "Date": "2019-05-20",
+                "Details": "\uf8ff-Click on the Push button lol",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Editor"
+                ],
+                "Week": 21,
+                "Win": "Force push to Git from Atom"
+            },
+            "id": "reca6LIUYJBUxLr8y"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:58.000Z",
+            "fields": {
+                "Date": "2019-05-20",
+                "Details": "Axios is a promises-based Javascript HTTP client for front- and back-end network / AJAX calls\u2026\u00a0like libcurl for JS, maybe?",
+                "Link": "https://github.com/axios/axios",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Javascript"
+                ],
+                "Week": 21,
+                "Win": "Describe Axios"
+            },
+            "id": "recM0V7kx95Gwbe1I"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:59.000Z",
+            "fields": {
+                "Date": "2019-05-20",
+                "Details": "Babel transpiles your ES6 code back down to older, more compatible ES5 syntax for browser back-compatibility",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Javascript"
+                ],
+                "Week": 21,
+                "Win": "Describe Babel"
+            },
+            "id": "recSmuGOHk52bmnY7"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:59.000Z",
+            "fields": {
+                "Date": "2019-05-20",
+                "Details": "Returns a new array, filtered:\n\net newAr = oldAr.filter(callbackFn);\n\ncbFn accepts:\n\nEl\u200a: current element of the array\nIdx\u200a: index of value being processed\nArr: \u200athe original array\n\ntodos.filter(t => !t.isDone) // filter list, returning items matching conditional\n\nfunction isEven(value) {\n  return value % 2 == 0;\n}\n\nconst a = [11, 98, 31, 23, 944];\nconst f = a.filter(isEven);",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Javascript"
+                ],
+                "Week": 21,
+                "Win": "Filter arrays in JS"
+            },
+            "id": "rec7f3htIHfQA7nWI"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:59.000Z",
+            "fields": {
+                "Date": "2019-05-20",
+                "Details": "Computed properties in Vue\tare cached based on their \u201creactive dependencies\u201d, aka any VM (ViewModel) data they use. \n\nUnless some of the VM data changes, the computed property value will be cached and returned instantly.",
+                "Link": "https://vuejs.org/v2/guide/computed.html",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 21,
+                "Win": "Use computed properties in Vue"
+            },
+            "id": "receEd9VffzOi9Mjh"
+        },
+        {
+            "createdTime": "2019-05-22T18:22:04.000Z",
+            "fields": {
+                "Date": "2019-05-20",
+                "Details": "- changes array contents in place by removing or replacing existing elements and/or adding new elements\n\n- remove a range of elements:\ngas.splice(0,4) // removes first four elements\n\n- splice in new elements at the beginning, middle, or end, replacing the Index \u2192 Count range defined by the first two args:\ngas.splice(1, 0, 'foo', 'bar'); // inserts two new els at idx 1",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Javascript"
+                ],
+                "Week": 21,
+                "Win": "Splice using Array.splice"
+            },
+            "id": "recVrcYEu6efQaG2c"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:20.000Z",
+            "fields": {
+                "Date": "2019-05-19",
+                "Details": "autofocus HTML attribute",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "HTML"
+                ],
+                "Week": 21,
+                "Win": "Auto-focus an input element"
+            },
+            "id": "recfXuLLFGtUyvbEB"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:23.000Z",
+            "fields": {
+                "Date": "2019-05-19",
+                "Details": "Self closing tags are called void elements",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "HTML"
+                ],
+                "Week": 21,
+                "Win": "HTML nerd terminology"
+            },
+            "id": "recrG0fKcEHG9uWPs"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:23.000Z",
+            "fields": {
+                "Date": "2019-05-19",
+                "Details": "Don\u2019t mix `v-for` & `v-if` on the same el; v-for has unexpectedly higher precedence. Instead, move the if to a parent el, and move filters to a computed property (function) for more performant, dependably logical flow\n\nKeep complicated logic out of HTML templates and in computed functions. Keep templates declarative!",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 21,
+                "Win": "Vue templating gotchas"
+            },
+            "id": "rech5ZZZGWq1V5abU"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:23.000Z",
+            "fields": {
+                "Date": "2019-05-19",
+                "Details": "name Vue singleton components starting with The",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 21,
+                "Win": "Naming Vue singletons"
+            },
+            "id": "recoG4rpnOSC3Re0r"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:24.000Z",
+            "fields": {
+                "Date": "2019-05-19",
+                "Details": "element-attribute selectors like div[data-v-foo] are much slower than class-attr selectors .cool-btn[data-v-foo], so prefer the class-attr selector style when possible.",
+                "Link": "http://stevesouders.com/efws/css-selectors/csscreate.php?n=1000&sel=a%5Bhref%5D&body=background%3A+%23CFD&ne=1000",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 21,
+                "Win": "Improve CSS performance by preferring class-attr > el-attr selectors"
+            },
+            "id": "recVCYOIQFxEmwsHw"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:24.000Z",
+            "fields": {
+                "Date": "2019-05-19",
+                "Details": "syntax: `string text ${expression} string text`\n\nmulti-line strings / newlines allowed.\n\ndownside: syntax highlighting in editors doesn't really work",
+                "Link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Javascript"
+                ],
+                "Week": 21,
+                "Win": "JS template (string) literals"
+            },
+            "id": "recyFvvMgdQtdyaDI"
+        },
+        {
+            "createdTime": "2019-05-22T17:45:25.000Z",
+            "fields": {
+                "Date": "2019-05-19",
+                "Details": "Pre-rendering - generating static files for SEO and OpenGraph share previews;  usually requires a *serving proxy* to translate clean URLs to single-page hashbang shit. https://www.toptal.com/front-end/client-side-vs-server-side-pre-rendering\n\nServer-side rendering (SSR) is full isomorphism; same code running in client and server. Nuxt is for SSR.",
+                "Link": "https://www.toptal.com/front-end/client-side-vs-server-side-pre-rendering",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Javascript"
+                ],
+                "Week": 21,
+                "Win": "Pre-Render vs. SSR"
+            },
+            "id": "recCYkPKTuJf5JNPQ"
+        },
+        {
+            "createdTime": "2019-05-22T17:23:55.000Z",
+            "fields": {
+                "Date": "2019-05-18",
+                "Details": "In D3, Vue, etc., \"object constancy\" is keeping the same elements mapped or associated consistently across animation states so they don't jump around and interleave",
+                "Link": "https://bost.ocks.org/mike/constancy",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Javascript"
+                ],
+                "Week": 20,
+                "Win": "Understood Object constancy"
+            },
+            "id": "recp0mAwDQuitXnFy"
+        },
+        {
+            "createdTime": "2019-05-22T17:23:56.000Z",
+            "fields": {
+                "Date": "2019-05-18",
+                "Details": "trap user input events with v-on:\u2026 directives like:\n\nv-on:keyup.enter=\"myCoolEnterHandler\"\n\nstop or change event bubbling with event modifiers like: \n.stop, .prevent, .capture, .self, .once, .passive`, e.g. `<a v-on:click.stop=\u201cdoIt\u201d>yo</a>",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 20,
+                "Win": "Vue event handling + bubble stopping"
+            },
+            "id": "reckUPbRhQ619yDWX"
+        },
+        {
+            "createdTime": "2019-05-22T17:40:03.000Z",
+            "fields": {
+                "Date": "2019-05-18",
+                "Details": "Event listeners: \nv-on:click` \u2192 `@click\n\nData binding - object syntax:\nv-bind:class=\u201c{title: dog}\u201d \u2192 :title=\u201ddog\u201d\n\nThe bound object doesn\u2019t have to be inline:\n\n<div v-bind:class=\"classObj\"></div>\n\ndata: {\n  classObj: {\n    active: true,\n    'text-danger': false\n  }\n}\n\nData binding - array of props:\n\nv-bind:class=\u201c[cat, dog]\u201d\ndata: {\n  cat: 'active',\n  dog: 'text-danger'\n}",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 20,
+                "Win": "Vue template syntactic sugar"
+            },
+            "id": "recn6lcePHaBpNnfg"
+        },
+        {
+            "createdTime": "2019-05-22T17:23:51.000Z",
+            "fields": {
+                "Date": "2019-05-14",
+                "Details": "Nuxt is a \u201cmeta-framework\u201d that extends  Vue.js via npm packages to make pure JavaScript-rendered SPA (no separate HTML DOM), with support for server-side rendering (SSR), Babel, webpack, and all the other things that seem to make React tricky.\n\nIt's known as the SSR solution, among other things, i think.",
+                "Link": "https://nuxtjs.org/guide/",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 20,
+                "Win": "Describe Nuxt.js"
+            },
+            "id": "recQbZFIjtwlCugAY"
+        },
+        {
+            "createdTime": "2019-05-22T17:15:26.000Z",
+            "fields": {
+                "Date": "2019-05-11",
+                "Details": "TEXT - {{mustache}} or v-text:\nmustache tags: <b>`{{ bind-it }}`</b>\nor\nv-text=\"todo.text\" to replace an el\u2019s text contents\n\nHTML: v-html\n<b v-html=\"someCoolHtml\"></b>\n\nATTRIBUTES:\nv-bind:class=\u201c{ completed: todo.isDone }\u201d`\nor shortcut \u2192 :title=\"bogus.dingus\"\n\nBOOLEAN ATTRIBUTES:\n<button v-bind:disabled=\"isBtnDisabled\">Go</button>\n\nIf isButtonDisabled is null, undefined, or false, the disabled attribute will NOT EVEN BE INCLUDED in the rendered el.",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 19,
+                "Win": "Bind DOM elements to data (1-way)"
+            },
+            "id": "recqCbQ2vERZyohco"
+        },
+        {
+            "createdTime": "2019-05-22T17:15:29.000Z",
+            "fields": {
+                "Date": "2019-05-11",
+                "Details": "el, data, methods, computed, watch\u2019es",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 19,
+                "Win": "List the 5 elements of Vue ViewModel instances"
+            },
+            "id": "recrB9B3A20aMm7Z6"
+        },
+        {
+            "createdTime": "2019-05-22T17:17:45.000Z",
+            "fields": {
+                "Date": "2019-05-11",
+                "Details": "v-if - conditionally render or remove an el IFF truthy\nv-for - loop\nv-show - just hide the el (using display: none), but don't remove\u00a0it or unhook events",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 19,
+                "Win": "Use basic Vue template directives"
+            },
+            "id": "recvS2wrtbSxShxMi"
+        },
+        {
+            "createdTime": "2019-05-22T17:21:49.000Z",
+            "fields": {
+                "Date": "2019-05-11",
+                "Details": "v-model",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Vue.js"
+                ],
+                "Week": 19,
+                "Win": "Bind DOM els to data (2-way)"
+            },
+            "id": "reccWsZ58DDNSapYa"
+        },
+        {
+            "createdTime": "2019-05-21T18:11:28.000Z",
+            "fields": {
+                "Date": "2019-04-24",
+                "Details": "set: \n  transition: transform 2s; \non the element \nand then:\n  transform: var(--scale);\non the :hover pseudo-class, where scale is defined previously:\n  --scale: scale(1.05);",
+                "Link": "https://codepen.io/jm3/pen/QPJOzv",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 17,
+                "Win": "CSS zoom upon hover"
+            },
+            "id": "recI4tHY3OEi7WEDr"
+        },
+        {
+            "createdTime": "2019-05-21T18:11:35.000Z",
+            "fields": {
+                "Date": "2019-04-24",
+                "Details": "on the parent element to the items, set:\n\n  display: flex;\n  justify-content: space-evenly;\nor the like",
+                "Link": "https://codepen.io/jm3/pen/QPJOzv",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 17,
+                "Win": "Lay out a single FlexBox row"
+            },
+            "id": "recXXaPKa8VhDT9T7"
+        },
+        {
+            "createdTime": "2019-05-21T18:12:35.000Z",
+            "fields": {
+                "Date": "2019-04-24",
+                "Details": ":root {\n  --scale: scale(1.1);\n  --primary-color: #00FF00; \n}\n\u2026\n.btn { transform: var(--scale); }\n\n.foo { color: var(--primary-color); }\n/* etc */",
+                "Link": "  transform: var(--scale);",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 17,
+                "Win": "Create + reference a native CSS variable"
+            },
+            "id": "recUY5eQwNUaSNGs5"
+        },
+        {
+            "createdTime": "2019-05-21T18:14:59.000Z",
+            "fields": {
+                "Date": "2019-04-24",
+                "Details": "The :root CSS pseudo-class matches the root element of a tree representing the document. In HTML, :root represents the <html> element and is identical to the selector html, except that its specificity is higher.",
+                "Link": "https://developer.mozilla.org/en-US/docs/Web/CSS/:root",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "CSS"
+                ],
+                "Week": 17,
+                "Win": "Use the :root {} CSS pseudo-class"
+            },
+            "id": "rec88f98ScKL8yfHw"
+        },
+        {
+            "createdTime": "2019-05-21T17:35:28.000Z",
+            "fields": {
+                "Date": "2019-04-18",
+                "Details": "video container format sponsored by Google\n\u2022\u00a0based on Matroska\n\u2022\u00a0supported VP8 video and Vorbis audio streams at launch\n\u2022\u00a0updated in 2013 to support VP9 video and Opus audio",
+                "Link": "https://www.dropbox.com/s/3hw1i6jfj18ulwi/Illustrated%20Screenshots%20test%2002.webm?dl=0",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Flinto"
+                ],
+                "Week": 16,
+                "Win": "Create a Webm video (container)"
+            },
+            "id": "recfcPODMV2k303lD"
+        },
+        {
+            "createdTime": "2019-05-21T17:36:44.000Z",
+            "fields": {
+                "Date": "2019-04-18",
+                "Details": "Given a string, relUrl prepends the relative URL according to a page\u2019s position in the project directory structure.",
+                "Link": "https://gohugo.io/functions/relurl/",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Hugo"
+                ],
+                "Week": 16,
+                "Win": "Use the relURL fn in Hugo templates"
+            },
+            "id": "recXIjllxbMt3pmss"
+        },
+        {
+            "createdTime": "2019-05-21T17:44:20.000Z",
+            "fields": {
+                "Date": "2019-04-18",
+                "Details": "using :after for a pure CSS arrow",
+                "Link": "https://fabriceleven.com/design/clever-way-to-change-the-drop-down-selector-arrow-icon/",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "HTML",
+                    "CSS"
+                ],
+                "Week": 16,
+                "Win": "Style HTML <select> menus in CSS"
+            },
+            "id": "recbbNdjuQAahpyyB"
+        },
+        {
+            "createdTime": "2019-05-21T17:24:15.000Z",
+            "fields": {
+                "Date": "2019-04-17",
+                "Details": "\"a fast, zero configuration web application bundler\"",
+                "Link": "https://parceljs.org/",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Command Line"
+                ],
+                "Week": 16,
+                "Win": "Parcel.js: a webpack alternative"
+            },
+            "id": "recsW3084jxdDVpav"
+        },
+        {
+            "createdTime": "2019-05-21T17:24:15.000Z",
+            "fields": {
+                "Date": "2019-04-17",
+                "Details": "git diff > foo.patch; git reset; echo do stuff; git apply foo.patch",
+                "Link": "https://nithinbekal.com/posts/git-patch/",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Command Line"
+                ],
+                "Week": 16,
+                "Win": "Save or apply a git patch"
+            },
+            "id": "recxpVdaWDAJyaouV"
+        },
+        {
+            "createdTime": "2019-06-08T07:50:58.000Z",
+            "fields": {
+                "Date": "2019-06-08",
+                "Details": "Dockerized one button deploy pipeline to ssl static site",
+                "Link": "todayilearned.jm3.net",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Command Line"
+                ],
+                "Week": 23,
+                "Win": "Launched git repo, AWS Amplify pipeline, site"
+            },
+            "id": "recVwZcotLP1Qi1gq"
+        },
+        {
+            "createdTime": "2019-06-09T19:18:11.000Z",
+            "fields": {
+                "Date": "2019-06-09",
+                "Link": "https://gohugo.io/content-management/archetypes/",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Hugo"
+                ],
+                "Week": 24,
+                "Win": "Created a Hugo archetype"
+            },
+            "id": "rec5IZ7ORQ5NFMqvw"
+        },
+        {
+            "createdTime": "2019-06-10T19:34:58.000Z",
+            "fields": {
+                "Details": " https://snyk.io/vuln/npm:jquery?lh=3.2.1",
+                "Supports": "Front-End Engineering",
+                "Tools": [
+                    "Hugo",
+                    "Command Line"
+                ],
+                "Week": {
+                    "error": "#ERROR!"
+                },
+                "Win": "forked a theme, removed a submodule, opened theme PR, ID'd an existing vuln in jquery via Lighthouse + SNYK"
+            },
+            "id": "recFfl7Bgwi34xYkY"
+        }
+    ]
+}

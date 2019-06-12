@@ -1,0 +1,15 @@
+ruby '2.5.0'
+source 'https://rubygems.org'
+
+# ensure that gems with :github repo sources load securely over HTTPS
+git_source(:github) do |repo_name|
+  repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?('/')
+  "https://github.com/#{repo_name}.git"
+end
+
+group :development, :test do
+  gem 'rb-readline' # pry needs this
+  gem 'pry'
+  gem 'json'
+end
+
