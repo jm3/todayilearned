@@ -13,5 +13,5 @@ the left hand side of a bind object expression; it owuld look to the
 browser's JS parser like string subtraction (`hummus-peppers`). So, Vue
 helpfully and silently accepts camelCase keys instead, and then
 evaluates them to dash-case syntax for you (ie: `fontSize` will become
-`font-size`). Cool but *magical*.
+`font-size`). Cool but **magical**.
 
