@@ -1,8 +1,9 @@
 ---
-title: Find security vulnerabilities in libraries with Lighthouse + SNYK
+title: Find security vulnerabilities in libraries with Lighthouse
 tags:  ["Hugo", "Command Line"]
 goal:  Front-End Engineering
-date:  
+date:  2019-06-10
+summary: Chrome Dev Tools with Lighthouse can help find holes in libraries.
 draft: false
 
 ---

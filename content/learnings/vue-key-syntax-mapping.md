@@ -1,5 +1,6 @@
 ---
-title: Magical key mapping from camel case to kabob case in bind object expressions
+title: Vue's magical key mapping
+summary: ...from 'CamelCase' to 'kabob-case' in bind object expressions
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
 date:  2019-05-25
