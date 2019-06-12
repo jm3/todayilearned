@@ -1,6 +1,6 @@
 ---
 title: css grid area start / end “slash” shortcuts
-tags:  ["CSS"]
+tags:  ["CSS3", "CSS Grid"]
 goal:  Front-End Engineering
 date:  2019-05-27
 draft: false
@@ -14,4 +14,3 @@ grid-column & grid-row both support a shorthand “slash” syntax where the fir
 }”
 
 From Rachel Andrew’s, Getting Ready for CSS Grid Layout
-

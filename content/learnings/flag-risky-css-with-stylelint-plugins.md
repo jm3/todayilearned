@@ -1,6 +1,6 @@
 ---
 title: "flag risky CSS with the 'no-unsupported-browser-features' stylelint plugin"
-tags:  ["CSS", "Command Line"]
+tags:  ["CSS3", "Command Line", "Debugging"]
 goal:  Front-End Engineering
 date:  2019-05-30
 draft: false

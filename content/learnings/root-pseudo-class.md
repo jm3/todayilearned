@@ -1,6 +1,6 @@
 ---
 title: Use the -root {} CSS pseudo-class
-tags:  ["CSS"]
+tags:  ["CSS3"]
 goal:  Front-End Engineering
 date:  2019-04-24
 draft: false
