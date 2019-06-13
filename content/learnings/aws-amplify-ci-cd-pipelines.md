@@ -1,16 +1,24 @@
 ---
-title: AWS Amplify for CI/CD pipelines
+title: AWS Amplify Console for CI/CD pipelines
 tags:  [command line, tools]
 goal:  Front-End Engineering
 date:  2019-06-08
-draft: false
+summary: glue that unifies the AWS service zoo to works for front-end devs
 
 ---
 
-Dockerized one button deploy pipeline to SSL'd static site hosted on Amazon's cloud.
-This site is deployed and built for production using AWS Amplify.
+[AWS Amplify](js) is a Javascript library. But [AWS Amplify CONSOLE][a] is mostly
+free docker-ized, one button deploy pipeline tool that will listen for
+git commits and then fire off docker-ized cloud builds of your site,
+build and deploy your app to an s3 bucket, and set up the cloudfront CDN
+and SSL certificates for all, all automatically. This easily saves you
+five confusing AWS setup steps.
 
-I had to do one mild customization of the build scrip to use the latest verison of Hugo, which looks like this:
+I ❤️  it. This site is deployed and built for production using AWS
+Amplify Console.
+
+I had to do one mild customization of the build scrip to use the latest
+verison of Hugo, which looks like this:
 
 {{< highlight yaml "hl_lines=6-10" >}}
 version: 0.1
@@ -34,3 +42,4 @@ frontend:
 {{< / highlight >}}
 
 [a]: https://aws.amazon.com/amplify/
+[js]: https://aws-amplify.github.io/
