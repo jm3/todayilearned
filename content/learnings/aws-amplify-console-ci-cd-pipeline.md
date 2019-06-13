@@ -9,16 +9,13 @@ summary: glue that unifies the AWS service zoo to works for front-end devs
 
 [AWS Amplify](js) is a Javascript library. But [AWS Amplify CONSOLE][a] is mostly
 free docker-ized, one button deploy pipeline tool that will listen for
-git commits and then fire off docker-ized cloud builds of your site,
-build and deploy your app to an s3 bucket, and set up the cloudfront CDN
-and SSL certificates for all, all automatically. This easily saves you
-five confusing AWS setup steps.
+git commits and then fire off Docker-ized builds of your app, build and
+deploy your app to an s3 bucket, and set up the Cloudfront CDN and SSL
+certificates for you, automatically, saving several annoying AWS
+configuration steps.
 
-I ❤️  it. This site is deployed and built for production using AWS
-Amplify Console.
-
-I had to do one mild customization of the build scrip to use the latest
-verison of Hugo, which looks like this:
+I had to do one mild customization of the build script to use the latest
+version of Hugo, which looks like this:
 
 {{< highlight yaml "hl_lines=6-10" >}}
 version: 0.1
@@ -41,5 +38,14 @@ frontend:
 
 {{< / highlight >}}
 
-[a]: https://aws.amazon.com/amplify/
+I ❤️  it. This site is deployed and built for production using AWS
+Amplify Console. The tool even screenshots your app using headless
+Chrome in a number of different mobile-device-screen-sized browser
+configurations to give you a quick visual preview of how your deployed
+app looks at different screen sizes.
+
+![mobile screenshot][ms]
+
+[a]:  https://aws.amazon.com/amplify/
 [js]: https://aws-amplify.github.io/
+[ms]: /img/aws-amplify-console-mobile-preview.png 
