@@ -1,44 +1,52 @@
-baseURL = "https://todayilearned.jm3.net/"
-languageCode = "en-us"
-title = "#todayilearned"
+title           = "#todayilearned"
+baseURL         = "https://todayilearned.jm3.net/"
+googleAnalytics = "UA-228926-19"
+languageCode    = "en-us"
+
 theme = "rocker-panel"
 #theme = "rocker-panel-clone-symlink"
 
-googleAnalytics = "UA-228926-19"
-
 [params]
-excludedTypes = ["page"] # Content types excluded from recent posts + archives page
-featherIconsCDN = true
-font = "Rubik" # should match the name of a Google Font
+excludedTypes    = ["page"] # Content types excluded from recent posts + archives page
+featherIconsCDN  = true
+font             = "Rubik" # should match the name of a Google Font
 recentPostsCount = 10
-primaryType = "learnings"
+primaryType      = "learnings"
+
 subtitle = "Daily updates as I [fast-forward merge](https://ariya.io/2013/09/fast-forward-git-merge) my web skills up to 2019 levels"
 copyright = "© ← copyleft <abbr title='John Manoogian III'>jm3</abbr> &mdash; all rights reserved, all wrongs reversed, no punches pulled"
 css = ["css/theme-override-jm3.css"]
 
+# weight: basically = ordering
+# pre: feather icon name
 [[menu.main]]
 name = "Home"
 url = "/"
+pre = "home"
 weight = 1
 
 [[menu.main]]
 name = "Learnings"
 url = "/learnings"
+pre = "sun"
 weight = 2
 
 [[menu.main]]
 url = "/projects/"
+pre = "box"
 name = "Projects"
 weight = 3
 
 [[menu.main]]
 name = "Tags"
 url = "/tags"
+pre = "tag"
 weight = 4
 
 [[menu.main]]
 name = "About"
 url = "/about"
+pre = "info"
 weight = 5
 
 [[params.social]]

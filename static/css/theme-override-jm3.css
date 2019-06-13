@@ -24,3 +24,9 @@ a, a:hover {
 h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }
+
+.feather {
+  width: 15px;
+  margin-right: 1px;
+  vertical-align: top;
+}
