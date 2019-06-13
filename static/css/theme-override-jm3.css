@@ -1,0 +1,8 @@
+/* polish up the code blocks a bit without affecting inline code */
+
+.highlight pre code {
+  background-color: hsla(0,0%,0%,0.9);
+  display: block;
+  padding: 1em;
+  border-radius: 12px;
+}

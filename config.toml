@@ -14,6 +14,7 @@ recentPostsCount = 10
 primaryType = "learnings"
 subtitle = "Daily updates as I [fast-forward merge](https://ariya.io/2013/09/fast-forward-git-merge) my web skills up to 2019 levels"
 copyright = "© ← copyleft <abbr title='John Manoogian III'>jm3</abbr> &mdash; all rights reserved, all wrongs reversed, no punches pulled"
+css = ["css/theme-override-jm3.css"]
 
 [[menu.main]]
 name = "Home"
