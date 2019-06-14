@@ -1,3 +1,11 @@
+:root {
+  --bg-color: hsla(239, 49%, 45%, 1);
+  --accent-color: hsl(168, 100%, 50%);
+  --alter-accent-color: hsl(310, 100%, 80%);
+  --text-color: hsl(0, 100%, 100%);
+  --code-bg-color: hsla(0, 0%, 0%, 0.9);
+}
+
 body {
   color: hsl(0, 0%, 20%);
   font-weight: 300;
@@ -193,7 +201,7 @@ header .site-description nav ul svg {
 
 .section .section-header {
   margin-bottom: 20px;
-  color: hsl(0, 0%, 60%);
+  color: var(--alter-accent-color);
   font-weight: 600;
   font-size: 0.75rem;
   letter-spacing: 1px;
@@ -208,8 +216,7 @@ header .site-description nav ul svg {
 .post .post-header .meta,
 .list .posts .post .meta {
   margin-bottom: 4px;
-
-  color: hsl(0, 0%, 60%);
+  color: var(--alter-accent-color);
   font-size: 0.725rem;
 }
 
@@ -281,5 +288,49 @@ footer {
   body {
     font-size: 14px;
   }
+}
+
+/* jm3 to be merged */
+.highlight pre code {
+  display: block;
+  padding: 1em;
+  background-color: var(--code-bg-color);
+  border-radius: 12px;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+a, a:hover {
+  color: var(--accent-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+}
+
+.feather {
+  width: 15px;
+  margin-right: 1px;
+  vertical-align: top;
+}
+
+footer {
+  color: hsla(168, 100%, 80%, 1);
+}
+
+/* icons */
+i {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+i.copyleft {
+  background-image: url(/img/copyleft.svg);
 }
 
