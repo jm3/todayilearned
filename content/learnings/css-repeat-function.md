@@ -3,7 +3,7 @@ title: Understand (if not yet deploy) the CSS repeat() function
 tags:  ["CSS3", "CSS Grid"]
 goal:  Front-End Engineering
 date:  2019-05-23
-draft: false
+
 
 ---
 

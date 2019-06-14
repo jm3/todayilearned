@@ -3,7 +3,7 @@ title: Vue template syntactic sugar
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
 date:  2019-05-18
-draft: false
+
 
 ---
 Event listeners: 

@@ -3,7 +3,7 @@ title: Bind DOM elements to data (1-way)
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
 date:  2019-05-11
-draft: false
+
 
 ---
 TEXT - {{mustache}} or v-text:

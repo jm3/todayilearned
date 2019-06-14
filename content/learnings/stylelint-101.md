@@ -3,7 +3,7 @@ title: "Stylelint"
 date: 2019-06-09
 tags: [css3, command line, tools]
 summary: A mighty, modern linter helping you avoid errors and enforce style conventions.
-draft: false
+
 
 ---
 

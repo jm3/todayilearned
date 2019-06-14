@@ -3,7 +3,7 @@ title: Vue templating gotchas
 tags:  ["Vue.js", "Debugging"]
 goal:  Front-End Engineering
 date:  2019-05-19
-draft: false
+
 
 ---
 Don’t mix `v-for` & `v-if` on the same el; v-for has unexpectedly higher precedence.

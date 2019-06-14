@@ -3,7 +3,7 @@ title: Filter arrays in JS
 tags:  ["Javascript"]
 goal:  Front-End Engineering
 date:  2019-05-20
-draft: false
+
 
 ---
 Returns a new array, filtered:

@@ -4,7 +4,7 @@ tags:  [javascript, tools]
 goal:  Front-End Engineering
 date:  2019-05-20
 summary: travel through time to a future where Javascript is different!
-draft: false
+
 
 ---
 

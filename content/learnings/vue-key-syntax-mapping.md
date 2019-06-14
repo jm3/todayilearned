@@ -4,7 +4,7 @@ summary: ...from 'CamelCase' to 'kabob-case' in bind object expressions
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
 date:  2019-05-25
-draft: false
+
 
 ---
 

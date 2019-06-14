@@ -4,7 +4,7 @@ tags:  ["CSS3", "CSS Grid"]
 goal:  Front-End Engineering
 date:  2019-05-27
 summary: Because who has time to type all this stuff out?
-draft: false
+
 
 ---
 

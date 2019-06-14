@@ -3,7 +3,7 @@ title: Splice using Array.splice
 tags:  ["Javascript"]
 goal:  Front-End Engineering
 date:  2019-05-20
-draft: false
+
 
 ---
 - changes array contents in place by removing or replacing existing elements and/or adding new elements

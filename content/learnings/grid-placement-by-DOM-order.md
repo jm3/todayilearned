@@ -4,7 +4,7 @@ tags:  ["HTML5", "CSS3", "CSS Grid"]
 goal:  Front-End Engineering
 date:  2019-05-28
 summary: Welcome to autoplacement.
-draft: false
+
 
 ---
 

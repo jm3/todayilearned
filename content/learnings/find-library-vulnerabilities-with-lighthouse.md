@@ -4,7 +4,7 @@ tags:  ["Hugo", "Command Line"]
 goal:  Front-End Engineering
 date:  2019-06-10
 summary: Chrome Dev Tools with Lighthouse can help find holes in libraries.
-draft: false
+
 
 ---
 

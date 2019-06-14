@@ -4,7 +4,7 @@ tags:  ["Vue.js"]
 goal:  Front-End Engineering
 date:  2019-05-14
 summary: enjoy the hell of babel and webpack while wracked by single page insanity
-draft: false
+
 
 ---
 

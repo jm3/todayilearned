@@ -3,7 +3,7 @@ title: Format HTML + CSS with JS-beautify
 tags:  ["HTML5"]
 goal:  Front-End Engineering
 date:  2019-05-20
-draft: false
+
 
 ---
 it can wrap + align attributes, if you like:

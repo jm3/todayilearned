@@ -3,7 +3,7 @@ title: nth-of-type(num) selector
 tags:  ["CSS3"]
 goal:  Front-End Engineering
 date:  2019-05-24
-draft: false
+
 
 ---
 

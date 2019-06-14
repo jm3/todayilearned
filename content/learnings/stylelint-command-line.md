@@ -4,7 +4,7 @@ tags:  ["CSS3", "Command Line"]
 goal:  Front-End Engineering
 date:  2019-05-30
 summary: Stylelint isn't just for editors.
-draft: false
+
 
 ---
 

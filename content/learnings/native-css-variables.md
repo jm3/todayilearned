@@ -3,7 +3,7 @@ title: Create + reference a native CSS variable
 tags:  ["CSS3"]
 goal:  Front-End Engineering
 date:  2019-04-24
-draft: false
+
 
 ---
 ```css

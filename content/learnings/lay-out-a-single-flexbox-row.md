@@ -3,7 +3,7 @@ title: Lay out a single FlexBox row
 tags:  ["CSS3"]
 goal:  Front-End Engineering
 date:  2019-04-24
-draft: false
+
 
 ---
 on the parent element to the items, set:

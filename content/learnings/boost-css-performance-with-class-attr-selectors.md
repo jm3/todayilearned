@@ -3,7 +3,7 @@ title: Boost CSS performance by preferring class-attr > el-attr selectors
 tags:  ["CSS3", "Debugging"]
 goal:  Front-End Engineering
 date:  2019-05-19
-draft: false
+
 
 ---
 

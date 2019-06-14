@@ -3,7 +3,7 @@ title: nth-last-child(num) - the reverse (Polish) selector
 tags:  ["CSS3"]
 goal:  Front-End Engineering
 date:  2019-05-24
-draft: false
+
 needs-work: true
 
 ---
