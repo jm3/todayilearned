@@ -1,0 +1,157 @@
+:root {
+  --bg-color: hsla(239, 49%, 45%, 1);
+  --accent-color: hsl(168, 100%, 50%);
+  --alter-accent-color: hsl(310, 100%, 80%);
+  --bg-subtle-color: #a6a7ec;
+  --text-color: hsl(0, 100%, 100%);
+  --code-bg-color: hsla(0, 0%, 0%, 0.9);
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+html, button, input, select, textarea {
+  color: hsl(0, 0%, 13%)
+}
+
+::selection {
+  background: hsla(0, 0%, 0%, 0.5);
+}
+
+hr {
+  display: block;
+  height: 1px;
+  margin: 1rem 0;
+  border-top: 1px solid hsl(0, 0%, 80%)
+}
+
+audio, canvas, img, video {
+  width: 100%;
+  vertical-align: middle
+}
+
+blockquote {
+  margin-left: 1rem;
+  padding-left: 20px;
+  font-size: 1.4rem;
+  font-family: Georgia, Bitstream Charter, serif;
+  font-style: italic;
+  border-color: hsl(0, 100%, 33%);
+  border-left: 3px dotted;
+}
+
+blockquote cite {
+  font-size: 70%;
+  opacity: .8
+}
+
+a, a:hover, a:visited {
+  color: var(--accent-color);
+  text-decoration: none
+}
+
+a:hover {
+  color: var(--alter-accent-color);
+  text-decoration: underline
+}
+
+a:active {
+  color: var(--text-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: hsl(0, 0%, 20%);
+  line-height: 1.2
+}
+
+h1 { font-size: 1.3rem }
+h2 { font-size: 1.1rem }
+h3 { font-size: 1.0rem }
+h4 { font-size: 0.8rem }
+
+h5 {
+  font-weight: 300;
+  font-size: 1rem;
+}
+
+h6 {
+  font-weight: 300;
+  font-size: .9rem;
+}
+
+header h1, header h2 {
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+header h2 { font-size: 1.125rem; }
+
+header .site-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section .section-header {
+  color: var(--bg-subtle-color);
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.recent-posts .posts .post .meta,
+.post .post-header .meta,
+.list .posts .post .meta {
+  color: var( --bg-subtle-color);
+}
+
+footer {
+  border-top: 1px solid hsl(0, 0%, 96%);
+  color: hsla(168, 100%, 80%, 1);
+  font-size: 0.75em;
+  text-align: right;
+}
+
+@media (max-width: 767px) {
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* jm3: ************************ to be merged */
+
+.highlight pre code {
+  display: block;
+  padding: 1em;
+  background-color: var(--code-bg-color);
+  border-radius: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-color);
+}
+
+.feather {
+  width: 15px;
+  margin-right: 1px;
+  vertical-align: top;
+}
+/* icons */
+i {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+i.copyleft {
+  background-image: url(/img/copyleft.svg);
+}
+
