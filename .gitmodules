@@ -1,8 +1,1 @@
-[submodule "themes/minimal"]
-  path = themes/minimal
-  url = https://github.com/jm3/minimal-hugo-theme.git
-  branch = dev
-[submodule "themes/rocker-panel"]
-  path = themes/rocker-panel
-  url = https://github.com/jm3/rocker-panel.git
-  branch = dev
+
