@@ -2,20 +2,17 @@
   --bg-color: hsla(239, 49%, 45%, 1);
   --accent-color: hsl(168, 100%, 50%);
   --alter-accent-color: hsl(310, 100%, 80%);
+  --bg-subtle-color: #a6a7ec;
   --text-color: hsl(0, 100%, 100%);
   --code-bg-color: hsla(0, 0%, 0%, 0.9);
 }
 
 body {
-  color: hsl(0, 0%, 20%);
+  color: var(--text-color);
+  background-color: var(--bg-color);
   font-weight: 300;
   font-size: 16px;
   line-height: 1.6;
-}
-
-a, a:hover {
-  color: hsl(0, 100%, 33%);
-  text-decoration: none;
 }
 
 html, button, input, select, textarea {
@@ -71,13 +68,18 @@ blockquote cite {
   opacity: .8
 }
 
-a, a:hover {
-  color: hsl(0, 100%, 33%);
+a, a:hover, a:visited {
+  color: var(--accent-color);
   text-decoration: none
 }
 
 a:hover {
+  color: var(--alter-accent-color);
   text-decoration: underline
+}
+
+a:active {
+  color: var(--text-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -201,7 +203,7 @@ header .site-description nav ul svg {
 
 .section .section-header {
   margin-bottom: 20px;
-  color: var(--alter-accent-color);
+  color: var(--bg-subtle-color);
   font-weight: 600;
   font-size: 0.75rem;
   letter-spacing: 1px;
@@ -216,7 +218,7 @@ header .site-description nav ul svg {
 .post .post-header .meta,
 .list .posts .post .meta {
   margin-bottom: 4px;
-  color: var(--alter-accent-color);
+  color: var( --bg-subtle-color);
   font-size: 0.725rem;
 }
 
@@ -239,11 +241,12 @@ header .site-description nav ul svg {
 }
 
 footer {
+  border-top: 1px solid hsl(0, 0%, 96%);
+  color: hsla(168, 100%, 80%, 1);
+  font-size: 0.75em;
   margin-top: 40px;
   padding: 20px 0;
-  font-size: 0.75em;
   text-align: right;
-  border-top: 1px solid hsl(0, 0%, 96%);
 }
 
 .page-title {
@@ -290,21 +293,13 @@ footer {
   }
 }
 
-/* jm3 to be merged */
+/* jm3: ************************ to be merged */
+
 .highlight pre code {
   display: block;
   padding: 1em;
   background-color: var(--code-bg-color);
   border-radius: 12px;
-}
-
-body {
-  color: var(--text-color);
-  background-color: var(--bg-color);
-}
-
-a, a:hover {
-  color: var(--accent-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -316,11 +311,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 1px;
   vertical-align: top;
 }
-
-footer {
-  color: hsla(168, 100%, 80%, 1);
-}
-
 /* icons */
 i {
   height: 16px;
