@@ -1,0 +1,4 @@
+<figure>
+{{ readFile (print "static/img/" (index .Params 0) ".svg") | safeHTML }}
+</figure>
+
