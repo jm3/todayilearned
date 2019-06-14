@@ -1,6 +1,6 @@
 ---
 title: the HTML5 <figure> tag	
-summary: 
+summary: …wraps explicit art. (No, not that kind of explicit art.)
 tags:  [ html5 ]
 date:  2019-06-13
 goal:  Front-End Engineering
