@@ -35,6 +35,15 @@ footer {
   color: hsla(168, 100%, 80%, 1);
 }
 
-footer svg {
+/* icons */
+i {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+  margin-right: 3px;
   vertical-align: middle;
+}
+
+i.copyleft {
+  background-image: url(/img/copyleft.svg);
 }
