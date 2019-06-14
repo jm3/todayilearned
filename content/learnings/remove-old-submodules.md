@@ -10,12 +10,15 @@ summary: it's a lot easier than it used to be
 
 Git submodules are great, except when they're not. Constantly keeping
 two development flows in sync is annoying. To add insult to injurey,
-previously removeing a submodule took about 4 steps. DON'T DO THIS:
+previously removeing a submodule took about 4 steps. 
 
-https://gist.github.com/myusuf3/7f645819ded92bda6677
+Now it takes one step: `git submodule deinit (-f)`. After that, you can
+commit, and remove the submodule checkout if you like (or add it to your
+repo).
 
-Now it takes one step: `git submodule deinit (-f)`. After that, you can commit, and remove the
-submodule checkout if you like (or add it to your repo).
+DON'T DO THIS:
+
+{{< gist myusuf3 7f645819ded92bda6677 >}}
 
 [Read more][docs]
 

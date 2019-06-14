@@ -7,6 +7,8 @@ draft: false
 
 ---
 
+![hacking](https://developers.giphy.com/static/img/giphy_search.c240015597a9.gif)
+
 I've been writing web code and publishing without permission since I
 could reach a keyboard. I've built dozens of web-apps and web sites,
 some of which were wildly successful, and many of which were not.  Plus
