@@ -1,8 +1,8 @@
 <header>
   <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
   <div class="site-description">
-    {{- if isset .Site.Params "subtitle" -}}
-    <h2>{{ .Site.Params.Subtitle | markdownify }}</h2>
+    {{- if isset .Site.Params "headline" -}}
+    <h2>{{ .Site.Params.Headline | markdownify }}</h2>
     {{- end -}}
     <nav class="nav social">
       <ul class="flat">
