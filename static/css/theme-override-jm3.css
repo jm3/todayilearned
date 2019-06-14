@@ -30,3 +30,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 1px;
   vertical-align: top;
 }
+
+footer {
+  color: hsla(168, 100%, 80%, 1);
+}
+
+footer svg {
+  vertical-align: middle;
+}
