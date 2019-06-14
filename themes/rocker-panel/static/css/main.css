@@ -1,0 +1,285 @@
+body {
+  color: hsl(0, 0%, 20%);
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+a, a:hover {
+  color: hsl(0, 100%, 33%);
+  text-decoration: none;
+}
+
+html, button, input, select, textarea {
+  color: hsl(0, 0%, 13%)
+}
+
+::-moz-selection {
+  text-shadow: none;
+  background: hsl(213, 92%, 85%)
+}
+
+::selection {
+  text-shadow: none;
+  background: hsl(213, 92%, 85%)
+}
+
+hr {
+  display: block;
+  height: 1px;
+  margin: 1rem 0;
+  padding: 0;
+  border: 0;
+  border-top: 1px solid hsl(0, 0%, 80%)
+}
+
+audio, canvas, img, video {
+  width: 100%;
+  vertical-align: middle
+}
+
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0
+}
+
+textarea {
+  resize: vertical
+}
+
+blockquote {
+  margin-left: 1rem;
+  padding-left: 20px;
+  font-size: 1.4rem;
+  font-family: Georgia,bitstream charter,serif;
+  font-style: italic;
+  border-color: hsl(0, 100%, 33%);
+  border-left: 3px solid
+}
+
+blockquote cite {
+  font-size: 70%;
+  opacity: .8
+}
+
+a, a:hover {
+  color: hsl(0, 100%, 33%);
+  text-decoration: none
+}
+
+a:hover {
+  text-decoration: underline
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: hsl(0, 0%, 20%);
+  font-weight: 100;
+  line-height: 1.2
+}
+
+h1 { font-size: 2.75rem }
+h2 { font-size: 2rem    }
+h3 { font-size: 1.6rem  }
+h4 { font-size: 1.2rem  }
+
+h5 {
+  font-weight: 300;
+  font-size: 1rem
+}
+
+h6 {
+  font-weight: 300;
+  font-size: .9rem
+}
+
+.container {
+  max-width: 800px
+}
+
+ul {
+  padding-left: 15px;
+}
+
+ul.flat {
+  margin: 0;
+  padding: 0;
+}
+
+ul.flat li {
+  display: inline-block;
+  margin-left: 0;
+  list-style: none
+}
+
+.prevent-collapse {
+  min-height: .1rem
+}
+
+.page-title {
+  margin: 0
+}
+
+.smaller {
+  font-size: 70%
+}
+
+ul {
+  list-style: disc inside
+}
+
+.post ul li {
+  margin-bottom: 10px;
+}
+
+.highlight pre {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 20px;
+  background-color: hsl(0, 0%, 98%) !important;
+}
+
+.highlight {
+  background: 0 0
+}
+
+.wrapper {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+header {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+header h1, header h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+header h2 {
+  font-size: 1.125rem;
+}
+
+header nav.primary {
+  margin-top: 20px;
+  border-top: 1px solid hsl(0, 0%, 96%);
+}
+
+header nav ul.flat li {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 0;
+  text-transform: capitalize;
+  list-style: none;
+}
+
+header .site-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .site-description nav ul svg {
+  max-height: 15px;
+}
+
+.section .section-header {
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 60%);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.recent-posts .posts .post {
+  margin-bottom: 30px;
+}
+
+.recent-posts .posts .post .meta,
+.post .post-header .meta,
+.list .posts .post .meta {
+  margin-bottom: 4px;
+
+  color: hsl(0, 0%, 60%);
+  font-size: 0.725rem;
+}
+
+.post .post-header {
+  margin-bottom: 30px;
+}
+
+.post .post-header .title {
+  margin: 0;
+}
+
+.post .post-header .meta {
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.list .posts .post .meta {
+  margin-bottom: 0;
+  margin-left: 5px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  font-size: 0.75em;
+  text-align: right;
+  border-top: 1px solid hsl(0, 0%, 96%);
+}
+
+.page-title {
+  margin-bottom: 0;
+}
+
+.tag-cloud {
+  margin-top: 20px;
+}
+
+.tag-cloud a {
+  margin-right: 15px;
+}
+
+@media (max-width: 767px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem
+  }
+
+  h2 {
+    font-size: 1.6rem
+  }
+
+  h3 {
+    font-size: 1.2rem
+  }
+
+  h4 {
+    font-size: 1rem
+  }
+
+  .container {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+}
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head.html" . }}
+
+  <body>
+    <div class="container wrapper">
+      {{ partial "header.html" . }}
+      <div class="recent-posts section">
+        <h2 class="section-header"> Recent {{ .Site.Params.primaryType }}</h2>
+        <div class="posts">
+          {{- $.Scratch.Set "counter" 0 -}}
+          {{ range where .Pages "Type" "==" .Site.Params.primaryType }}
+          {{- if lt ($.Scratch.Get "counter") (.Site.Params.RecentPostsCount | default 10) -}}
+          <div class="post">
+            <div class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</div>
+            <a
+              class="title"
+              href="{{ .RelPermalink }}"
+            >{{.Title}}</a>
+            &mdash;
+            <span class="description">
+              {{ .Summary }}
+            </span>
+          </div>
+          {{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) -}}
+          {{- end -}}
+          {{- end -}}
+          <a href="/{{ .Site.Params.primaryType }}">All {{ .Site.Params.primaryType }} →</a>
+        </div>
+      </div>
+    </div>
+    {{ partial "footer.html" . }}
+    {{ template "_internal/google_analytics_async.html" . }}
+    {{- with .Site.Params.Social -}}
+    <script>
+      feather.replace()
+
+    </script>
+    {{- end -}}
+  </body>
+
+</html>

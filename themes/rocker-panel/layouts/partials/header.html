@@ -1,0 +1,29 @@
+<header>
+  <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
+  <div class="site-description">
+    {{- if isset .Site.Params "subtitle" -}}
+    <h2>{{ .Site.Params.Subtitle | markdownify }}</h2>
+    {{- end -}}
+    <nav class="nav social">
+      <ul class="flat">
+        {{- range $index, $key := .Site.Params.Social -}}
+        <a href="{{ $key.url }}" title="{{ $key.name }}">
+          <i data-feather="{{ $key.icon }}"></i>
+        </a>
+        {{- end -}}
+      </ul>
+    </nav>
+  </div>
+
+  <nav class="primary">
+    <ul class="flat" role="navigation">
+      {{ range .Site.Menus.main }}
+      <li>
+        <i data-feather="{{ .Pre }}"></i>
+
+        <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </nav>
+</header>
