@@ -3,7 +3,7 @@ title: AWS Amplify Console for CI/CD pipelines
 tags:  [command line, tools]
 goal:  Front-End Engineering
 date:  2019-06-08
-summary: glue that unifies the AWS service zoo to works for front-end devs
+summary: glue to unify the AWS service zoo for front-end devs
 
 ---
 
