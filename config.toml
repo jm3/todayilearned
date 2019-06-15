@@ -16,7 +16,13 @@ primaryType      = "learnings"
 subtitle = "John Manoogian (jm3)"
 headline = "Daily updates as I [fast-forward merge](https://ariya.io/2013/09/fast-forward-git-merge) my web skills up to 2019 levels"
 copyright = "<i class='icon copyleft'></i> copyleft 2020 &middot; John Manoogian III (jm3) &middot; all rights reserved, all wrongs reversed, no punches pulled"
-css = []
+css = [
+  "css/normalize.css",
+  "css/colors.css",
+  # "css/syntax-highlighting.css",
+  # "css/typography.css"
+  # "css/orig.css",
+]
 
 # weight: basically = ordering
 # pre: feather icon name
