@@ -4,12 +4,9 @@
   }
 </style>
 
-<link rel="stylesheet" href="{{ "css/normalize.css" | absURL }}">
-<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
-<link rel="stylesheet" href="{{ "css/syntax-highlighting.css" | absURL }}">
-
-<!-- custom -->
-{{ range .Site.Params.css }} <link rel="stylesheet" href="{{ . | absURL }}"> {{ end }}
+<!-- by default load NOTHING; all CSS loaded from site config -->
+{{ range .Site.Params.css }}<link rel="stylesheet" href="{{ . | absURL }}">
+{{ end }}
 
 <!-- google fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}">
