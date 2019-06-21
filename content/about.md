@@ -68,7 +68,7 @@ together was actually impossible.
 -->
 
 I'm starting this project in June and I have a family trip to Michigan
-in two months, so that gives me a rare, firm window of team between the
+in two months, so that gives me a rare, firm window of time between the
 job I just left and whatever comes next. So this, then, is a daily log
 of my 2019 summer mission: to upgrade my desultory, slapdash front-end
 web development skills to a uniform, 2019, level, to the point that I
