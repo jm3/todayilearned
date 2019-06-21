@@ -1,6 +1,6 @@
 ---
 title: Vue templating gotchas
-tags:  ["Vue.js", "Debugging"]
+tags:  [Vue.js, Debugging]
 goal:  Front-End Engineering
 date:  2019-06-04
 

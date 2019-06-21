@@ -1,7 +1,7 @@
 ---
 title: Javascript template literals
 summary: interpolate expressions within strings
-tags:  ["Javascript"]
+tags:  [Javascript]
 goal:  Front-End Engineering
 date:  2019-06-09
 
@@ -23,4 +23,3 @@ well.
 Read the [docs][docs].
 
 [docs]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals
-

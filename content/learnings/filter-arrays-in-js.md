@@ -1,7 +1,7 @@
 ---
 title: Filter arrays in JS
 summary: using array.filter
-tags:  ["Javascript"]
+tags:  [Javascript]
 goal:  Front-End Engineering
 date:  2019-06-20
 needs-work: fix syntax highlighting for JS

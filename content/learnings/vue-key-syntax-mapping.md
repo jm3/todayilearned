@@ -1,7 +1,7 @@
 ---
 title: Vue's magical key mapping
 summary: ...from 'CamelCase' to 'kebab-case' in bind object expressions
-tags:  ["Vue.js"]
+tags:  [Vue.js]
 goal:  Front-End Engineering
 date:  2019-06-25
 

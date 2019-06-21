@@ -1,6 +1,6 @@
 ---
 title: Hugo archetypes define post templates
-tags:  ["Hugo"]
+tags:  [Hugo]
 goal:  Front-End Engineering
 date:  2019-06-09
 

@@ -1,6 +1,6 @@
 ---
 title: Find security vulnerabilities in libraries with Lighthouse
-tags:  ["Hugo", "Command Line"]
+tags:  [Hugo, Command Line]
 goal:  Front-End Engineering
 date:  2019-06-10
 summary: Don't get XSS'd

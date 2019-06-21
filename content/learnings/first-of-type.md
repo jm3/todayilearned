@@ -1,7 +1,7 @@
 ---
 title: :first-of-type {}
 summary: select the first of a group of similar elements
-tags:  ["CSS3"]
+tags:  [CSS3]
 goal:  Front-End Engineering
 date:  2019-06-18
 

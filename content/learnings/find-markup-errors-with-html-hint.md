@@ -1,6 +1,6 @@
 ---
 title: Find markup errors with HTML hint
-tags:  ["HTML5", "Editor", "Debugging"]
+tags:  [HTML5, Editor, Debugging]
 goal:  Front-End Engineering
 date:  2019-06-19
 summary: linters? hinters?

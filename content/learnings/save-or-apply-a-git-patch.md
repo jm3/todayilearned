@@ -1,6 +1,6 @@
 ---
 title: Save or apply a git patch
-tags:  ["Command Line"]
+tags:  [Command Line]
 goal:  Front-End Engineering
 date:  2019-06-08
 

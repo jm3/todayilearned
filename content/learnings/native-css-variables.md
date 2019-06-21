@@ -1,6 +1,6 @@
 ---
 title: Create + reference a native CSS variable
-tags:  ["CSS3"]
+tags:  [CSS3]
 goal:  Front-End Engineering
 date:  2019-06-08
 
@@ -9,7 +9,7 @@ date:  2019-06-08
 ```css
 :root {
   --scale: scale(1.1);
-  --primary-color: #00FF00; 
+  --primary-color: #00FF00;
 }
 ```
 …
@@ -20,4 +20,3 @@ date:  2019-06-08
 ```
 
 {{< codepen id="vwZWPz" tab="css" >}}
-

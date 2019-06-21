@@ -1,12 +1,12 @@
 ---
 title: Vue template syntactic sugar
-tags:  ["Vue.js"]
+tags:  [Vue.js]
 goal:  Front-End Engineering
 date:  2019-06-03
 
 ---
 
-Event listeners: 
+Event listeners:
 v-on:click` → `@click
 
 Data binding - object syntax:
@@ -30,4 +30,3 @@ data: {
   cat: 'active',
   dog: 'text-danger'
 }
-

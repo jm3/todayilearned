@@ -1,6 +1,6 @@
 ---
 title: Pre-Rendering vs. Server-side Rendering
-tags:  ["Javascript"]
+tags:  [Javascript]
 goal:  Front-End Engineering
 date:  2019-06-12
 summary: What's the difference?
