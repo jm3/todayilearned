@@ -2,9 +2,8 @@
 title: Scale inline SVG proportionally using calc() and var()
 tags:  ["CSS3", "HTML5"]
 goal:  Front-End Engineering
-date:  2019-05-24
+date:  2019-06-05
 featured: true
-
 
 ---
 
@@ -20,13 +19,13 @@ In brief:
 3. Now just set `.your_svg { width: var(--width); height: var(--height); `
 
 Hover over the SVG art below, then click the SCSS and JS tabs to see how
-it works. 
+it works.
 
 {{< codepen id="vwZWPz" height="1000" >}}
 
-The above pen also demonstrates: 
+The above pen also demonstrates:
 
-* blockframing, a technique for mocking and approximating real content, 
+* blockframing, a technique for mocking and approximating real content,
 * base64 asset encoding
 
 [css]: /tags/css3/

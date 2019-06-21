@@ -1,9 +1,9 @@
 ---
-title: CSS selector performance 1
+title: CSS selector performance
 summary: Prefer class-attribute to element-attribute selectors
 tags:  [CSS3, Debugging]
 goal:  Front-End Engineering
-date:  2019-05-17
+date:  2019-06-06
 
 ---
 

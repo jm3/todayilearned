@@ -2,14 +2,17 @@
 title: Filter arrays in JS
 tags:  ["Javascript"]
 goal:  Front-End Engineering
-date:  2019-05-31
+date:  2019-06-20
+needs-work: fix syntax highlighting for JS
 
 ---
+
 Returns a new array, filtered:
 
-et newAr = oldAr.filter(callbackFn);
+```javascript
+let newAr = oldAr.filter(callbackFn);
 
-cbFn accepts:
+Callback function cbFn accepts:
 
 El : current element of the array
 Idx : index of value being processed
@@ -23,4 +26,4 @@ function isEven(value) {
 
 const a = [11, 98, 31, 23, 944];
 const f = a.filter(isEven);
-
+```

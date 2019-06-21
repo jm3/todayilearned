@@ -1,9 +1,9 @@
 ---
-title: name CSS classes with emoji 😂 
-tags:  ["CSS3"]
+title: name CSS classes with emoji 😂
+summary:  ¯\_(ツ)_/¯
+tags:  [CSS3]
 goal:  Front-End Engineering
-date:  2019-05-21
-summary:  ¯\_(ツ)_/¯ 
+date:  2019-06-17
 
 ---
 
@@ -14,4 +14,3 @@ summary:  ¯\_(ツ)_/¯
 ```
 
 {{< codepen user="ste-vg" id="pKNjZE" tab="css" >}}
-

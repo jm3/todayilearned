@@ -1,9 +1,9 @@
 ---
 title: Place content in grids by element (DOM) order
+summary: Welcome to autoplacement.
 tags:  [HTML5, CSS3, Grid]
 goal:  Front-End Engineering
-date:  2019-05-28
-summary: Welcome to autoplacement.
+date:  2019-06-16
 
 ---
 

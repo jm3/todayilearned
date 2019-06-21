@@ -1,10 +1,9 @@
 ---
 title: Naming Vue singletons
-tags:  ["Vue.js"]
+tags:  [Vue.js]
 goal:  Front-End Engineering
-date:  2019-05-19
-
+date:  2019-06-13
 
 ---
-name Vue singleton components starting with The
 
+Recommendation: name your Vue singleton components starting with "The", e.g. TheComponent.

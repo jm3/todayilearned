@@ -1,12 +1,12 @@
 ---
 title: CSS zoom upon hover
-tags:  ["CSS3"]
+tags:  [CSS3]
 goal:  Front-End Engineering
-date:  2019-05-31
+date:  2019-06-15
 
 ---
 
-To create a pure CSS zoom effect on user, just set: 
+To create a pure CSS zoom effect on user, just set:
   `transition: transform 2s;`
 on the element and then:
   `transform: var(--scale);`
