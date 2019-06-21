@@ -2,7 +2,7 @@
 title: the nth-of-type(num) CSS selector
 tags:  [CSS3]
 goal:  Front-End Engineering
-date:  2019-05-12
+date:  2019-06-01
 
 ---
 

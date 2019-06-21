@@ -1,9 +1,9 @@
 ---
 title: Computed properties in Vue
+summary: cached by reactive dependencies
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
-date:  2019-05-13
-summary: cached by reactive dependencies
+date:  2019-06-02
 
 ---
 

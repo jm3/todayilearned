@@ -2,8 +2,7 @@
 title: Flag risky CSS with the 'no-unsupported-browser-features' stylelint plugin
 tags:  ["CSS3", "Command Line", "Debugging"]
 goal:  Front-End Engineering
-date:  2019-05-30
-
+date:  2019-06-06
 summary: Find and fix browser compatibility issues **before** you go live
 
 ---

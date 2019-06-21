@@ -2,7 +2,7 @@
 title: Use the relURL fn in Hugo templates
 tags:  ["Hugo"]
 goal:  Front-End Engineering
-date:  2019-04-21
+date:  2019-05-31
 
 ---
 

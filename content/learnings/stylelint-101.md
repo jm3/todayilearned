@@ -1,9 +1,8 @@
 ---
-title: "Stylelint"
-date: 2019-06-09
+title: Stylelint
+date: 2019-06-11
 tags: [css3, command line, tools]
 summary: A mighty, modern linter helping you avoid errors and enforce style conventions.
-
 
 ---
 

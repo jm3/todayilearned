@@ -2,7 +2,7 @@
 title: Emmet
 tags:  [Editor, tools]
 goal:  Front-End Engineering
-date:  2019-05-29
+date:  2019-06-05
 summary: an editor's helper for web-developers
 
 ---

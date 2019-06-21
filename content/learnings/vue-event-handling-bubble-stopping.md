@@ -2,8 +2,7 @@
 title: Vue event handling + bubble stopping
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
-date:  2019-05-18
-
+date:  2019-06-18
 
 ---
 trap user input events with v-on:… directives like:

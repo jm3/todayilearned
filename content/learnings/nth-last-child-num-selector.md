@@ -2,7 +2,7 @@
 title: nth-last-child(num) - the reverse (Polish) selector
 tags:  [CSS3]
 goal:  Front-End Engineering
-date:  2019-05-24
+date:  2019-06-02
 
 needs-work: true
 

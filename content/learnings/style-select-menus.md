@@ -3,7 +3,7 @@ title: Style HTML <select> menus in CSS
 summary: "with :after and content:"
 tags:  ["HTML5", "CSS3"]
 goal:  Front-End Engineering
-date:  2019-04-25
+date:  2019-06-02
 
 ---
 

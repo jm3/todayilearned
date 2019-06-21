@@ -2,10 +2,10 @@
 title: Create + reference a native CSS variable
 tags:  ["CSS3"]
 goal:  Front-End Engineering
-date:  2019-04-24
-
+date:  2019-06-08
 
 ---
+
 ```css
 :root {
   --scale: scale(1.1);

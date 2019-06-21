@@ -2,7 +2,7 @@
 title: Vue template directives
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
-date:  2019-04-26
+date:  2019-06-02
 summary: the basics
 
 ---

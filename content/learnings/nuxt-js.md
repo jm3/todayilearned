@@ -1,8 +1,8 @@
 ---
-title: Nuxt.js
-tags:  ["Vue.js"]
+title: 'Nuxt.js: what is it?'
+tags:  [Vue.js, Javascript]
 goal:  Front-End Engineering
-date:  2019-05-14
+date:  2019-06-14
 summary: a framework for creating Vue.js apps
 
 ---

@@ -1,9 +1,9 @@
 ---
 title: Javascript template literals
+summary: interpolate expressions within strings
 tags:  ["Javascript"]
 goal:  Front-End Engineering
-date:  2019-05-19
-summary: interpolate expressions within strings
+date:  2019-06-09
 
 ---
 

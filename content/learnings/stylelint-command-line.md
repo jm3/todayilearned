@@ -2,9 +2,8 @@
 title: Stylelint on the command line
 tags:  ["CSS3", "Command Line"]
 goal:  Front-End Engineering
-date:  2019-05-30
+date:  2019-06-07
 summary: Stylelint isn't just for editors.
-
 
 ---
 

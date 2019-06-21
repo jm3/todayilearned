@@ -2,8 +2,7 @@
 title: Filter arrays in JS
 tags:  ["Javascript"]
 goal:  Front-End Engineering
-date:  2019-05-20
-
+date:  2019-05-31
 
 ---
 Returns a new array, filtered:

@@ -3,7 +3,7 @@ title: Object constancy
 summary: keeping things consistent
 tags:  [ Javascript, Vue.js ]
 goal:  Front-End Engineering
-date:  2019-04-19
+date:  2019-05-31
 
 ---
 
