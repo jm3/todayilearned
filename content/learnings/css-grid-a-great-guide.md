@@ -1,8 +1,8 @@
 ---
-title: CSS Grid - a great guide
+title: CSS Grid - a visual guide
 tags: [CSS3, Grid]
 date: 2019-06-17T11:41:55-07:00
-summary:  Updated Apr 3, 2019
+summary: from CSS Tricks
 
 ---
 

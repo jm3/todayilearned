@@ -1,6 +1,6 @@
 ---
-title: Commenting inside Hugo templates
-summary: Pretty clunky
+title: Commenting within Hugo templates
+summary: without being stripped out by the processor
 tags:  [ Hugo, Debugging]
 date:  2019-06-19
 goal:  Front-End Engineering

@@ -1,6 +1,6 @@
 ---
 title: 'Axios: what is it?'
-tags:  ["Javascript"]
+tags:  [Javascript]
 goal:  Front-End Engineering
 date:  2019-06-10
 summary: a Promises-based HTTP client for the browser and Node

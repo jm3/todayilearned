@@ -1,5 +1,5 @@
 ---
-title: "Babel.js: what is it?"
+title: 'Babel.js: what is it?'
 tags:  [javascript, tools]
 goal:  Front-End Engineering
 date:  2019-06-11
