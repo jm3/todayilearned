@@ -1,13 +1,12 @@
 ---
-title: Understand (if not yet deploy) the CSS repeat() function
+title: the CSS repeat() function
 tags:  ["CSS3", "CSS Grid"]
 goal:  Front-End Engineering
-date:  2019-05-23
-
+date:  2019-05-22
 
 ---
 
-CSS Grid introduces a handy `repeat()` function that works with both CSS
+CSS Grid introduces a handy [`repeat()`][docs] function that works with both CSS
 Grid properties grid-template-columns AND grid-template-rows.
 
 It supports units of:
@@ -20,3 +19,5 @@ It supports units of:
 * `max-content` (?)
 * `minmax` (?)
 * `fit-content(200px)` (?)
+
+[docs]: https://developer.mozilla.org/en-US/docs/Web/CSS/repeat
