@@ -3,14 +3,15 @@ title: Nuxt.js
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
 date:  2019-05-14
-summary: enjoy the hell of babel and webpack while wracked by single page insanity
-
+summary: a framework for creating Vue.js apps
 
 ---
 
-Nuxt is a “meta-framework” that extends  Vue.js via npm packages to make
-pure JavaScript-rendered SPA (no separate HTML DOM), with support for
+[Nuxt][docs] is a “meta-framework” that extends  Vue.js via npm packages to make
+pure Javascript-rendered SPA (no separate HTML DOM), with support for
 server-side rendering (SSR), Babel, webpack, and all the other things
 that seem to make React tricky.
 
 It's used by many for its server-side rendering solution, among other reasons.
+
+[docs]: https://nuxtjs.org/guide/
