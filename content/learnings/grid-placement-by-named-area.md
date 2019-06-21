@@ -3,7 +3,7 @@ title: Target content to grid areas by named area
 tags:  [css3, css grid]
 goal:  Front-End Engineering
 date:  2019-05-28
-
+summary: AKA using the ASCII-art syntax for CSS Grid
 
 ---
 

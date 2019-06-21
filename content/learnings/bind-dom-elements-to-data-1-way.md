@@ -1,11 +1,13 @@
 ---
-title: Bind DOM elements to data (1-way)
+title: Bind DOM elements to data - 1-way binding
+summary: in Vue.js
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
-date:  2019-05-11
-
+date:  2019-04-29
+needs-work: true
 
 ---
+
 TEXT - {{mustache}} or v-text:
 mustache tags: <b>`{{ bind-it }}`</b>
 or

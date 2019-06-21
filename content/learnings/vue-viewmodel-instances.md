@@ -1,9 +1,10 @@
 ---
-title: The 5 elements (of Vue ViewModel instances)
+title: Vue ViewModel instances
+summary: the five elements
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
-date:  2019-05-11
-
+date:  2019-04-27
+needs-work: true
 
 ---
 

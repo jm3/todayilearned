@@ -1,10 +1,9 @@
 ---
 title: Vue's magical key mapping
-summary: ...from 'CamelCase' to 'kabob-case' in bind object expressions
+summary: ...from 'CamelCase' to 'kebab-case' in bind object expressions
 tags:  ["Vue.js"]
 goal:  Front-End Engineering
 date:  2019-05-25
-
 
 ---
 
@@ -16,3 +15,6 @@ helpfully and silently accepts camelCase keys instead, and then
 evaluates them to dash-case syntax for you (ie: `fontSize` will become
 `font-size`). Cool but **magical**.
 
+[Read more][issue]
+
+[issue]: https://github.com/vuejs/vue/issues/4184

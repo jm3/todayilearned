@@ -3,7 +3,7 @@ title: Use the -root {} CSS pseudo-class
 summary: like the html {} selector, but with even higher precedence
 tags:  ["CSS3"]
 goal:  Front-End Engineering
-date:  2019-04-24
+date:  2019-04-22
 
 ---
 

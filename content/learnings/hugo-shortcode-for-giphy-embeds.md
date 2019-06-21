@@ -2,7 +2,7 @@
 title: Hugo shortcode for Giphy embeds
 summary: embed gifs directly within markdown
 tags:  [ html5, hugo ]
-date:  2019-06-14T15:15:47-07:00
+date:  2019-06-18T15:15:47-07:00
 goal:  Front-End Engineering
 
 ---
