@@ -3,7 +3,7 @@
   {{ partial "head.html" . }}
 
   <body>
-    <div class="container wrapper">
+    <main>
       {{ partial "header.html" . }}
       <div class="recent-posts section">
         <h2 class="section-header"> Recent {{ .Site.Params.primaryType }}</h2>
@@ -28,8 +28,8 @@
           <a href="/{{ .Site.Params.primaryType }}">All {{ .Site.Params.primaryType }} →</a>
         </div>
       </div>
-    </div>
-    {{ partial "footer.html" . }}
+      {{ partial "footer.html" . }}
+    </main>
     {{ template "_internal/google_analytics_async.html" . }}
     {{- with .Site.Params.Social -}}
     <script>

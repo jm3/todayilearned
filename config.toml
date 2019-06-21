@@ -19,6 +19,7 @@ copyright = "<i class='icon copyleft'></i> copyleft 2020 &middot; John Manoogian
 css = [
   "css/normalize.css",
   "css/colors.css",
+  "css/grid.css",
   # "css/syntax-highlighting.css",
   # "css/typography.css"
   # "css/orig.css",
