@@ -1,6 +1,6 @@
 ---
 title: the CSS repeat() function
-tags:  ["CSS3", "CSS Grid"]
+tags:  [CSS3, Grid]
 goal:  Front-End Engineering
 date:  2019-05-22
 

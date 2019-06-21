@@ -1,6 +1,6 @@
 ---
 title: Save time with CSS grid area start/end shortcuts
-tags:  ["CSS3", "CSS Grid"]
+tags:  [CSS3, Grid]
 goal:  Front-End Engineering
 date:  2019-05-27
 summary: Because who has time to type all this stuff out?

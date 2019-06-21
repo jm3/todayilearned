@@ -1,6 +1,6 @@
 ---
 title: CSS Grid - a great guide
-tags: [CSS3, css-grid]
+tags: [CSS3, Grid]
 date: 2019-06-17T11:41:55-07:00
 summary:  Updated Apr 3, 2019
 
