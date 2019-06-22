@@ -32,6 +32,13 @@ css = [
   # "css/orig.css",
 ]
 
+[social]
+twitter   = "nerdshitposting"
+linkedin  = "manoogian"
+behance   = "jm3"
+dribbble  = "jm3"
+github    = "jm3"
+
 # weight: basically = ordering
 # pre: feather icon name
 [[menu.main]]
