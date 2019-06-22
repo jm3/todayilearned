@@ -8,4 +8,4 @@ goal:  Front-End Engineering
 
 Today I learned there are some recommended best practices for [naming NPM scripts][docs].
 
-[docs]: https://github.com/voorhoede/npm-style-guide
+[docs]: https://github.com/voorhoede/npm-style-guide#use-standard-script-names
