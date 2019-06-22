@@ -4,8 +4,7 @@ summary: common utilities, pre-baked for you
 tags:  [ Hugo, HTML5 ]
 date:  2019-06-22T14:09:10-07:00
 goal:  Front-End Engineering
-images:
-  - /img/todayilearned.jm3.net.png
+images: [/img/todayilearned.jm3.net.png]
 description: common utilities, pre-baked for you
 
 ---
