@@ -15,7 +15,7 @@ primaryType      = "learnings"
 
 # used by Hugo's internal Twitter Cards template
 description = "Regular updates from my adventure rebooting my front-end web development skills"
-# images = ["/img/todayilearned.jm3.net.png"]
+images = ["/img/todayilearned.jm3.net.png"]
 
 # used by Hugo's internal OpenGraph template
 url = "http://dofus.com"
