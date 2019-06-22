@@ -27,7 +27,7 @@ css = [
   "css/normalize.css",
   "css/colors.css",
   "css/grid.css",
-  # "css/syntax-highlighting.css",
+  "css/syntax-highlighting.css",
   # "css/typography.css"
   # "css/orig.css",
 ]
