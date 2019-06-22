@@ -11,5 +11,9 @@
     "stylelint-no-unsupported-browser-features": "^3.0.2",
     "stylelint-order": "^3.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "scripts": {
+    "build": "hugo build",
+    "start": "hugo serve"
+  }
 }
