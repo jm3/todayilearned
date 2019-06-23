@@ -4,23 +4,12 @@
     {{- if isset .Site.Params "headline" -}}
     <h2>{{ .Site.Params.Headline | markdownify }}</h2>
     {{- end -}}
-    <nav class="nav social">
-      <ul class="flat">
-        {{- range $index, $key := .Site.Params.Social -}}
-        <a href="{{ $key.url }}" title="{{ $key.name }}">
-          <i data-feather="{{ $key.icon }}"></i>
-        </a>
-        {{- end -}}
-      </ul>
-    </nav>
   </div>
-
   <nav class="primary">
     <ul class="flat" role="navigation">
       {{ range .Site.Menus.main }}
       <li>
         <i data-feather="{{ .Pre }}"></i>
-
         <a href="{{ .URL }}">{{ .Name }}</a>
       </li>
       {{ end }}

@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 
 footer {
   border-color: hsl(0, 0%, 96%);
-  color: hsla(168, 100%, 80%, 1);
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -78,4 +78,3 @@ footer {
 h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }
-

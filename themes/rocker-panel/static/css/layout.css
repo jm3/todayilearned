@@ -1,0 +1,22 @@
+main {
+  margin: 0 auto;
+  width: 90vw;
+}
+
+.flat {
+	display: flex;
+	list-style-type: none;
+	padding-left: 0;
+	justify-content: space-between;
+}
+
+footer  {
+  margin-bottom: 30px;
+  .flat {
+    justify-content: space-evenly;
+  }
+}
+
+.nav.social {
+  margin: 50px 0 30px 0;
+}
