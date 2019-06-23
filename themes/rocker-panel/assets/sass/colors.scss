@@ -1,0 +1,90 @@
+:root {
+  --bg-color: hsl(239, 49%, 45%);
+  --accent-color: hsl(168, 100%, 50%);
+  --alter-accent-color: hsl(310, 100%, 80%);
+  --bg-subtle-color: hsl(239, 65%, 79%);
+  --text-color: hsl(0, 100%, 100%);
+  --code-bg-color: hsl(0, 0%, 10%);
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+button,
+html,
+input,
+select,
+textarea {
+  color: hsl(0, 0%, 13%);
+}
+
+::selection {
+  background: hsla(0, 0%, 0%, 0.5);
+}
+
+hr {
+  border-color: hsl(0, 0%, 80%);
+}
+
+blockquote {
+  border-color: hsl(0, 100%, 33%);
+}
+
+blockquote cite {
+  opacity: 0.8;
+}
+
+a,
+a:hover,
+a:visited {
+  color: var(--accent-color);
+}
+
+a:hover {
+  color: var(--alter-accent-color);
+}
+
+a:active {
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-color);
+}
+
+.section .section-header {
+  color: var(--bg-subtle-color);
+}
+
+.list .posts .post .meta,
+.post .post-header .meta,
+.recent-posts .posts .post .meta {
+  color: var(--bg-subtle-color);
+}
+
+footer {
+  border-color: hsl(0, 0%, 96%);
+  color: white;
+}
+@media (max-width: 767px) {}
+@media (max-width: 480px) {}
+/* jm3: ************************ to be merged */
+.highlight pre code {
+  background-color: var(--code-bg-color);
+}
+
+header {
+  background-color: white;
+  color: black;
+
+  a {
+    color: black;
+  }
+}

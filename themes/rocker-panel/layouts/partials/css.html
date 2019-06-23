@@ -5,8 +5,12 @@
 </style>
 
 <!-- by default load NOTHING; all CSS loaded from site config -->
-{{ range .Site.Params.css }}<link rel="stylesheet" href="{{ . | absURL }}">
+{{ range .Site.Params.css }}
+<link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
-
 <!-- google fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}">
+
+{{ $styles := resources.Get "sass/all.scss" | toCSS | postCSS | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $styles.Permalink }}"
+  integrity="{{ $styles.Data.Integrity }}" media="screen">
