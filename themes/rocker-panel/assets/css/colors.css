@@ -1,3 +1,5 @@
+$tmp: red;
+
 :root {
   --bg-color: hsl(239, 49%, 45%);
   --accent-color: hsl(168, 100%, 50%);
@@ -81,9 +83,8 @@ footer {
 }
 
 header {
-  background-color: white;
-  color: black;
-
+  background-color: darken( red, 20%);
+  background-color: darken($tmp, 10%);
   a {
     color: black;
   }

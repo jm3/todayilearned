@@ -4,13 +4,18 @@
   }
 </style>
 
-<!-- by default load NOTHING; all CSS loaded from site config -->
 {{ range .Site.Params.css }}
 <link rel="stylesheet" href="{{ . | absURL }}">
 {{ end }}
+
 <!-- google fonts -->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}">
 
-{{ $styles := resources.Get "sass/all.scss" | toCSS | postCSS | minify | fingerprint }}
-<link rel="stylesheet" href="{{ $styles.Permalink }}"
-  integrity="{{ $styles.Data.Integrity }}" media="screen">
+<!-- REMOVED: SCSS to PostCSS to minify to fingerprint pipeline -->
+
+<!-- pure PostCSS pipeline -->
+{{ $css := resources.Get "css/static.css" }}
+{{ $stylesheet_url := $css | resources.PostCSS | minify | fingerprint }}
+
+<link rel="stylesheet" href="{{ $stylesheet_url.Permalink }}"
+  integrity="{{ $stylesheet_url.Data.Integrity }}" media="screen">
