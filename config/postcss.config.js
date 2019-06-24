@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    require('postcss-easy-import'),
+    require('postcss-import')({ 'addModulesDirectories': ['themes/rocker-panel/assets/css/'] }),
     require('postcss-css-variables'), // https://github.com/MadLittleMods/postcss-css-variables
     require('postcss-nested'), // https://github.com/postcss/postcss-nested
     require('postcss-color-gray'), // https://github.com/postcss/postcss-color-gray
