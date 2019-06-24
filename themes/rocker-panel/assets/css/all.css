@@ -1,5 +1,5 @@
-@import 'normalize.scss';
-@import  'colors.scss';
-@import  'layout.scss';
-@import  'typography.scss';
-@import  'syntax-highlighting.scss';
+@import 'normalize.css';
+@import 'colors.css';
+@import 'layout.css';
+@import 'typography.css';
+@import 'syntax-highlighting.css';

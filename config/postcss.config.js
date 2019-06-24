@@ -1,9 +1,10 @@
 module.exports = {
   plugins: [
-    require('postcss-import'),
-    require('postcss-nesting'),
+    require('postcss-easy-import'),
     require('postcss-css-variables'), // https://github.com/MadLittleMods/postcss-css-variables
-    require('postcss-color-function'), // fucking hell i hate this shit
+    require('postcss-nested'), // https://github.com/postcss/postcss-nested
+    require('postcss-color-gray'), // https://github.com/postcss/postcss-color-gray
+    // require('postcss-color-function'), // fucking hell i hate this shit
     //require('postcss-color-mod-function'), // https://github.com/MadLittleMods/postcss-css-variables
     // require('postcss-simple-vars'), // https://github.com/postcss/postcss-simple-vars
     // require('postcss-custom-properties'),
