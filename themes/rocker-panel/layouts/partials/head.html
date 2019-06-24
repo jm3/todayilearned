@@ -24,5 +24,8 @@
   {{- else if (isset .Site.Params "social") -}}
   <script src="/js/feather.min.js"></script>
   {{- end -}}
+
+  {{ partial "favicons" . }}
+
   <script src="/js/main.js"></script>
 </head>
