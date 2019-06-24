@@ -1,28 +1,25 @@
 module.exports = {
   plugins: [
-    require('postcss-nested'),
-    require('postcss-cssnext'),
+    require('postcss-import'),
     require('postcss-simple-vars'),
-    require('postcss-extend'),
-    require('postcss-nested'),
-    require('postcss-mixins'),
-    require('postcss-custom-properties'),
     require('postcss-nesting'),
-    //require('postcss-import'), // throws Invalid import media statement
-    require('postcss-calc')
+    require('postcss-preset-env') // https://preset-env.cssdb.org/
+    // interesting:
+    // require('lost'),
+    // require('precss'), // https://cssnano.co/guides/getting-started/
+    // require('cssnano'), // https://cssnano.co/guides/getting-started/
+    // require('stylelint'), // throws mad warns due mostly to our css partitioning setup
+    // require('postcss-nested'), // https://github.com/postcss/postcss-nested
+    // require('postcss-extend'),
+    // require('postcss-nested'),
+    // require('postcss-mixins'),
+    // require('postcss-custom-properties'),
+    // require('postcss-calc')
+    // https://github.com/davidtheclark/list-selectors
   ],
   'watch': 'true',
   'local-plugins': true,
   'autoprefixer': {
     browsers: '> 5%'
-  },
-  'postcssCssnext': {
-    features: {
-      autoprefixer: true
-    }
   }
-
-  // 'from': 'themes/rocker-panel/assets/sass/all.scss',
-  // 'to': 'public/til.css',
-
 }
