@@ -14,7 +14,7 @@
 <!-- REMOVED: SCSS to PostCSS to minify to fingerprint pipeline -->
 
 <!-- pure PostCSS pipeline -->
-{{ $css := resources.Get "css/static.css" }}
+{{ $css := resources.Get "css/all.css" }}
 {{ $stylesheet_url := $css | resources.PostCSS | minify | fingerprint }}
 
 <link rel="stylesheet" href="{{ $stylesheet_url.Permalink }}"
