@@ -14,6 +14,6 @@
   "dependencies": {},
   "scripts": {
     "build": "hugo build",
-    "start": "hugo serve"
+    "start": "hugo --config config/hugo.toml serve"
   }
 }
