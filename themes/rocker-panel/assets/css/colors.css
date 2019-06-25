@@ -6,7 +6,11 @@ $tmp: red;
   --alter-accent-color: hsl(310, 100%, 80%);
   --bg-subtle-color: hsl(239, 65%, 79%);
   --text-color: black;
+  --major-text: hsl(180, 100%, 27.3%);
   --code-bg-color: hsl(0, 0%, 10%);
+  --link: red;
+  --link-hover: red;
+  --link-active: red;
 }
 
 body {
@@ -38,10 +42,10 @@ blockquote cite {
   opacity: 0.8;
 }
 
+/* basic links */
 a,
-a:hover,
 a:visited {
-  color: var(--accent-color);
+  color: var(--major-text);
 }
 
 a:hover {
@@ -49,15 +53,29 @@ a:hover {
 }
 
 a:active {
+  background-color: black;
+  color: white;
+}
+
+/* constrasty party colors */
+header a,
+header a:visited,
+footer a,
+footer a:visited {
+  color: var(--accent-color);
+}
+
+header a:hover,
+footer a:hover {
+  color: var(--alter-accent-color);
+}
+
+header a:active,
+footer a:active {
   color: var(--text-color);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }
 
@@ -72,7 +90,7 @@ h6 {
 }
 
 footer {
-  background-color: hsl(250, 35%, 30%);
+  background-color: hsl(10, 06%, 21%);
   color: white;
 }
 @media (max-width: 767px) {}
@@ -83,10 +101,7 @@ footer {
 }
 
 .section-masthead {
-  /* background-color: darken( red, 20%); */
-  /* background-color: darken($tmp, 10%); */
-
-  background-color: rebeccapurple;
+  background-color: hsl(270, 36%, 25%);
 
   h2 {
     color: hsl(265, 42%, 78%);
@@ -116,6 +131,10 @@ footer {
 
 a.post-preview-title {
   color: darkcyan;
+}
+
+.post-title {
+  color: var(--major-text);
 }
 
 a.paginator {

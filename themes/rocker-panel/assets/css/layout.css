@@ -61,6 +61,10 @@ a.paginator {
   margin: 0 1.5rem;
 }
 
+.post-title {
+  margin-top: 1rem;
+}
+
 footer  {
   padding: 0.5rem;
   .flat {

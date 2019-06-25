@@ -79,6 +79,11 @@ a.post-preview-title {
   font-size: 18px;
 }
 
+.post-title {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+}
+
 a.paginator {
   font-weight: 600;
 }
