@@ -31,7 +31,10 @@ main {
 	justify-content: space-between;
 }
 
-.recent-posts {
+/* index */
+.recent-posts,
+ul.posts {
+  margin: 0;
   padding: 1rem 1.5rem 0;
 }
 

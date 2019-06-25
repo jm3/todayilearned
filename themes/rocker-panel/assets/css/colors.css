@@ -5,7 +5,7 @@ $tmp: red;
   --accent-color: hsl(168, 100%, 50%);
   --alter-accent-color: hsl(310, 100%, 80%);
   --bg-subtle-color: hsl(239, 65%, 79%);
-  --text-color: hsl(0, 100%, 100%);
+  --text-color: black;
   --code-bg-color: hsl(0, 0%, 10%);
 }
 
@@ -61,7 +61,7 @@ h6 {
   color: var(--text-color);
 }
 
-.section .section-header {
+.section-header {
   color: var(--bg-subtle-color);
 }
 
@@ -98,6 +98,10 @@ footer {
     color: white;
     color: var(--alter-accent-color);
     color: var(--accent-color);
+  }
+
+  h3 {
+    color: white;
   }
 }
 
