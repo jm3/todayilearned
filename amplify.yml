@@ -3,7 +3,7 @@ frontend:
   phases:
     build:
       commands:
-        - wget https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.tar.gz 
+        - wget --quiet https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.tar.gz
         - tar -xf hugo_0.55.6_Linux-64bit.tar.gz
         - mv hugo /usr/bin/hugo 
         - rm -rf hugo_0.55.6_Linux-64bit.tar.gz
