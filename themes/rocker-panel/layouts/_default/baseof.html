@@ -4,6 +4,8 @@
   <head>
     {{ partial "head.html" . }}
     <meta name="git:sha-short" content="{{ block "git_sha_short" . }}{{ end }}">
+    <link rel="github-url"
+      href="https://github.com/jm3/todayilearned/commit/{{ block "git_sha_short" . }}{{ end }}">
   </head>
 
   <body>
