@@ -6,3 +6,4 @@ additional module dir to the postcss-import plugin */
 @import 'layout.css';
 @import 'typography.css';
 @import 'syntax-highlighting.css';
+@import 'debug.css';

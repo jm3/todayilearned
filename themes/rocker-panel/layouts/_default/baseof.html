@@ -1,0 +1,24 @@
+<!DOCTYPE html> {{ "<!-- layouts/baseof -->" | safeHTML }}
+<html>
+
+  <head>
+    {{ partial "head.html" . }}
+    <meta name="git:sha-short" content="{{ block "git_sha_short" . }}{{ end }}">
+  </head>
+
+  <body>
+    <main>
+      {{ partial "header.html"  . }}
+      {{ block "main" . }} This layout template forgot to define a "main" block {{ end }}
+      {{ partial "footer.html" . }}
+    </main>
+    {{ template "_internal/google_analytics_async.html" . }}
+    {{- with .Site.Params.Social -}}
+    <script>
+      feather.replace()
+
+    </script>
+    {{ end }}
+  </body>
+
+</html>

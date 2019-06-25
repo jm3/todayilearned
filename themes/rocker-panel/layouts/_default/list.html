@@ -1,27 +1,21 @@
-<!DOCTYPE html> {{ "<!-- layouts/_default/list -->" | safeHTML }}
-<html>
-  {{ partial "head.html" . }}
+{{ define "main" }}
 
-  <body>
-    <main>
-      {{ partial "header.html" . }}
-      {{ if isset .Data "Term" }}
-      <h1>Entries tagged - "{{.Data.Term}}"</h1>
-      {{ else }}
-      <h1 class="page-title">All {{.Type}} </h1>
-      {{ end }}
-      <ul class="posts">
-        {{- range .Data.Pages -}}
-        {{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
-        {{- else -}}
-        <li class="post">
-          <a href="{{ .RelPermalink }}">{{.Title}}</a> <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</span>
-        </li>
-        {{- end -}}
-        {{- end -}}
-      </ul>
-      {{ partial "footer.html" . }}
-    </main>
-  </body>
+{{ "<!-- layouts/_default/list.html -->" | safeHTML }}
 
-</html>
+{{ if isset .Data "Term" }}
+<h1>Entries tagged - "{{.Data.Term}}"</h1>
+{{ else }}
+<h1 class="page-title">All {{.Type}} </h1>
+{{ end }}
+<ul class="posts">
+  {{- range .Data.Pages -}}
+  {{- if (in (.Site.Params.excludedTypes | default (slice "page")) .Type) -}}
+  {{- else -}}
+  <li class="post">
+    <a href="{{ .RelPermalink }}">{{.Title}}</a> <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</span>
+  </li>
+  {{ end }}
+  {{ end }}
+</ul>
+
+{{ end }}

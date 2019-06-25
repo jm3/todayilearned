@@ -6,6 +6,9 @@ languageCode    = "en-us"
 theme = "rocker-panel"
 #theme = "rocker-panel-clone-symlink"
 
+# extra metadata about the current git SHA / version etc
+enableGitInfo = true
+
 [params]
 excludedTypes    = ["page"] # Content types excluded from recent posts + archives page
 featherIconsCDN  = true
@@ -18,7 +21,7 @@ description = "Regular updates from my adventure rebooting my front-end web deve
 images = ["/img/todayilearned.jm3.net.png"]
 
 # used by Hugo's internal OpenGraph template
-url = "http://dofus.com"
+url = "https://todayilearned.jm3.net/"
 
 subtitle = "John Manoogian (jm3)"
 headline = "Frequent, bite-size mini-milestone updates as I fast-forward merge[*](https://ariya.io/2013/09/fast-forward-git-merge) my front-end web development skills up to 2019&nbsp;levels. <a href='/about' class='about'>Learn more</a>"

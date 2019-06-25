@@ -13,8 +13,8 @@
   },
   "dependencies": {},
   "scripts": {
-    "build": "hugo build",
+    "build": "npx hugo --config config/hugo.toml --enableGitInfo",
     "postcss": "npx postcss --config config/postcss.config.js themes/rocker-panel/assets/css/all.css",
-    "start": "hugo --config config/hugo.toml serve"
+    "start": "hugo --config config/hugo.toml --enableGitInfo serve"
   }
 }

@@ -1,45 +1,31 @@
-<!DOCTYPE html> {{ "<!-- layouts/index -->" | safeHTML }}
-<html>
-  {{ partial "head.html" . }}
+{{ define "git_sha_short" }}{{ with .GitInfo }}{{ .GitInfo.AbbreviatedHash }}{{ end }}{{ end }}
 
-  <body>
-    <main>
-      {{ partial "header.html" . }}
-      <div class="recent-posts section">
-        <h2 class="section-header"> Recent {{ .Site.Params.primaryType }}</h2>
-        <div class="posts">
-          {{- $.Scratch.Set "counter" 0 -}}
-          {{ range where .Pages "Type" "==" .Site.Params.primaryType }}
-          {{- if lt ($.Scratch.Get "counter") (.Site.Params.RecentPostsCount | default 10) -}}
-          <div class="post">
-            <div class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</div>
-            <a
-              class="title"
-              href="{{ .RelPermalink }}"
-            >
-
-            <i data-feather="bookmark"></i>
-            {{.Title}}</a>
-            &mdash;
-            <span class="description">
-              {{ .Summary }}
-            </span>
-          </div>
-          {{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) -}}
-          {{- end -}}
-          {{- end -}}
-          <a class="paginator" href="/{{ .Site.Params.primaryType }}">All {{ .Site.Params.primaryType }} →</a>
-        </div>
-      </div>
-      {{ partial "footer.html" . }}
-    </main>
-    {{ template "_internal/google_analytics_async.html" . }}
-    {{- with .Site.Params.Social -}}
-    <script>
-      feather.replace()
-
-    </script>
-    {{- end -}}
-  </body>
-
-</html>
+{{ define "main" }}
+{{ "<!-- layouts/index.html -->" | safeHTML }}
+<div class="recent-posts section">
+  <h2 class="section-header"> Recent {{ .Site.Params.primaryType }}</h2>
+  <div class="posts">
+    {{- $.Scratch.Set "counter" 0 -}}
+    {{ range where .Pages "Type" "==" .Site.Params.primaryType }}
+    {{- if lt ($.Scratch.Get "counter") (.Site.Params.RecentPostsCount | default 10) -}}
+    <div class="post">
+      <div class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</div>
+      <a
+        class="title"
+        href="{{ .RelPermalink }}"
+      >
+        <i data-feather="bookmark"></i>
+        {{.Title}}</a> &mdash; <span class="description">
+        {{ .Summary }}
+      </span>
+    </div>
+    {{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) -}}
+    {{ end }}
+    {{ end }}
+    <a
+      class="paginator"
+      href="/{{ .Site.Params.primaryType }}"
+    >All {{ .Site.Params.primaryType }} →</a>
+  </div>
+</div>
+{{ end }}

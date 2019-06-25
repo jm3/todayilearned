@@ -1,34 +1,36 @@
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  {{- $title := ( .Title ) -}}
-  {{- $siteTitle := ( .Site.Title ) -}}
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" >
 
-  {{- if .IsHome -}}
-  <title>{{ $siteTitle }} {{- if isset .Site.Params "subtitle" -}} - {{ .Site.Params.Subtitle }}{{- end -}} </title>
-  {{- else -}}
-  <title>{{ $title }} - {{ $siteTitle }}</title>
-  {{- end -}}
+{{- $title := ( .Title ) -}}
+{{- $siteTitle := ( .Site.Title ) -}}
+{{- if .IsHome -}}
+<title>
+  {{ $siteTitle }} {{- if isset .Site.Params "subtitle" -}} - {{ .Site.Params.Subtitle }}{{- end -}}
+</title>
+{{- else -}}
+<title>{{ $title }} - {{ $siteTitle }}</title>
+{{- end -}}
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" >
 
-  {{ with .OutputFormats.Get "rss" -}}
-  {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
-  {{ end -}}
+{{ " .GitInfo.AbbreviatedHash " }}
 
-  {{- template "_internal/opengraph.html" . -}}
-  {{- template "_internal/twitter_cards.html" . -}}
+{{ with .OutputFormats.Get "rss" -}}
+{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+{{ end -}}
 
-  {{ partial "css" . }}
-  {{ partial "js" . }}
+{{- template "_internal/opengraph.html" -}}
+{{- template "_internal/twitter_cards.html" -}}
 
-  {{- if and (isset .Site.Params "social") (isset .Site.Params "feathericonscdn") (eq .Site.Params.featherIconsCDN true) -}}
-  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-  {{- else if (isset .Site.Params "social") -}}
-  <script src="/js/feather.min.js"></script>
-  {{- end -}}
+{{ partial "css" . }}
+{{ partial "js" . }}
 
-  {{ partial "favicons" . }}
+{{- if and (isset .Site.Params "social") (isset .Site.Params "feathericonscdn") (eq .Site.Params.featherIconsCDN true) -}}
+<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+{{- else if (isset .Site.Params "social") -}}
+<script src="/js/feather.min.js"></script>
+{{- end -}}
 
-  <script src="/js/main.js"></script>
-</head>
+{{ partial "favicons" . }}
+
+<script src="/js/main.js"></script>
