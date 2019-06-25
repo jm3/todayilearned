@@ -1,10 +1,14 @@
 <header>
+  <section class="section-masthead">
   <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
+  <h2 class="headline-creator">by @jm3 &middot; aka <span>John Manoogian<sup>3</sup></span></h2>
   <div class="site-description">
     {{- if isset .Site.Params "headline" -}}
-    <h2>{{ .Site.Params.Headline | markdownify }}</h2>
+    <h3>{{ .Site.Params.Headline | markdownify }}</h3>
     {{- end -}}
   </div>
+  </section>
+  <section class="section-nav">
   <nav class="primary">
     <ul class="flat" role="navigation">
       {{ range .Site.Menus.main }}
@@ -15,4 +19,5 @@
       {{ end }}
     </ul>
   </nav>
+  </section>
 </header>

@@ -2,8 +2,26 @@ main {
 
 }
 
-header {
-  padding: 0 2rem;
+.section-masthead {
+  padding: 2rem 2rem 1rem 2rem;
+
+  h2 {
+    line-height: 1.1rem;
+    margin-bottom: 0.8rem;
+  }
+
+  h3 {
+    line-height: 1.1rem;
+    margin: 1rem 0 0 0;
+  }
+}
+
+.section-nav {
+  padding: 1rem 1rem 0.5rem 1rem;
+
+  svg.feather {
+    vertical-align: top;
+  }
 }
 
 .flat {
@@ -13,10 +31,36 @@ header {
 	justify-content: space-between;
 }
 
+.recent-posts {
+  padding: 1rem 2rem 0;
+}
+
+a.paginator {
+  display: block;
+  margin: 0 auto;
+  width: 8rem; /* FIXME - how can we make this not hard-coded */
+  background-color: var(--alter-accent-color);
+  border-radius: 1rem;
+  padding: 0.4rem 0 0.4rem 1rem;
+  margin-bottom: 1rem;
+}
+
+.post {
+  margin-bottom: 2rem;
+
+  a svg {
+    width: 16px;
+    vertical-align: sub;
+  }
+}
+
 footer  {
-  margin-bottom: 30px;
+  padding: 0.5rem;
   .flat {
     justify-content: space-evenly;
+  }
+  .legalese {
+    padding: 0 2rem 2rem;
   }
 }
 

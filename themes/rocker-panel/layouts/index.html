@@ -16,7 +16,10 @@
             <a
               class="title"
               href="{{ .RelPermalink }}"
-            >{{.Title}}</a>
+            >
+
+            <i data-feather="bookmark"></i>
+            {{.Title}}</a>
             &mdash;
             <span class="description">
               {{ .Summary }}
@@ -25,7 +28,7 @@
           {{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) -}}
           {{- end -}}
           {{- end -}}
-          <a href="/{{ .Site.Params.primaryType }}">All {{ .Site.Params.primaryType }} →</a>
+          <a class="paginator" href="/{{ .Site.Params.primaryType }}">All {{ .Site.Params.primaryType }} →</a>
         </div>
       </div>
       {{ partial "footer.html" . }}
