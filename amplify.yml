@@ -10,7 +10,7 @@ frontend:
         - hugo version
         - npm install
         - npx postcss --version
-        - npx hugo --config config/hugo.toml --enableGitInfo
+        - npx hugo --config config/hugo.toml
   artifacts:
     baseDirectory: public
     files:
