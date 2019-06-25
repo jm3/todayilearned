@@ -1,5 +1,10 @@
 ## todayilearned / summerofcode 
 
+[![Dependencies][deps-img]][deps]
+
+[deps-img]: https://david-dm.org/jm3/todayilearned.svg
+[deps]: https://david-dm.org/jm3/todayilearned
+
 front-end training progress blog
 
 ### Uses:
