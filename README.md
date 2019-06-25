@@ -7,6 +7,13 @@
 
 front-end training progress blog
 
+### Setup
+
+   brew install hugo (use amplify.yml instrux on 'nix)
+   npm install
+   npm run setup
+   npm start
+
 ### Uses:
 
 - [AWS Amplify](https://aws.amazon.com/amplify/) for continuous integration / deployment / hosting / CDN / SSL
