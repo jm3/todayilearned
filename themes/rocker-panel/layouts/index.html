@@ -2,23 +2,17 @@
 
 {{ define "main" }}
 {{ "<!-- layouts/index.html -->" | safeHTML }}
+
 <div class="recent-posts section">
   <h2 class="section-header"> Recent {{ .Site.Params.primaryType }}</h2>
   <div class="posts">
+
     {{- $.Scratch.Set "counter" 0 -}}
     {{ range where .Pages "Type" "==" .Site.Params.primaryType }}
     {{- if lt ($.Scratch.Get "counter") (.Site.Params.RecentPostsCount | default 10) -}}
-    <div class="post">
-      <div class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</div>
-      <a
-        class="title"
-        href="{{ .RelPermalink }}"
-      >
-        <i data-feather="bookmark"></i>
-        {{.Title}}</a> &mdash; <span class="description">
-        {{ .Summary }}
-      </span>
-    </div>
+
+   {{ partial "post-preview.html" . }}
+
     {{- $.Scratch.Set "counter" (add ($.Scratch.Get "counter") 1) -}}
     {{ end }}
     {{ end }}
@@ -28,4 +22,6 @@
     >All {{ .Site.Params.primaryType }} →</a>
   </div>
 </div>
+
+<!-- end main -->
 {{ end }}

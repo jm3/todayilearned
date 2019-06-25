@@ -32,7 +32,7 @@ main {
 }
 
 .recent-posts {
-  padding: 1rem 2rem 0;
+  padding: 1rem 1.5rem 0;
 }
 
 a.paginator {
@@ -45,13 +45,17 @@ a.paginator {
   margin-bottom: 1rem;
 }
 
-.post {
+.post-preview {
   margin-bottom: 2rem;
 
   a svg {
     width: 16px;
     vertical-align: sub;
   }
+}
+
+.post {
+  margin: 0 1.5rem;
 }
 
 footer  {

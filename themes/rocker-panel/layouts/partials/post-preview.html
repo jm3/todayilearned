@@ -1,0 +1,9 @@
+{{ "<!-- partials/post-preview.html -->" | safeHTML }}
+<div class="post-preview">
+  <div class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</div>
+  <a class="post-preview-title" href="{{ .RelPermalink }}">
+    <i data-feather="bookmark"></i>
+    {{.Title}}</a> &mdash; <span class="description">
+    {{ .Summary }}
+  </span>
+</div>
