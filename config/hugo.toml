@@ -21,7 +21,7 @@ images = ["/img/todayilearned.jm3.net.png"]
 url = "http://dofus.com"
 
 subtitle = "John Manoogian (jm3)"
-headline = "Daily updates as I fast-forward merge[*](https://ariya.io/2013/09/fast-forward-git-merge) my web skills up to 2019 levels"
+headline = "Frequent, bite-size mini-milestone updates as I fast-forward merge[*](https://ariya.io/2013/09/fast-forward-git-merge) my front-end web development skills up to 2019&nbsp;levels. <a href='/about' class='about'>Learn more</a>"
 copyright = "<i class='icon copyleft'></i> Copyleft 2020 &middot; John Manoogian III (jm3)<br /> All rights reserved, all wrongs reversed, no punches pulled"
 
 [social]
@@ -33,11 +33,6 @@ github    = "jm3"
 
 # weight: basically = ordering
 # pre: feather icon name
-[[menu.main]]
-name = "Home"
-url = "/"
-pre = "home"
-weight = 1
 
 [[menu.main]]
 name = "Learnings"
@@ -56,12 +51,6 @@ name = "Tags"
 url = "/tags"
 pre = "tag"
 weight = 4
-
-[[menu.main]]
-name = "About"
-url = "/about"
-pre = "info"
-weight = 5
 
 [[params.social]]
 name = "Github"
