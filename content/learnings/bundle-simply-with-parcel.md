@@ -3,6 +3,7 @@ title: Bundle simply with Parcel, a webpack alternative
 tags:  [CSS3, Parcel, Command Line]
 goal:  Front-End Engineering
 date:  2019-06-01
+summary: Do you value convention over configuration? Do you strive for simplicity? then Parcel may be for you.
 
 ---
 

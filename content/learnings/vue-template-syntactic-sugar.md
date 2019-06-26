@@ -3,6 +3,7 @@ title: Vue template syntactic sugar
 tags:  [Vue.js]
 goal:  Front-End Engineering
 date:  2019-06-03
+summary: Some shortcuts that can save time but also obfuscate meaning.
 
 ---
 

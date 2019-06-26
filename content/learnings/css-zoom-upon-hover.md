@@ -3,6 +3,7 @@ title: CSS zoom upon hover
 tags:  [CSS3]
 goal:  Front-End Engineering
 date:  2019-06-15
+summary: smooth zoomness
 
 ---
 
