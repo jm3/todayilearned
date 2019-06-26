@@ -1,8 +1,18 @@
 {{ "<!-- partials/post-preview.html -->" | safeHTML }}
 <div class="post-preview">
-  <div class="meta">{{ dateFormat "Jan 2, 2006" .Date }}</div>
+  <div class="meta">
+  {{ if ne .Type "projects" }}
+    {{ dateFormat "Jan 2, 2006" .Date }}
+  {{ else }}
+  {{ "<!-- hmm? -->" | safeHTML }}
+  {{ end }}
+  </div>
   <a class="post-preview-title" href="{{ .RelPermalink }}">
+    {{ if eq .Type "projects" }}
+    <i data-feather="briefcase"></i>
+    {{else }}
     <i data-feather="bookmark"></i>
+    {{ end }}
     {{.Title}}</a> &mdash; <span class="description">
     {{ .Summary }}
   </span>
