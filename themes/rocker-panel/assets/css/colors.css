@@ -136,6 +136,14 @@ a.post-preview-title {
   color: var(--major-text);
 }
 
+.terms-tag {
+	background-color: hsl(120, 45%, 85%);
+}
+
+.tag-counter {
+  background-color: hsla(0, 100%, 100%, 0.8);
+}
+
 a.paginator {
   color: hsla(0, 0%, 0%, 0.7);
 }

@@ -2,19 +2,15 @@
 {{ "<!-- layouts/_default/terms PLURAL -->" | safeHTML }}
   <h1 class="page-title">All tags</h1>
 
-  {{ $biggest := 1 }}
-  {{ $smallest := 1 }}
-  {{ $max := 3 }}
-  {{ $min := 1 }}
-  {{ $size := $min }}
-
   {{ $data := .Data }}
   <div class="tag-cloud">
   {{ range $key, $value := .Data.Terms.ByCount }}
-    {{ $size := (add (mul (div $value.Count $biggest) (sub $max $min)) $min) }}
-    {{ $size := (cond (eq $biggest $smallest) $min $size) }}
-    <a class="terms-tag" style="font-size: {{ $size }}rem;"
-      href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/">{{ $value.Name }}</a>
+  <div class="terms-tag">
+    <span class="tag-counter">{{ $value.Count }}</span>
+    <a
+      href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/"
+    > &nbsp; &nbsp; {{ $value.Name }}</a>
+  </div>
   {{ end }}
   </div>
 
