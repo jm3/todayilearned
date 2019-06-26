@@ -108,3 +108,20 @@ i {
     display: inline-block;
   }
 }
+
+.terms-tag {
+	display: inline-block;
+	background-color: hsl(120, 45%, 85%);
+	padding: 0.2rem 1.3rem;
+	border-radius: 3rem;
+}
+
+.terms-tag:hover {
+  color: hsl(120, 32%, 33%);
+	background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
+}
+
+.terms-tag:active {
+  color: white;
+	background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
+}
