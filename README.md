@@ -1,10 +1,13 @@
 ## todayilearned blog
 
-![GitHub file size in bytes](https://img.shields.io/github/repo-size/jm3/todayilearned.svg)
+![GitHub file size in bytes][code-size]
 [![Dependencies][deps-img]][deps]
+![postcss-cli][vers-postcss-cli]
 
+[code-size]: https://img.shields.io/github/repo-size/jm3/todayilearned.svg
 [deps-img]: https://david-dm.org/jm3/todayilearned.svg
 [deps]: https://david-dm.org/jm3/todayilearned
+[vers-postcss-cli]: https://img.shields.io/github/package-json/dependency-version/jm3/todayilearned/postcss-cli.svg
 
 A summer of code project, rebooting my front-end web dev skills
 
