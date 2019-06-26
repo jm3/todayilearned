@@ -1,0 +1,89 @@
+<!--
+
+# Responsive Images, via: https://github.com/AdamWills/adamwills-hugo
+
+more: https://www.adamwills.io/blog/responsive-images-hugo/
+
+Allows browser to load a different image based on screen width and
+device pixel density. This allows for a smaller file size and better
+load performance when users are on a lower capacity device. Uses images
+generated in the gulp build script. Some browsers don't support
+<picture> and will load the fallback <img>; see browser support:
+
+http://caniuse.com/#feat=picture
+
+### Useage
+
+Leave off file extention in the src then pass it to a type parameter and wrap everything in double curly braces:
+
+  < img src="/img/example" type="jpg" alt="Example" >
+
+Optional: Use the 'caption' parameter to add an image caption:
+
+  < img src="/img/example" type="jpg" alt="Example" caption="This is a nice." >
+
+
+LITERAL IMAGE TAG - WORKS
+<img
+  class="lazy"
+  data-src="https://via.placeholder.com/100x100?text=100x100"
+  data-srcset="https://via.placeholder.com/800x800?text=800x800 800w, https://via.placeholder.com/400x400?text=400x400 400w"
+  data-sizes="400w 800w"
+  alt="A hard-coded lazy image"
+    >
+
+    NOTE: the final img tag fallback is REQUIRED!!
+
+Some q debugging test cases:
+
+LITERAL PICTURE/SOURCE TAGS with CORRECT ATTRS needing NO LAZY LOAD - WORKS
+<picture>
+  <source
+    srcset="https://via.placeholder.com/800x800?text=800x800 800w, https://via.placeholder.com/400x400?text=400x400 400w"
+    sizes="400w 800w" >
+    <img src="https://via.placeholder.com/100x100?text=100x100">
+</picture>
+
+<p/>
+
+LITERAL PICTURE/SOURCE TAGS with MISSING ATTRS to be replaced by lazyload - WORKS
+<picture>
+  <source
+    data-srcset="https://via.placeholder.com/800x800?text=800x800 800w, https://via.placeholder.com/400x400?text=400x400 400w"
+    data-sizes="400w 800w"
+      >
+  <img src="https://via.placeholder.com/100x100?text=100x100">
+</picture>
+
+<p/>
+
+classes=?
+-->
+
+<div class="picture">
+  {{ if .Get "caption"}}
+  <figure>
+  {{ end }}
+    <picture>
+      <!-- Large screens -->
+      <source
+        media="(min-width: 535px)"
+        data-srcset="{{ .Get "src" }}.{{ .Get "type" }} 1x,
+                     {{ .Get "src" }}@2x.{{ .Get "type" }} 2x">
+      <!-- Small screens -->
+      <source
+        media="(max-width: 534px)"
+        data-srcset="{{ .Get "src" }}-sm.{{ .Get "type" }} 1x,
+                     {{ .Get "src" }}-sm@2x.{{ .Get "type" }} 2x">
+      <!-- Fallback -->
+      <img
+        data-src="{{ .Get "src" }}.{{ .Get "type" }}"
+        data-srcset="{{ .Get "src" }}@2x.{{ .Get "type" }} 2x"
+        alt="{{ .Get "alt" }}"{{ if .Get "caption"}} class="lazy"{{ end }}
+        >
+    </picture>
+  {{ if .Get "caption"}}
+    <figcaption>{{ .Get "caption" }}</figcaption>
+  </figure>
+  {{ end }}
+</div>

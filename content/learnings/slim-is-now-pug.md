@@ -39,6 +39,8 @@ project name][octopussy]?
 
 ![Haml screenshot][haml-screenshot]
 
+{{< img src="/img/haml-screenshot" type="jpg" alt="" caption="Haml vs. a stock ERB Ruby template" >}}
+
 \* in modern HTML5 markup, this is rarely an issue, but it used to be.
 
 [haml]: http://haml.info/

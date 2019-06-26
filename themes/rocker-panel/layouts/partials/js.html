@@ -5,10 +5,13 @@
   // SVG icons from i's with data-attr's
   feather.replace();
 
-  // hugo shortcode to html5 image tags to actual images; currently, responsive images are ground manually
+  // hugo shortcode to html5 image tags to actual images;
+  // currently, the image size variations are exported PAINFULLY and manually
+  // maybe we'll use cloudinary or a competitor soon
   var lazyLoadInstance = new LazyLoad({
-    elements_selector: ".post"
+    // to narrow the search scope, add a class to images you want lazy-loaded
+    //  elements_selector: ".lazy"
   });
-  console.log( "🚀 yo from js.html partial included from baseof template" );
+  //console.log( "🚀 yo from js.html partial included from baseof template" );
 </script>
 
