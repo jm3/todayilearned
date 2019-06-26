@@ -16,6 +16,10 @@ main {
   }
 }
 
+.section-header {
+  margin-bottom: 1rem;
+}
+
 .section-nav {
   padding: 1rem 1rem 0.5rem 1rem;
 }
@@ -33,7 +37,8 @@ svg.feather {
 
 /* index */
 .recent-posts,
-ul.posts {
+ul.posts,
+.tags {
   margin: 0;
   padding: 1rem 1.5rem 0;
 }

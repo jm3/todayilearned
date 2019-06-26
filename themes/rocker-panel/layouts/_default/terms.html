@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{ "<!-- layouts/_default/terms PLURAL -->" | safeHTML }}
-  <h1 class="page-title">All tags</h1>
+<section class="tags">
+  <h2 class="section-header">All tags</h1>
 
   {{ $data := .Data }}
   <div class="tag-cloud">
@@ -13,5 +14,6 @@
   </div>
   {{ end }}
   </div>
+</section>
 
 {{ end }}
