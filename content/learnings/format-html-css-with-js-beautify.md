@@ -18,4 +18,7 @@ Or on the command-line:
 
     -A, --wrap-attributes
 
+Side note: there's also a jsbeautify (no dash), which is something
+different. Remember the dash, **js-beautify**.
+
  [npm]: https://www.npmjs.com/package/js-beautify
