@@ -10,7 +10,7 @@ goal:  Front-End Engineering
 Commenting in web pre-processors can be complicated because there's so
 many layers and steps of interpolation. Hugo is no exception.
 
-Hugo automaticalyl strips HTML comment tags. If you need to add an HTML
+Hugo automatically strips HTML comment tags. If you need to add an HTML
 comment to your Hugo templates that doesn't get stripped, you can use
 [this syntax][docs]:
 
