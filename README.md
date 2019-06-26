@@ -1,6 +1,6 @@
 ## todayilearned blog
 
-![GitHub file size in bytes](https://img.shields.io/github/size/jm3/todayilearned.svg)
+![GitHub file size in bytes](https://img.shields.io/github/repo-size/jm3/todayilearned.svg)
 [![Dependencies][deps-img]][deps]
 
 [deps-img]: https://david-dm.org/jm3/todayilearned.svg
