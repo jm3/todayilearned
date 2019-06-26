@@ -1,7 +1,7 @@
 ---
 title: Named colors in Stylelint
 summary: '"always where possible"'
-tags:  [ css3, command-line ]
+tags:  [ CSS3, Color, Command line ]
 date:  2019-06-23
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering

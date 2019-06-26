@@ -1,7 +1,7 @@
 ---
 title: The evolution of color names in CSS 
 summary: the first version of the CSS spec supported only 16 named colors
-tags:  [ css3, lore ]
+tags:  [ CSS3, Lore, Color ]
 date:  2019-06-24T14:10:51-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering

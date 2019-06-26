@@ -1,7 +1,8 @@
 ---
 title: Create + reference a native CSS variable
-tags:  [CSS3]
+tags:  [CSS3, Color]
 goal:  Front-End Engineering
+summary: CSS now has variables — it only took 20 years! 😲
 date:  2019-06-08
 
 ---
