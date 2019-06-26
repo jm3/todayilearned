@@ -8,7 +8,8 @@ summary: JS-Beautify doesn't just beautify JS
 ---
 
 This was news to me, but: [JS Beautify][npm] can beautify more than just
-JS. It can also wrap + align attributes, if you like:
+JS. It can [autoformat your CSS and HTML][docs], including one of my favorite
+pathologies: wrapping + aligning attributes:
 
 Possible values:
 
@@ -22,3 +23,4 @@ Side note: there's also a jsbeautify (no dash), which is something
 different. Remember the dash, **js-beautify**.
 
  [npm]: https://www.npmjs.com/package/js-beautify
+[docs]: https://www.npmjs.com/package/js-beautify#css--html
