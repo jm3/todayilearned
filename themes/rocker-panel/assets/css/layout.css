@@ -18,10 +18,10 @@ main {
 
 .section-nav {
   padding: 1rem 1rem 0.5rem 1rem;
+}
 
-  svg.feather {
-    vertical-align: top;
-  }
+svg.feather {
+  vertical-align: top;
 }
 
 .flat {

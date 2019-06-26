@@ -72,7 +72,7 @@ footer a:hover {
 
 header a:active,
 footer a:active {
-  color: var(--text-color);
+  color: white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -122,11 +122,10 @@ footer {
 
 .section-nav {
   background-color: hsl(180, 20%, 20%);
+}
 
-  svg.feather {
-    color: var(--accent-color);
-  }
-
+svg.feather {
+  color: var(--accent-color);
 }
 
 a.post-preview-title {
