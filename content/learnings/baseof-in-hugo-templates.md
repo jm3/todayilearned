@@ -11,9 +11,7 @@ goal:  Front-End Engineering
 Hugo allows you to define a single, confusingly named master ["baseof" 
 template][docs] which site templates can override or populate portions of, a
 feature Hugo calls blocks. This is incredibly useful, and should be
-required in every modern web templating framework. Annoyingly, Hugo's
-implementation is very cryptic, and avoids even defining clearly some of
-the terminology, but it does work fine.
+required in every modern web templating framework.
 
 Today, I rewrite my simple hugo theme used on this site to use baseof,
 in order to embed the most recent Git SHA of the content in a meta tag.
