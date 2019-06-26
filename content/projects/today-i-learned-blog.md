@@ -1,14 +1,13 @@
 ---
-title: "This blog (todayilearned)"
-description: "Daily updates on the journey to fast-forward merge my front-end skills to 2019"
-tags: ["CSS3", "hugo"]
+title: Todayilearned (TIL) - this blog
+description: A personal status log of front-end web development learnings - a catalog of tips, tricks, and learnings, as well as a development sandbox for exploration
+summary: A personal status log of front-end web development learnings - a catalog of tips, tricks, and learnings, as well as a development sandbox for exploration
+tags: [CSS3, Hugo]
 date: 2019-06-01
-draft: false
 
 ---
 
-A show-as-you-go log of daily front-end web development learnings as I
-level up my skills. I chose [Hugo](https://gohugo.io/) for the static
+I chose [Hugo](https://gohugo.io/) for the static
 site generator after considering [Jekyll](https://jekyllrb.com/) and
 [Gatsby](https://www.gatsbyjs.org/) because Jekyll seems slow, outdated,
 and less deeply considered than Hugo. Gatsby might be reasonable if you

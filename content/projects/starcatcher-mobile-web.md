@@ -1,8 +1,9 @@
 ---
 title: "Starcatcher for Mobile"
 description: "Harvesting the bright stars (of Twitter) before they burn out forever"
-# repo: "#" # delete this line if you want blog-like posts for projects
+summary: Mobile-first design, media/mobile breakpoints, and Vue.js reactivity
 tags: [CSS3, HTML5, Vue.js]
-weight: 4
-draft: false
+
+# weight: 4
+
 ---
