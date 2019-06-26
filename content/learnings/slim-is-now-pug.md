@@ -37,6 +37,8 @@ of nothing, open source name conflicts can be funny and dramatic — who
 can forget the [Kik/NPM/"left-pad"][npm] fiasco, or Octokit's [previous
 project name][octopussy]?
 
+![Haml screenshot][haml-screenshot]
+
 {{< img src="/img/haml-screenshot" type="jpg" alt="" caption="Haml vs. a stock ERB Ruby template" >}}
 
 \* in modern HTML5 markup, this is rarely an issue, but it used to be.
