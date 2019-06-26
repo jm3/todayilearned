@@ -10,7 +10,7 @@
     <span class="tag-counter">{{ $value.Count }}</span>
     <a
       href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/"
-    > &nbsp; &nbsp; {{ $value.Name }}</a>
+    >{{ $value.Name }}</a>
   </div>
   {{ end }}
   </div>
