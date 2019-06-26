@@ -1,4 +1,4 @@
-{{ define "git_sha_short" }}{{ .GitInfo.AbbreviatedHash }}{{ end }}
+{{ define "git_sha_short" }}{{ if .GitInfo }}{{ .GitInfo.AbbreviatedHash }}{{ end }}{{ end }}
 
 {{ define "main" }}
 {{ "<!--layouts/_default/single.html -->" | safeHTML }}
