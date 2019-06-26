@@ -19,7 +19,7 @@ A summer of code project, rebooting my front-end web dev skills
 ### Uses:
 
 - [AWS Amplify](https://aws.amazon.com/amplify/) for continuous integration / deployment / hosting / CDN / SSL
-- Hugo for static site generation: `hugo serve` (new tab) `open http://localhost:1313/`
+- [Hugo](https://gohugo.io/) generating the site files: `hugo serve` (new tab) `open http://localhost:1313/`
 - a custom, bespoke, Boostrap-less Hugo theme
 - [Stylelint](https://stylelint.io/) for enforcing [stylesheet discipline](https://getyarn.io/yarn-clip/7e8ae3a9-17c6-4ed5-83aa-71110490590f)
-- PostCSS for CSS processing
+- [PostCSS](https://github.com/postcss/postcss) for CSS processing
