@@ -14,13 +14,8 @@
       {{ block "main" . }} This layout template forgot to define a "main" block {{ end }}
       {{ partial "footer.html" . }}
     </main>
+    {{ partial "js.html" . }}
     {{ template "_internal/google_analytics_async.html" . }}
-    {{- with .Site.Params.Social -}}
-    <script>
-      feather.replace()
-
-    </script>
-    {{ end }}
   </body>
 
 </html>
