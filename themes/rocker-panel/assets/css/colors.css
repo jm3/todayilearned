@@ -75,6 +75,11 @@ footer a:active {
   color: white;
 }
 
+.tags a:hover,
+.tags a:active {
+  color: darkslategray;
+}
+
 h1, h2, h3, h4, h5, h6 {
   color: var(--text-color);
 }
@@ -138,8 +143,19 @@ a.post-preview-title {
 	background-color: hsl(120, 45%, 85%);
 }
 
+.terms-tag:hover {
+  color: hsl(120, 32%, 33%);
+	background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
+}
+
+.terms-tag:active {
+  color: white;
+	background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
+}
+
 .tag-counter {
   background-color: hsla(0, 100%, 100%, 0.8);
+  box-shadow: inset 3px 3px 3px -4px #aaa;
 }
 
 a.paginator {

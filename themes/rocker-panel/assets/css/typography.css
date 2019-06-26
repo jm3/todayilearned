@@ -130,12 +130,3 @@ i {
   top: 3px;
 }
 
-.terms-tag:hover {
-  color: hsl(120, 32%, 33%);
-	background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
-}
-
-.terms-tag:active {
-  color: white;
-	background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
-}
