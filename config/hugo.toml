@@ -10,6 +10,7 @@ theme = "rocker-panel"
 enableGitInfo = true
 
 [params]
+devTitle = "transgressive"
 excludedTypes    = ["page"] # Content types excluded from recent posts + archives page
 featherIconsCDN  = true
 font             = "Rubik" # should match the name of a Google Font

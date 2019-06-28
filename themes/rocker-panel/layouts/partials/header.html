@@ -1,6 +1,12 @@
+{{- $scratch:= newScratch -}}
+{{- if ne hugo.Environment "dev" -}}
+{{- $scratch.Set "title" .Site.Title -}}
+{{- else -}}
+{{- $scratch.Set "title" .Site.Params.DevTitle -}}
+{{- end -}}
 <header>
   <section class="section-masthead">
-  <h1 class="site-title"><a href="/">{{ .Site.Title }}</a></h1>
+  <h1 class="site-title"><a href="/">{{ $scratch.Get "title" }}</a></h1>
   <h2 class="headline-creator">by @jm3 &middot; aka <span>John Manoogian<sup>3</sup></span></h2>
   <div class="site-description">
     {{- if isset .Site.Params "headline" -}}
