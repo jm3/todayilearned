@@ -93,8 +93,9 @@ svg:not(:root) {
   overflow: hidden
 }
 
-figure {
-  margin: 1em 40px
+figure { /* jm3 override */
+  margin: 0;
+  padding: 0;
 }
 
 hr {
@@ -179,4 +180,9 @@ table {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+/* jm3 customization */
+* {
+  box-sizing: border-box;
 }
