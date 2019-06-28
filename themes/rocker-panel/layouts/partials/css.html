@@ -1,19 +1,16 @@
-<style>
-  html body {
-    font-family: '{{ .Site.Params.font }}', sans-serif;
-  }
-</style>
-
 {{ range .Site.Params.css }}
 <link rel="stylesheet" href="{{ . | absURL }}">
-{{ end }}
+{{- end -}}
 
-<!-- google fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}">
-
-{{ $css := resources.Get "css/all.css" }}
+{{- $css := resources.Get "css/all.css" -}}
 <!-- note the config options dict with the EXTREMELY REQUIRED config file path -->
-{{ $stylesheet_url := $css | resources.PostCSS (dict "config" "config/postcss.config.js") | minify | fingerprint }}
+{{- $stylesheet_url := $css | resources.PostCSS (dict "config" "config/postcss.config.js") | minify | fingerprint -}}
 
 <link rel="stylesheet" href="{{ $stylesheet_url.Permalink }}"
   integrity="{{ $stylesheet_url.Data.Integrity }}" media="screen">
+
+<style>
+  html body { font-family: '{{ .Site.Params.font }}', sans-serif; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family={{ .Site.Params.font }}">
+

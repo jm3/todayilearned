@@ -1,6 +1,7 @@
 {{ define "git_sha_short" }}{{ if .GitInfo }}{{ .GitInfo.AbbreviatedHash }}{{ end }}{{ end }}
 
 {{ define "main" }}
+
 {{ "<!-- layouts/index.html -->" | safeHTML }}
 
 <div class="recent-posts section">
