@@ -1,63 +1,22 @@
 <!--
+  # Responsive Image shortcode
 
-# Responsive Images, via: https://github.com/AdamWills/adamwills-hugo
+  more: https://www.adamwills.io/blog/responsive-images-hugo/
 
-more: https://www.adamwills.io/blog/responsive-images-hugo/
+  Allows browser to load a different image based on screen width and
+  device pixel density. This allows for a smaller file size and better
+  load performance when users are on a lower capacity device. Uses images
+  generated in the gulp build script. Some browsers don't support
+  <picture> and will load the fallback <img>; see browser support:
 
-Allows browser to load a different image based on screen width and
-device pixel density. This allows for a smaller file size and better
-load performance when users are on a lower capacity device. Uses images
-generated in the gulp build script. Some browsers don't support
-<picture> and will load the fallback <img>; see browser support:
+  http://caniuse.com/#feat=picture
 
-http://caniuse.com/#feat=picture
+  ### Useage
 
-### Useage
-
-Leave off file extention in the src then pass it to a type parameter and wrap everything in double curly braces:
+  Omit file extention in src url, pass it as the type parameter, and wrap
+  the tag in double squirrelies, as per Hugo shortcode standard practice:
 
   < img src="/img/example" type="jpg" alt="Example" >
-
-Optional: Use the 'caption' parameter to add an image caption:
-
-  < img src="/img/example" type="jpg" alt="Example" caption="This is a nice." >
-
-
-LITERAL IMAGE TAG - WORKS
-<img
-  class="lazy"
-  data-src="https://via.placeholder.com/100x100?text=100x100"
-  data-srcset="https://via.placeholder.com/800x800?text=800x800 800w, https://via.placeholder.com/400x400?text=400x400 400w"
-  data-sizes="400w 800w"
-  alt="A hard-coded lazy image"
-    >
-
-    NOTE: the final img tag fallback is REQUIRED!!
-
-Some q debugging test cases:
-
-LITERAL PICTURE/SOURCE TAGS with CORRECT ATTRS needing NO LAZY LOAD - WORKS
-<picture>
-  <source
-    srcset="https://via.placeholder.com/800x800?text=800x800 800w, https://via.placeholder.com/400x400?text=400x400 400w"
-    sizes="400w 800w" >
-    <img src="https://via.placeholder.com/100x100?text=100x100">
-</picture>
-
-<p/>
-
-LITERAL PICTURE/SOURCE TAGS with MISSING ATTRS to be replaced by lazyload - WORKS
-<picture>
-  <source
-    data-srcset="https://via.placeholder.com/800x800?text=800x800 800w, https://via.placeholder.com/400x400?text=400x400 400w"
-    data-sizes="400w 800w"
-      >
-  <img src="https://via.placeholder.com/100x100?text=100x100">
-</picture>
-
-<p/>
-
-classes=?
 -->
 
 <div class="picture">
