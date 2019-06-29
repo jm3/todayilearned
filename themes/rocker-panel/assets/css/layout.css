@@ -64,9 +64,10 @@ a.paginator {
 
 .post {
   margin: 0 1.5rem;
+  max-width: 800px;
 
   img {
-    max-width: 800px; /* FIXME - get a real responsive solution here */
+    width: 100%;
   }
 }
 
