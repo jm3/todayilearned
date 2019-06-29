@@ -18,7 +18,7 @@ Responsive images in HTML + Hugo, with
 Oh my lord that was complicated. A single image now involves like four
 difference levels of the front-end layer cake.
 
-`#notthebestprocess #dothingsthatdontscale #noCDNyet #shouldwebeusingcloudinary?`
+<!-- #notthebestprocess #dothingsthatdontscale #noCDNyet #shouldwebeusingcloudinary? -->
 
 {{< img src="/img/mies-plano-winter" type="jpg"
   caption="Mies van der Rohe Farnsworth House Plano, IL" >}}
