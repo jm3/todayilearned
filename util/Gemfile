@@ -11,5 +11,6 @@ group :development, :test do
   gem 'rb-readline' # pry needs this
   gem 'pry'
   gem 'json'
+  gem  'ruby-vips'
 end
 

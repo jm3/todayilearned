@@ -20,6 +20,7 @@
     "setup": "ln -s themes/rocker-panel/assets/css css; ln -s content/learnings learnings; ln -s themes/rocker-panel/layouts layouts-theme",
     "build": "hugo --config config/hugo.toml",
     "postcss": "npx postcss --config config/postcss.config.js css/all.css",
+    "resize-images": "npx gulp --gulpfile config/gulpfile.js resize_images",
     "start": "hugo --config config/hugo.toml --environment dev serve"
   }
 }
