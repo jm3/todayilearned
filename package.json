@@ -8,7 +8,7 @@
     "gulp": "^4.0.2",
     "gulp-load-plugins": "^1.6.0",
     "gulp-rename": "^1.4.0",
-    "gulp-responsive": "^2.14.0",
+    "gulp-responsive": "git+https://github.com/jm3/gulp-responsive.git",
     "gulp-rm": "^2.0.0",
     "postcss-cli": "^6.1.2",
     "postcss-color-gray": "^5.0.0",
