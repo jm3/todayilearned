@@ -8,17 +8,19 @@ goal:  Front-End Engineering
 
 ---
 
-Responsive images in HTML + Hugo, with
+Exploring responsive images, by connecting:
 
-1. Hugo shortcode templates and
-2. a Javascript lazy-loader and
-3. the HTML picture + sourceset + img tags and
-4. manually exported images from Photoshop
+1. a Hugo shortcode template that emits 
+  * HTML `<picture>` and `<source>` element tags 
+  * with the new `@srcset` + `@media` + `@sizes` attributes
+1. a fallback `<img>` element for old browsers
+1. some lightly modified CSS
+1. with new image variations batch-processed with `gulp-responsive`
+1. a Javascript lazy-loader to only load the currently in-window (viewport) images #overkillforthisblog
 
-Oh my lord that was complicated. A single image now involves like four
-difference levels of the front-end layer cake.
-
-<!-- #notthebestprocess #dothingsthatdontscale #noCDNyet #shouldwebeusingcloudinary? -->
+A single image on a page, displayed with an awareness of browser width,
+screen density, and scroll position now involves five different levels
+of the front-end layer cake.
 
 {{< img src="/img/mies-plano-winter" type="jpg"
   caption="Mies van der Rohe Farnsworth House Plano, IL" >}}
