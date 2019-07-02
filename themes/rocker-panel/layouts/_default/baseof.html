@@ -9,6 +9,15 @@
   </head>
 
   <body>
+
+    {{- if eq hugo.Environment "dev" -}}
+    <!-- dev only, lol -->
+    <audio controls autoplay src="/vox/shotgun-fx.m4a">
+      <source src="/vox/shotgun-fx.m4a" type="audio/mp4" />
+      Your browser does not support the <code>audio</code> element.
+    </audio>
+    {{- end -}}
+
     <main>
       {{ partial "header.html"  . }}
       {{ block "main" . }} This layout template forgot to define a "main" block {{ end }}
