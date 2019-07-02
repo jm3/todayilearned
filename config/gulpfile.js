@@ -6,11 +6,12 @@ const rm = require('gulp-rm');
 // const imagemin = require('gulp-imagemin');
 // const mozjpeg = require('imagemin-mozjpeg');
 
+const art_src = '../art-src';
 const art_dest = '../static/art';
 
 // UGH: lots of duplication below because * won't work because format needs to be specified because g-r's extname rename doesn't work (forces jpeg)
 function resize_images(cb) {
-  return src('../img-src/**.*')
+  return src(art_src + '/**.*')
     .pipe(responsive({
 
       "*": [
