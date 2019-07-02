@@ -6,6 +6,7 @@ const rm = require('gulp-rm');
 // const imagemin = require('gulp-imagemin');
 // const mozjpeg = require('imagemin-mozjpeg');
 
+const art_dest = '../static/art';
 
 // UGH: lots of duplication below because * won't work because format needs to be specified because g-r's extname rename doesn't work (forces jpeg)
 function resize_images(cb) {
@@ -31,21 +32,21 @@ function resize_images(cb) {
       passThroughUnused: true,
       errorOnUnusedImage: false
     }))
-    .pipe(dest('../public/img'));
+    .pipe(dest(art_dest));
   cb();
 }
 
 function rename_jpegs(cb) {
-  return src('../public/img/*.jpeg', {})
+  return src(art_dest + '/*.jpeg', {})
   .pipe(rename({
     extname: '.jpg'
   }))
-  .pipe(dest("../public/img"));
+  .pipe(dest(art_dest));
   cb();
 }
 
 function delete_jpegs(cb) {
-  return src('../public/img/*.jpeg', { read: false })
+  return src(art_dest + '/*.jpeg', { read: false })
   .pipe( rm())
   cb();
 }

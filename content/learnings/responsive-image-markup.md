@@ -22,6 +22,6 @@ A single image on a page, displayed with an awareness of browser width,
 screen density, and scroll position now involves five different levels
 of the front-end layer cake.
 
-{{< img src="/img/mies-plano-winter" type="jpg"
+{{< img src="/art/mies-plano-winter" type="jpg"
   caption="Mies van der Rohe Farnsworth House Plano, IL" >}}
 
