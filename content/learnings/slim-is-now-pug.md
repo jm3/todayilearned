@@ -8,6 +8,9 @@ goal:  Front-End Engineering
 
 ---
 
+{{< img src="/art/haml-screenshot" type="png" 
+	caption="Haml vs. a stock ERB Ruby template" >}}
+
 HTML (and XML and XHTML) is an ugly grammar for marking up documents,
 and for better or worse, it's the lingua franca of the web. The only
 argument for a more primary language "of the web" would be JSON, which
@@ -37,14 +40,9 @@ of nothing, open source name conflicts can be funny and dramatic — who
 can forget the [Kik/NPM/"left-pad"][npm] fiasco, or Octokit's [previous
 project name][octopussy]?
 
-![Haml screenshot][haml-screenshot]
-
-{{< img src="/img/haml-screenshot" type="jpg" alt="" caption="Haml vs. a stock ERB Ruby template" >}}
-
 \* in modern HTML5 markup, this is rarely an issue, but it used to be.
 
 [haml]: http://haml.info/
-[haml-screenshot]: /img/haml-screenshot.png
 [npm]: https://medium.com/@kolorahl/kik-left-pad-and-npm-oh-my-e6f216a22766
 [octopussy]: https://github.com/octokit/octokit.rb/issues/8
 [pug]: https://github.com/pugjs/pug#rename-from-jade
