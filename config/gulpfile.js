@@ -19,16 +19,20 @@ function resize_images(cb) {
 
       "*": [
          {
-            width: 400,
-            rename: {suffix: "-sm"},
+            width: 600,
+            rename: {suffix: "-600"},
          }, {
-            width: 400 * 2,
-            rename: {suffix: "-sm@2x"},
+            width: 800,
+            rename: {suffix: "-800"},
          }, {
             width: 1000,
+            rename: {suffix: "-1000"},
+         }, {
+            width: 1200,
+            rename: {suffix: "-1200"},
          }, {
             width: 1600,
-            rename: {suffix: "@2x"},
+            rename: {suffix: "-1600"},
          },
       ],
 
