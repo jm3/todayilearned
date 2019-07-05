@@ -7,6 +7,10 @@ images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
 
 ---
+{{< img src="/art/test/mies" type="jpg"
+  caption="Sample responsive image" >}}
+
+## TL;DR - resize this page (or rotate your phone screen) to see different images load magically.
 
 Doing responsive images right is complicated, largely given the number
 of different scenarios to consider:

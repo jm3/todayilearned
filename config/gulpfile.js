@@ -25,9 +25,9 @@ function resize_images(cb) {
             width: 400 * 2,
             rename: {suffix: "-sm@2x"},
          }, {
-            width: 800,
+            width: 1000,
          }, {
-            width: 800 * 2,
+            width: 1600,
             rename: {suffix: "@2x"},
          },
       ],
