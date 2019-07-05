@@ -10,13 +10,13 @@ date:  2019-06-16
 The Firefox [Grid Inspector][docs] (Highlighter) does not disappoint for
 quickly debugging grids visually.
 
-In dark mode, the Firefox grid UI is SO VAPORWAVE
+In dark mode, the Firefox grid UI is **SO VAPORWAVE**.
 
-[![Kid Mograph Vaporwave][vpr]][div]
+{{< img src="/art/mr-div-neon-landscape-vaporwave" type="jpg"
+  caption="Neon Vaporwave Landscape / by Mr. Div" >}}
 
-![firefox grid Inspector][ffx]
+{{< img src="/art/vaporwave-firefox" type="jpg"
+  caption="Firefox Grid Inspector" >}}
 
-[ffx]: /img/vaporwave-firefox.jpg
-[vpr]: /img/vaporwave.jpg
 [div]: https://mrdiv.tumblr.com/
 [docs]: https://developer.mozilla.org/en-US/docs/Tools/Page_Inspector/How_to/Examine_grid_layouts
