@@ -110,9 +110,9 @@ i {
 }
 
 .terms-tag {
-	display: inline-block;
+  display: inline-block;
   padding: 2px 15px 2px 32px;
-	border-radius: 3rem;
+  border-radius: 3rem;
   margin-bottom: 5px;
   position: relative;
 }
@@ -130,3 +130,9 @@ i {
   top: 3px;
 }
 
+/* IMAGES */
+figcaption {
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+}

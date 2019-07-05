@@ -140,17 +140,17 @@ a.post-preview-title {
 }
 
 .terms-tag {
-	background-color: hsl(120, 45%, 85%);
+  background-color: hsl(120, 45%, 85%);
 }
 
 .terms-tag:hover {
   color: hsl(120, 32%, 33%);
-	background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
+  background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
 }
 
 .terms-tag:active {
   color: white;
-	background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
+  background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
 }
 
 .tag-counter {
@@ -160,4 +160,10 @@ a.post-preview-title {
 
 a.paginator {
   color: hsla(0, 0%, 0%, 0.7);
+}
+
+/* IMAGES */
+figcaption {
+  background-color: hsl(240, 38%, 94%);
+  color: hsl(252, 35%, 60%);
 }
