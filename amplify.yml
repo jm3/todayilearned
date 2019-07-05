@@ -10,6 +10,7 @@ frontend:
         - hugo version
         - npm install
         - npx postcss --version
+        - npm run resize-images
         - npx hugo --config config/hugo.toml
   artifacts:
     baseDirectory: public

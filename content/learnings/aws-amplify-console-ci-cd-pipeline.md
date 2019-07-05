@@ -44,8 +44,8 @@ Chrome in a number of different mobile-device-screen-sized browser
 configurations to give you a quick visual preview of how your deployed
 app looks at different screen sizes.
 
-![mobile screenshot][ms]
+{{< img src="/art/aws-amplify-console-mobile-preview" type="png"
+  caption="AWS Amplify - screenshot of builds" >}}
 
 [a]:  https://aws.amazon.com/amplify/
 [js]: https://aws-amplify.github.io/
-[ms]: /img/aws-amplify-console-mobile-preview.png 

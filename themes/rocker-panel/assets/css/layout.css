@@ -29,10 +29,10 @@ svg.feather {
 }
 
 .flat {
-	display: flex;
-	list-style-type: none;
-	padding-left: 0;
-	justify-content: space-between;
+  display: flex;
+  list-style-type: none;
+  padding-left: 0;
+  justify-content: space-between;
 }
 
 /* index */
@@ -87,4 +87,10 @@ footer  {
 
 .nav.social {
   margin: 50px 0 30px 0;
+}
+
+/* IMAGES */
+figcaption {
+  border-radius: 3px;
+  margin-bottom: 1em;
 }

@@ -13,6 +13,8 @@ A summer of code project wherein I reboot my front-end web dev skills.
 
 ```bash
 brew install hugo
+# note that libvips (which is required by sharp [which is required by gulp-responsive for saving images]) requires node 10 (TEN)
+brew install node@10
 npm install
 npm run setup
 npm start
