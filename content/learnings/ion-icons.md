@@ -11,7 +11,7 @@ images: [/img/ion-icons.png]
 Today I discovered the ["ION" icons set][ion], a free utility vector
 icon set in SVG + web font formats.
 
-![img][img]
+{{< img src="/art/ion-icons-sample" type="png"
+  caption="Sample of the ION Icons set" >}}
 
 [ion]: https://ionicons.com/
-[img]: /img/ion-icons.png
