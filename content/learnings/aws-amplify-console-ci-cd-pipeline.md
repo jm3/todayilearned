@@ -4,6 +4,7 @@ tags:  [command line, tools]
 goal:  Front-End Engineering
 date:  2019-06-08
 summary: glue to unify the AWS service zoo for front-end devs
+code: true
 
 ---
 
@@ -17,18 +18,21 @@ configuration steps.
 I had to do one mild customization of the build script to use the latest
 version of Hugo, which looks like this:
 
-{{< highlight yaml "hl_lines=6-10" >}}
+{{< highlight yaml "hl_lines=6-9" >}}
 version: 0.1
 frontend:
   phases:
     build:
       commands:
-        - wget https://github.com/gohugoio/hugo/releases/download/v0.55.6/hugo_0.55.6_Linux-64bit.tar.gz
+        - wget https://github.com/...hugo/releases/hugo-v0.55.6.tar.gz
         - tar -xf hugo_0.55.6_Linux-64bit.tar.gz
         - mv hugo /usr/bin/hugo
         - rm -rf hugo_0.55.6_Linux-64bit.tar.gz
         - hugo version
-        - hugo
+        - npm install
+        - npx postcss --version
+        - npm run resize-images
+        - npx hugo --config config/hugo.toml
   artifacts:
     baseDirectory: public
     files:
