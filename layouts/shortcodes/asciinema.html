@@ -1,0 +1,21 @@
+{{/* DEFAULTS */}}
+{{ $cols  := 120 }}
+{{ $rows  :=  46 }}
+{{ $theme := "monokai" }}
+
+<figure>
+  <asciinema-player
+    src="/mov/{{ .Get "cast" }}.cast"
+    cols="{{ or (.Get "cols") $cols }}"
+    rows="{{ or (.Get "rows") $rows }}"
+    {{ if .Get "poster"}}poster="npt:{{ .Get "poster" | safeURL }}"{{ end }}
+    {{ if .Get "idle-time-limit" }}idle-time-limit="{{ .Get "idle-time-limit" }}"{{ end }}
+    theme="{{ or (.Get "theme") $theme }}"
+  >
+  </asciinema-player>
+
+  {{ if .Get "caption"}}
+    <figcaption>{{ .Get "caption" }}</figcaption>
+  {{ end }}
+
+</figure>

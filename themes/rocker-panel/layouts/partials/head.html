@@ -23,5 +23,8 @@
 {{ partial "css" . }}
 
 {{ partial "favicons" . }}
+{{ if .Params.asciinema }}
+<link rel="stylesheet" href="/lib/asciinema/asciinema-player.css" />
+{{ end -}}
 
 <!-- <script src="/js/main.js"></script> -->
