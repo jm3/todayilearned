@@ -4,7 +4,7 @@ summary: one-dimensional (linear) layouts
 tags:  [code, CSS3]
 date:  2019-06-01
 goal:  Front-End Engineering
-category: code
+categories: code
 
 ---
 

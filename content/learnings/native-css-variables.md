@@ -4,7 +4,7 @@ tags:  [code, CSS3, Color]
 goal:  Front-End Engineering
 summary: CSS now has variables — it only took 20 years! 😲
 date:  2019-06-08
-category: code
+categories: code
 
 ---
 

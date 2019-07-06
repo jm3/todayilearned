@@ -4,7 +4,7 @@ tags:  [code, CSS3, Grid]
 goal:  Front-End Engineering
 date:  2019-06-14
 summary: Because who has time to type all this stuff out?
-category: code
+categories: code
 
 ---
 

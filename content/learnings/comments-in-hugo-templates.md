@@ -4,7 +4,7 @@ summary: without being stripped out by the processor
 tags:  [ code, Hugo, Debugging]
 date:  2019-06-19
 goal:  Front-End Engineering
-category: code
+categories: code
 
 ---
 

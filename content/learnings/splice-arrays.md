@@ -4,7 +4,7 @@ tags:  [code, Javascript]
 goal:  Front-End Engineering
 date:  2019-06-01
 summary: The swiss-army knife of arrays
-category: code
+categories: code
 
 ---
 
