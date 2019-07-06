@@ -4,6 +4,7 @@ summary: select the first of a group of similar elements
 tags:  [CSS3]
 goal:  Front-End Engineering
 date:  2019-06-18
+code: true
 
 ---
 
@@ -14,11 +15,12 @@ A selector like `header .fizzgig > ul li:first-of-type` would select
 **all** first `<li>`s inside a `<header>` that are direct descendents of
   an element with class `fizzgig`.
 
-``` css
+{{< highlight css >}}
+
 path:first-of-type {
   fill: black;
 }
-```
+{{< / highlight >}}
 
 Click "Result" to see how :first-of-type selects ALL first of type, not "THE" first of type.
 

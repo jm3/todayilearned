@@ -5,26 +5,32 @@ tags:  [Javascript]
 goal:  Front-End Engineering
 date:  2019-06-20
 needs-work: fix syntax highlighting for JS
+code: true
 
 ---
 
-Returns a new array, filtered:
+Filter a list and return a new array of items matching conditional test, a la Ruby, lisp/funcprog, etc.
 
-```javascript
-let newAr = oldAr.filter(callbackFn);
+{{< highlight javascript >}}
 
-Callback function cbFn accepts:
+/*
+ * let result = array.filter(callback_fn);
+ *
+ * callback_fn accepts:
+ *   el:   current array element
+ *   idx:  index of current element
+ *   list: original array
+ */
 
-El : current element of the array
-Idx : index of value being processed
-Arr:  the original array
+let list = [2, 3.14159, 4, 6, 7, 8, 11, 98, 31, 23, 69, 420, 666, 944];
 
-todos.filter(t => !t.isDone) // filter list, returning items matching conditional
-
-function isEven(value) {
+function is_even(value) {
   return value % 2 == 0;
 }
 
-const a = [11, 98, 31, 23, 944];
-const f = a.filter(isEven);
-```
+let evens = list.filter(is_even);
+// Array(8) [ 2, 4, 6, 8, 98, 420, 666, 944 ]
+
+let odds  = list.filter(x => x % 2 == 1);
+// Array(5) [ 7, 11, 31, 23, 69 ]
+{{< / highlight >}}
