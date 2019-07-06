@@ -11,6 +11,8 @@ asciinema: true <!-- required to load JS player with CSS -->
 
 Embeddable, extremely efficient low-bandwidth ASCII terminal animation videos!
 
+{{< asciinema cast="merge-asciicasts" cols="120" rows="22" caption="merge it!" >}}
+
 {{< asciinema cast="git-pull" cols="120" rows="70" caption="nothing so refreshing as a git pull after five days" >}}
 
 {{< asciinema cast="rainbow-git-pull" cols="120" rows="44" caption="psychedelic lol" >}}
