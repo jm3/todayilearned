@@ -8,6 +8,8 @@
     src="/mov/{{ .Get "cast" }}.cast"
     cols="{{ or (.Get "cols") $cols }}"
     rows="{{ or (.Get "rows") $rows }}"
+    {{ if .Get "poster"}}poster="npt:{{ .Get "poster" | safeURL }}"{{ end }}
+    {{ if .Get "idle-time-limit" }}idle-time-limit="{{ .Get "idle-time-limit" }}"{{ end }}
     theme="{{ or (.Get "theme") $theme }}"
   >
   </asciinema-player>
