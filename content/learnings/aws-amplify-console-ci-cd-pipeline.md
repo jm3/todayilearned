@@ -15,8 +15,10 @@ deploy your app to an s3 bucket, and set up the Cloudfront CDN and SSL
 certificates for you, automatically, saving several annoying AWS
 configuration steps.
 
-I had to do one mild customization of the build script to use the latest
-version of Hugo, which looks like this:
+I had to do some mild customization of the build script to use the
+latest version of Hugo and then generate responsive versions of all my
+image art files at 5 different sizes; those modifications look like
+this:
 
 {{< highlight yaml "hl_lines=6-9" >}}
 version: 0.1
@@ -24,10 +26,10 @@ frontend:
   phases:
     build:
       commands:
-        - wget https://github.com/...hugo/releases/hugo-v0.55.6.tar.gz
-        - tar -xf hugo_0.55.6_Linux-64bit.tar.gz
+        - wget "https://github.com/...hugo/releases/hugo-v0.55.6.tar.gz"
+        - tar -xf "hugo_0.55.6_Linux-64bit.tar.gz"
         - mv hugo /usr/bin/hugo
-        - rm -rf hugo_0.55.6_Linux-64bit.tar.gz
+        - rm -rf "hugo_0.55.6_Linux-64bit.tar.gz"
         - hugo version
         - npm install
         - npx postcss --version
