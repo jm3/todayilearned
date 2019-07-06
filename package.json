@@ -10,6 +10,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-responsive": "git+https://github.com/jm3/gulp-responsive.git",
     "gulp-rm": "^2.0.0",
+    "lighthouse": "^5.1.0",
     "postcss-cli": "^6.1.2",
     "postcss-color-gray": "^5.0.0",
     "postcss-css-variables": "^0.13.0",
