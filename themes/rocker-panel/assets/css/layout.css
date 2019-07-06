@@ -2,6 +2,13 @@ main {
 
 }
 
+/* CODE */
+
+pre {
+  padding: 1em;
+  border-radius: 8px;
+}
+
 .section-masthead {
   padding: 2rem 2rem 1rem 2rem;
 

@@ -102,7 +102,7 @@ footer {
 @media (max-width: 480px) {}
 /* jm3: ************************ to be merged */
 .highlight pre code {
-  background-color: var(--code-bg-color);
+  /*background-color: var(--code-bg-color); */
 }
 
 .section-masthead {
