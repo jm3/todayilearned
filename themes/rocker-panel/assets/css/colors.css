@@ -127,6 +127,11 @@ footer {
   background-color: hsl(180, 20%, 20%);
 }
 
+nav a:active {
+  color: white;
+  background-color: hsla(0, 0%, 0%, 0.2);
+}
+
 svg.feather {
   color: var(--accent-color);
 }

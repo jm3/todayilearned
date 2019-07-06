@@ -31,6 +31,12 @@ pre {
   padding: 1rem 1rem 0.5rem 1rem;
 }
 
+nav a, nav a:active, nav a:hover, nav a:visited {
+	border-radius: 7px;
+	display: inline-block;
+	padding: 0px 9px;
+}
+
 svg.feather {
   vertical-align: top;
 }
