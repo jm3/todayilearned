@@ -6,8 +6,6 @@
 [1.308794, "o", "\u001b[13Dgit l | head -38 | lolcat"]
 [1.869093, "o", "\u001b[?2004l\r\r\n"]
 [1.86982, "o", "\u001b]133;C;\u0007"]
-[2.008295, "o", "Ignoring http_parser.rb-0.6.0 because its extensions are not built.  Try: gem pristine http_parser.rb --version 0.6.0\r\n"]
-[2.008653, "o", "Ignoring iconv-1.0.8 because its extensions are not built.  Try: gem pristine iconv --version 1.0.8\r\n"]
 [2.018301, "o", "\u001b[38;5;129m*\u001b[39m\u001b[38;5;129m \u001b[39m"]
 [2.018363, "o", "\u001b[38;5;129mb\u001b[39m\u001b[38;5;129ma\u001b[39m\u001b[38;5;93m"]
 [2.018379, "o", "a\u001b[39m\u001b[38;5;93m"]

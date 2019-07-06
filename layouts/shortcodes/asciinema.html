@@ -1,4 +1,11 @@
 <link rel="stylesheet" href="/lib/asciinema/asciinema-player.css" />
-ASCII cast here
-<asciinema-player src="/{{ ID }}.cast" cols="80" rows="40"></asciinema-player>
+<figure>
+  <asciinema-player
+    src="/mov/{{ (index .Params 0) }}.cast"
+    cols="120" rows="46">
+  </asciinema-player>
+  <figcaption>
+    lol
+  </figcaption>
+</figure>
 <script src="/lib/asciinema/asciinema-player.js"></script>
