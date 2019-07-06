@@ -1,11 +1,18 @@
-<link rel="stylesheet" href="/lib/asciinema/asciinema-player.css" />
+{{/* DEFAULTS */}}
+{{ $cols  := 120 }}
+{{ $rows  :=  46 }}
+
 <figure>
   <asciinema-player
-    src="/mov/{{ (index .Params 0) }}.cast"
-    cols="120" rows="46">
+    src="/mov/{{ .Get "cast" }}.cast"
+    cols="{{ or (.Get "cols") $cols }}"
+    rows="{{ or (.Get "rows") $rows }}"
+  >
   </asciinema-player>
-  <figcaption>
-    lol
-  </figcaption>
+
+  {{ if .Get "caption"}}
+    <figcaption>{{ .Get "caption" }}</figcaption>
+  </figure>
+  {{ end }}
+
 </figure>
-<script src="/lib/asciinema/asciinema-player.js"></script>
