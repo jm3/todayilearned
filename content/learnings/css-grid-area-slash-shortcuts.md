@@ -1,9 +1,10 @@
 ---
 title: Save time with CSS grid area start/end shortcuts
-tags:  [CSS3, Grid]
+tags:  [code, CSS3, Grid]
 goal:  Front-End Engineering
 date:  2019-06-14
 summary: Because who has time to type all this stuff out?
+category: code
 
 ---
 
@@ -13,13 +14,12 @@ represents the column or row end. This is more concise than explicitly
 listing start and end positions, but not so terse as the four-way
 a/b/c/d syntax, which is harder to orient around.
 
-
-```css
+{{< highlight css >}}
 .a {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
-```
+{{< / highlight >}}
 
 From Rachel Andrew’s now very outdated (as of 2019) book, *[Getting Ready for CSS Grid Layout][book]*.
 

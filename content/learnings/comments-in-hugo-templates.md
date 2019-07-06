@@ -1,9 +1,10 @@
 ---
 title: Commenting within Hugo templates
 summary: without being stripped out by the processor
-tags:  [ Hugo, Debugging]
+tags:  [ code, Hugo, Debugging]
 date:  2019-06-19
 goal:  Front-End Engineering
+category: code
 
 ---
 
@@ -14,7 +15,9 @@ Hugo automatically strips HTML comment tags. If you need to add an HTML
 comment to your Hugo templates that doesn't get stripped, you can use
 [this syntax][docs]:
 
-```{{ "<!-- foo/bar/baz whatever -->" | safeHTML }}```
+{{< highlight html >}}
+{{ "<!-- foo/bar/baz whatever -->" | safeHTML }}
+{{< / highlight >}}
 
 [You hate to see it.][forum]
 
