@@ -2,6 +2,8 @@ title           = "#todayilearned"
 baseURL         = "https://todayilearned.jm3.net/"
 googleAnalytics = "UA-228926-19"
 languageCode    = "en-us"
+# pygmentsUseClasses = true
+pygmentsStyle = "dracula" # paraiso-dark solarized-dark
 
 theme = "rocker-panel"
 #theme = "rocker-panel-clone-symlink"
