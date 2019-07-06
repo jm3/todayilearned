@@ -14,8 +14,8 @@ Embeddable, extremely efficient low-bandwidth ASCII terminal animation videos!
 ## Just click to play!
 
 {{< asciinema cast="merge-asciicasts"
-  cols="120" rows="22"
-  poster="3.6"
+  cols="120" rows="24"
+  poster="2"
   idle-time-limit="0.1"
   caption="merge it!" >}}
 
