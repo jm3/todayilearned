@@ -1,9 +1,11 @@
 .debug {
+  color: red;
+
+  background-color: PaleGoldenrod;
 
   border: 2 px solid black;
-  background-color: PaleGoldenrod;
-  color: red;
-    h1 {
+
+  h1 {
     color: black;
   }
 
