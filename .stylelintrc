@@ -17,7 +17,7 @@
     "number-no-trailing-zeros":               true,
     "block-no-empty":                         true,
     "color-no-hex":                           true,
-    "color-named":                            "never",
+    "color-named":                            "always-where-possible",
     "color-hex-case":                         "lower",
     "declaration-colon-space-after":          "always",
     "indentation": 2,
@@ -34,7 +34,7 @@
       "except":                               ["first-nested"],
       "ignore":                               ["after-comment"]
     } ],
-    "selector-list-comma-space-after":        "always",
+    "selector-list-comma-space-after":        "always-single-line",
     "unit-case":                              "lower"
   }
 }
