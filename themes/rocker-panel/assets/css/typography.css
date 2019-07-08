@@ -1,5 +1,4 @@
-:root {
-}
+/* :root { } */
 
 body {
   font-size: 16px;
@@ -25,8 +24,11 @@ a:hover {
 }
 
 h1 { font-size: 1.3rem }
+
 h2 { font-size: 1.1rem }
-h3 { font-size: 1.0rem }
+
+h3 { font-size: 1rem }
+
 h4 { font-size: 0.8rem }
 
 h5 {
@@ -47,8 +49,8 @@ header h2 {
   font-size: 0.9rem;
 
   span {
-    text-transform: uppercase;
     letter-spacing: 2px;
+    text-transform: uppercase;
   }
 }
 
@@ -59,6 +61,7 @@ header h3 {
   a {
     white-space: nowrap;
   }
+
   a.about:after {
     content: " \00BB";
   }
@@ -68,11 +71,6 @@ header h3 {
   font-size: 0.75rem;
   letter-spacing: 1px;
   text-transform: uppercase;
-}
-
-.recent-posts .posts .post .meta,
-.post .post-header .meta,
-.list .posts .post .meta {
 }
 
 a.post-preview-title {
@@ -88,15 +86,6 @@ a.paginator {
   font-weight: 600;
 }
 
-@media (max-width: 767px) {
-}
-
-/* @media (max-width: 480px) { */
-/*   body { */
-/*     font-size: 14px; */
-/*   } */
-/* } */
-
 /* icons */
 i {
   vertical-align: middle;
@@ -104,35 +93,40 @@ i {
 
 .section-nav {
   a {
-    margin-left: 2px;
     display: inline-block;
+    margin-left: 2px;
   }
 }
 
 .terms-tag {
-  display: inline-block;
-  padding: 2px 15px 2px 32px;
-  border-radius: 3rem;
-  margin-bottom: 5px;
   position: relative;
+
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 2px 15px 2px 32px;
+
+  border-radius: 3rem;
 }
 
 .tag-counter {
-  border-radius: 3rem;
-  padding: 1px;
+  position: absolute;
+  top: 3px;
+  left: 4px;
+
+  display: inline-block;
   min-width: 1.2rem;
-  text-align: center;
+  padding: 1px;
+
   font-weight: bold;
   font-size: 0.8rem;
-  display: inline-block;
-  position: absolute;
-  left: 4px;
-  top: 3px;
+  text-align: center;
+
+  border-radius: 3rem;
 }
 
 /* IMAGES */
 figcaption {
-  text-align: center;
   font-size: 13px;
+  text-align: center;
   text-transform: uppercase;
 }

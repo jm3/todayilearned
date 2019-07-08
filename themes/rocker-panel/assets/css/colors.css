@@ -15,6 +15,7 @@ $tmp: red;
 
 body {
   color: var(--text-color);
+
   background-color: var(--bg-color);
 }
 
@@ -53,8 +54,9 @@ a:hover {
 }
 
 a:active {
-  background-color: black;
   color: white;
+
+  background-color: black;
 }
 
 /* constrasty party colors */
@@ -95,12 +97,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer {
-  background-color: hsl(10, 06%, 21%);
   color: white;
+
+  background-color: hsl(10, 06%, 21%);
 }
-@media (max-width: 767px) {}
-@media (max-width: 480px) {}
+
 /* jm3: ************************ to be merged */
+
 .highlight pre code {
   /*background-color: var(--code-bg-color); */
 }
@@ -129,6 +132,7 @@ footer {
 
 nav a:active {
   color: white;
+
   background-color: hsla(0, 0%, 0%, 0.2);
 }
 
@@ -150,17 +154,19 @@ a.post-preview-title {
 
 .terms-tag:hover {
   color: hsl(120, 32%, 33%);
+
   background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
 }
 
 .terms-tag:active {
   color: white;
+
   background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
 }
 
 .tag-counter {
   background-color: hsla(0, 100%, 100%, 0.8);
-  box-shadow: inset 3px 3px 3px -4px #aaa;
+  box-shadow: inset 3px 3px 3px -4px hsl(0, 0%, 67%);
 }
 
 a.paginator {
@@ -169,6 +175,7 @@ a.paginator {
 
 /* IMAGES */
 figcaption {
-  background-color: hsl(240, 38%, 94%);
   color: hsl(252, 35%, 60%);
+
+  background-color: hsl(240, 38%, 94%);
 }

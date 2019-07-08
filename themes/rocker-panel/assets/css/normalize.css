@@ -63,10 +63,9 @@ h1 {
 }
 
 mark {
-  color: hsl(0, 0%, 0%);
+  color: black;
 
-
-  background: hsl(60, 100%, 50%)
+  background: yellow;
 }
 
 small {

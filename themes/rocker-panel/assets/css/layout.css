@@ -1,11 +1,10 @@
-main {
+/* @media (max-width: 767px) {} */
+/* @media (max-width: 480px) {} */
 
-}
-
-/* CODE */
-
+/* SYNTAX HIGHLIGHTING */
 pre {
   padding: 1em;
+
   border-radius: 8px;
 }
 
@@ -13,13 +12,15 @@ pre {
   padding: 2rem 2rem 1rem 2rem;
 
   h2 {
-    line-height: 1.1rem;
     margin-bottom: 0.8rem;
+
+    line-height: 1.1rem;
   }
 
   h3 {
-    line-height: 1.1rem;
     margin: 1rem 0 0 0;
+
+    line-height: 1.1rem;
   }
 }
 
@@ -32,9 +33,11 @@ pre {
 }
 
 nav a, nav a:active, nav a:hover, nav a:visited {
-	border-radius: 7px;
-	display: inline-block;
-	padding: 0px 9px;
+  display: inline-block;
+
+  padding: 0px 9px;
+
+  border-radius: 7px;
 }
 
 svg.feather {
@@ -43,9 +46,10 @@ svg.feather {
 
 .flat {
   display: flex;
-  list-style-type: none;
-  padding-left: 0;
   justify-content: space-between;
+  padding-left: 0;
+
+  list-style-type: none;
 }
 
 /* index */
@@ -58,12 +62,13 @@ ul.posts,
 
 a.paginator {
   display: block;
-  margin: 0 auto;
   width: 8rem; /* FIXME - how can we make this not hard-coded */
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  padding: 0.4rem 0 0.4rem 1rem;
+
   background-color: var(--alter-accent-color);
   border-radius: 1rem;
-  padding: 0.4rem 0 0.4rem 1rem;
-  margin-bottom: 1rem;
 }
 
 .post-preview {
@@ -71,13 +76,14 @@ a.paginator {
 
   a svg {
     width: 16px;
+
     vertical-align: sub;
   }
 }
 
 .post {
-  margin: 0 1.5rem;
   max-width: 800px;
+  margin: 0 1.5rem;
 
   img {
     width: 100%;
@@ -90,9 +96,11 @@ a.paginator {
 
 footer  {
   padding: 0.5rem;
+
   .flat {
     justify-content: space-evenly;
   }
+
   .legalese {
     padding: 0 2rem 2rem;
   }
@@ -104,6 +112,7 @@ footer  {
 
 /* IMAGES */
 figcaption {
-  border-radius: 3px;
   margin-bottom: 1em;
+
+  border-radius: 3px;
 }
