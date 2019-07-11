@@ -38,7 +38,9 @@ function resize_images(cb) {
 
     }, { // Global configuration for all images
       passThroughUnused: true,
-      errorOnUnusedImage: false
+      errorOnUnusedImage: false,
+      errorOnEnlargement: false,
+      skipOnEnlargement: true
     }))
     .pipe(dest(art_dest));
   cb();
