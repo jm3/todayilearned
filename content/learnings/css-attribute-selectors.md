@@ -15,21 +15,22 @@ draft: true
     |____/|_| \_\/_/   \_\_|     |_|
 
 
-# Presence & value attribute selectors
+# Attribute presence & value selectors
 
 ## [...] → attribute "presence"
 
 _(attribute exists, may be boolean or have any value)_
 
-`[class]` matches all elements with a `class` attribute, empty or not
+`[class]` matches elements with a `class` attribute, empty or not
 
-## [attr='val'] → exact attribute value
+## [attr='val'] → EXACT attribute VALUE
 [class='btn-label'] matches elements with a `class` attribute exactly equal to `btn-label`
 
-## [attr$="-val-suffix"] → attribute value tail 
+## [attr$="-val-suffix"] → attribute VALUE ends with 
 `[href$=".pdf"]` matches elements with an `href` whose value **ends** in `.pdf`
 
-## [attr~=val]: This selector will select all elements with the attribute attr, but only if  val is one of a space-separated list of words contained in attr's value.  → enumated funky
+## [attr~=val] → attribute VALUE containing word
+`[class~=discipline]` matches elements with `attr`, but only if `val` is one of a space-separated list of words contained in attr's value. Even adjoining puncutation will invalidate this, ie. "harsh discipline, no reprieve" would not match. 
 
 
 
