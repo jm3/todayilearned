@@ -1,6 +1,6 @@
 ---
 title: CSS Combinators
-summary: ~
+summary: for when you need to combinate \~
 tags:  [ CSS3 ]
 date:  2019-07-11T13:59:51-07:00
 images: [/img/todayilearned.jm3.net.png]
@@ -20,4 +20,6 @@ draft: true
 * child combinator >
 * adjacent sibling combinator +
 * general sibling combinator ~
+
+[w3s]: https://www.w3schools.com/css/css_combinators.asp
 
