@@ -26,18 +26,18 @@ derivative images into `static/art`, which is git-ignored, since the
 CI-deployment bastion host will re-build all the images from source at
 deploy time.
 
-# Pre-fan-out, before gulp-responsive runs:
+# Pre-fan-out, before `gulp-responsive` runs:
 
-## originals, versioned in git, not available to hugo webserver
+## hi-res originals, versioned in git, not available to hugo webserver
 
-    art-src
+    art
     ├── mies-plano-winter.jpg
     ├── mr-div-neon-landscape-vaporwave.jpg
     └── vaporwave-firefox.jpg
 
-# gulp-responsive outputs its variation images here:
+# `gulp-responsive` outputs its variation images here:
 
-## pre-staged, git-ignored, available to hugo webserver in dev
+## responsively-sized, git-ignored, available to hugo webserver in dev
 
     static/art
     ├── mies-plano-winter-1000.jpg
