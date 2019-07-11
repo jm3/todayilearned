@@ -29,28 +29,30 @@ deploy time.
 # Pre-fan-out, before gulp-responsive runs:
 
 ## originals, versioned in git, not available to hugo webserver
-art-src
-├── mies-plano-winter.jpg
-├── mr-div-neon-landscape-vaporwave.jpg
-└── vaporwave-firefox.jpg
+
+    art-src
+    ├── mies-plano-winter.jpg
+    ├── mr-div-neon-landscape-vaporwave.jpg
+    └── vaporwave-firefox.jpg
 
 # gulp-responsive outputs its variation images here:
 
 ## pre-staged, git-ignored, available to hugo webserver in dev
-static/art
-├── mies-plano-winter-1000.jpg
-├── mies-plano-winter-1200.jpg
-├── mies-plano-winter-1600.jpg
-├── mies-plano-winter-600.jpg
-├── mies-plano-winter-800.jpg
-├── mr-div-neon-landscape-vaporwave-1000.jpg
-├── mr-div-neon-landscape-vaporwave-1200.jpg
-├── mr-div-neon-landscape-vaporwave-1600.jpg
-├── mr-div-neon-landscape-vaporwave-600.jpg
-├── mr-div-neon-landscape-vaporwave-800.jpg
-├── vaporwave-firefox-1000.jpg
-├── vaporwave-firefox-1200.jpg
-├── vaporwave-firefox-1600.jpg
-├── vaporwave-firefox-600.jpg
-└── vaporwave-firefox-800.jpg
+
+    static/art
+    ├── mies-plano-winter-1000.jpg
+    ├── mies-plano-winter-1200.jpg
+    ├── mies-plano-winter-1600.jpg
+    ├── mies-plano-winter-600.jpg
+    ├── mies-plano-winter-800.jpg
+    ├── mr-div-neon-landscape-vaporwave-1000.jpg
+    ├── mr-div-neon-landscape-vaporwave-1200.jpg
+    ├── mr-div-neon-landscape-vaporwave-1600.jpg
+    ├── mr-div-neon-landscape-vaporwave-600.jpg
+    ├── mr-div-neon-landscape-vaporwave-800.jpg
+    ├── vaporwave-firefox-1000.jpg
+    ├── vaporwave-firefox-1200.jpg
+    ├── vaporwave-firefox-1600.jpg
+    ├── vaporwave-firefox-600.jpg
+    └── vaporwave-firefox-800.jpg
 

@@ -6,7 +6,7 @@ const rm = require('gulp-rm');
 // const imagemin = require('gulp-imagemin');
 // const mozjpeg = require('imagemin-mozjpeg');
 
-const art_src = '../art-src';
+const art_src = '../art';
 const art_dest = '../static/art';
 
 // UGH: some extra steps carefully massaging the post-processed
