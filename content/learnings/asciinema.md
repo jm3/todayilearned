@@ -2,7 +2,7 @@
 title: ASCIInema - the cinema of ASCII
 summary: Embeddable, extremely efficient low-bandwidth ASCII terminal screencasts
 tags:  [ Command Line, Hugo ]
-date:  2019-07-06
+date:  2019-06-30T21:00:39-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
 asciinema: true <!-- required to load JS player with CSS -->

@@ -2,7 +2,7 @@
 title: REm Sizing for CSS Text
 summary: "Ad Rem*: REM REM REM"
 tags:  [ CSS3 ]
-date:  2019-07-12T11:44:38-07:00
+date:  2019-07-03T11:44:38-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
 

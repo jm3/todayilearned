@@ -2,7 +2,7 @@
 title: Ems are NOT as wide as Ms!
 summary: Times have changed
 tags:  [ CSS3, Lore ]
-date:  2019-07-12T11:44:38-07:00
+date:  2019-07-04T11:44:38-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
 
