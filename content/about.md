@@ -2,8 +2,6 @@
 title: "Today we learn"
 date: 2019-06-10
 tags: []
-draft: true
-draft: false
 
 ---
 
