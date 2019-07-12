@@ -1,11 +1,9 @@
 ---
 title: nth-last-child(num) - the reverse (Polish) selector
-summary: \*ZENTROPA voice\* count backwards from 50
+summary: selecting from the last element backwards
 tags:  [CSS3]
 goal:  Front-End Engineering
 date:  2019-06-02
-
-needs-work: true
 
 ---
 
@@ -16,11 +14,14 @@ Ever needed to select the last element, or select by counting backwards from the
 [The nth-last-child() selector][mo] will do that with style.
 
 {{< highlight css >}}
-:nth-last-child(number) {
+/* select the -3rd (third from last) div  */
+div:nth-last-child(3) {
   ...
 }
 {{< / highlight >}}
 
-{{< youtube id="IHTttM5OSro" autoplay="true" >}}
+## Click the "CSS" button below:
+
+{{< codepen id="vqMvMr" tab="result" >}}
 
 [mo]: https://www.geeksforgeeks.org/css-nth-last-child-selector/
