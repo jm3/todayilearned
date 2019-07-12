@@ -2,7 +2,7 @@
 title: the text-size-adjust property in CSS
 summary: Control how mobile browsers and smartphones "inflate" text sizes
 tags:  [ CSS3, Mobile, Responsive ]
-date:  2019-07-08T16:02:48-07:00
+date:  2019-07-06T00:00:00-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
 

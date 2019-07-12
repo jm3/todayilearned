@@ -1,6 +1,6 @@
 ---
 title: BASEOF in Hugo templating
-summary: Much like Ruby's elegant :yield construct
+summary: A bit like Ruby's elegant :yield construct, but without the elegance
 tags:  [Hugo, Command Line]
 date:  2019-06-25T22:55:29-07:00
 images: [/img/todayilearned.jm3.net.png]

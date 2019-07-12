@@ -1,8 +1,8 @@
 ---
-title: Attribute / Value Selectors in CSS
+title: CSS Attribute / Value Query Selectors
 summary: \*
 tags:  [ CSS3 ]
-date:  2019-07-11T13:54:42-07:00
+date:  2019-07-12
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
 draft: true

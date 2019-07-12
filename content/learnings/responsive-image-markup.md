@@ -2,7 +2,7 @@
 title: Responsive image markup
 summary: A strange and wonderful confluence of new elements and attributes
 tags:  [HTML5]
-date:  2019-06-26T16:55:31-07:00
+date:  2019-07-10:55:31-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
 

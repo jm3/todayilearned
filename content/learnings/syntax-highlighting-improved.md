@@ -2,7 +2,7 @@
 title: Syntax Highlighting
 summary: Drastically improved
 tags:  [ code, CSS3, Color, Debugging, Hugo ]
-date:  2019-07-05T23:13:30-07:00
+date:  2019-06-27T23:13:30-07:00
 images: [/img/todayilearned.jm3.net.png, /art/syntax-merge-1000.png]
 goal:  Front-End Engineering
 categories: code

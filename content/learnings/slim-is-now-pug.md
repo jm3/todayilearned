@@ -2,7 +2,7 @@
 title: "HTML: a new aesthetic"
 summary: Or, Jade is now Slim is now Pug, which is basically Haml
 tags:  [ HTML5, Javascript ]
-date:  2019-06-26T13:29:57-07:00
+date:  2019-07-01T13:29:57-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
 
