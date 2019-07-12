@@ -1,5 +1,5 @@
 ---
-title: even + odd keywords in selectors
+title: Using then "even" + "odd" keywords in CSS selectors
 tags:  [CSS3]
 goal:  Front-End Engineering
 date:  2019-06-03

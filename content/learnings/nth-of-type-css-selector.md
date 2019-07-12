@@ -1,5 +1,5 @@
 ---
-title: the nth-of-type(num) CSS selector
+title: The nth-of-type(num) CSS element selector
 tags:  [CSS3]
 goal:  Front-End Engineering
 date:  2019-06-01

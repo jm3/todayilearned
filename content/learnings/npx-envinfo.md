@@ -1,5 +1,5 @@
 ---
-title: npx envinfo
+title: Debugging and inspecting your NPM environment
 summary: dump your npm environment
 tags:  [ Javascript, Command Line, Debugging ]
 date:  2019-06-29T21:00:39-07:00

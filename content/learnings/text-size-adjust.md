@@ -1,5 +1,5 @@
 ---
-title: the text-size-adjust property in CSS
+title: The text-size-adjust property in CSS
 summary: Control how mobile browsers and smartphones "inflate" text sizes
 tags:  [ CSS3, Mobile, Responsive ]
 date:  2019-07-02T00:00:00-07:00

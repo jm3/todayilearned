@@ -1,6 +1,6 @@
 ---
-title: name CSS classes with emoji
-summary: " 😂"
+title: Name your CSS classes with emoji
+summary: "Why not? Embrace chaos. 😂"
 tags:  [code, CSS3]
 goal:  Front-End Engineering
 date:  2019-06-17

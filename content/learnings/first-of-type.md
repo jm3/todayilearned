@@ -1,5 +1,5 @@
 ---
-title: :first-of-type {}
+title: The :first-of-type CSS element selector
 summary: select the first of a group of similar elements
 tags:  [CSS3]
 goal:  Front-End Engineering

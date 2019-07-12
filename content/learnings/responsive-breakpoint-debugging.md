@@ -1,5 +1,5 @@
 ---
-title: debugging responsive breakpoints in the browser
+title: Debugging responsive breakpoints in browser
 summary: using media queries and some clever but simple CSS
 tags:  [ Code, CSS3, HTML5, Debugging ]
 date:  2019-07-11T16:23:37-07:00
