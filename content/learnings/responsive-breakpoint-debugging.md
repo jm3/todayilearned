@@ -5,16 +5,23 @@ tags:  [ CSS3, HTML5, Debugging ]
 date:  2019-07-11T16:23:37-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
-draft: true
 
 ---
-     ____  ____      _    _____ _____
-    |  _ \|  _ \    / \  |  ___|_   _|
-    | | | | |_) |  / _ \ | |_    | |
-    | |_| |  _ <  / ___ \|  _|   | |
-    |____/|_| \_\/_/   \_\_|     |_|
 
-using the [live-resizing trick][css-block] from [Pomo][pomo]
+I ❤️  this quick and dirty trick of adding a dynamic viewport width
+indicator when defining or debugging media query breakpoints in a
+layout.  Various developer tools from Chrome + Firefox can do similar
+things, however, making it yourself gives a more tactile understanding,
+I think, and is more fun.
+
+## Demo video
+
+<video width="100%" controls autoplay>
+  <source src="/mov/responsive-breakpoint-debugger.mp4" type="video/mp4">
+  Your browser does not support the video tag lol
+</video>
+
+## Code
 
 {{< highlight css >}}
 @media (min-width:20em) and (max-width:30em) {
@@ -63,6 +70,8 @@ body::before {
   opacity: 0.8;
 }
 {{< / highlight >}}
+
+> Chop your own wood and it will warm you twice.
 
 [css-block]: https://github.com/jm3/pomo/blob/master/assets/layout.scss#L10-L54
 [pomo]: /projects/pomodoro/
