@@ -8,8 +8,6 @@ goal:  Front-End Engineering
 
 ---
 
-![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Metal_type.svg/2502px-Metal_type.svg.png)
-
 > \* Ad Rem: relevant or pertinent to the activity or topic at hand;
 germane.
 

@@ -1,44 +1,75 @@
 ---
-title: CSS Attribute / Value Query Selectors
+title: A catalog of CSS Attribute / Value Selectors
 summary: \*
-tags:  [ CSS3 ]
+tags:  [ CSS3, Code ]
 date:  2019-07-12
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
-draft: true
 
 ---
-     ____  ____      _    _____ _____
-    |  _ \|  _ \    / \  |  ___|_   _|
-    | | | | |_) |  / _ \ | |_    | |
-    | |_| |  _ <  / ___ \|  _|   | |
-    |____/|_| \_\/_/   \_\_|     |_|
+
+CSS Attribute Value Selectors help you laser in on specific elements for
+styling based on their attribute values.
+
+## […] → Attribute exists
+
+{{< highlight css >}}
+/* matches elements with a foo attribute of any (or no) value */
+[foo] {
+  ...
+}
+{{< / highlight >}}
+
+Attribute `foo` exists &mdash; it may be a value-less boolean (like "autoplay"), or have any value.
+
+## = → Attribute value matches exactly
+{{< highlight css >}}
+/* matches elements with a data-dongle attribute of "rubidium" */
+[data-dongle="rubidium"] {
+  ...
+}
+{{< / highlight >}}
+
+## ^= → Attribute value begins with …
+{{< highlight css >}}
+/* matches SVG images with a viewBox value beginning with "0 " */
+svg[viewBox^="0 "] {
+  ...
+}
+{{< / highlight >}}
+
+Nerds who know Perl, [ruby](https://rubular.com/), PHP, or grep/unix will recoginze the `$` character that denotes an end of string / end of line.
 
 
-# Attribute presence & value selectors
+## $= → Attribute value ends with …
+{{< highlight css >}}
+/* matches elements with an href whose value ends in .pdf */
+[href$=".pdf"] {
+  ...
+}
+{{< / highlight >}}
 
-## [...] → attribute "presence"
+Nerds who know Perl, [ruby](https://rubular.com/), PHP, or grep/unix will recoginze the `$` character that denotes an end of string / end of line.
 
-_(attribute exists, may be boolean or have any value)_
+## ~= → Attribute value contains word …
+{{< highlight css >}}
+/* matches elements with a class list containing the WORD "discipline" */
+[data-program~="discipline"] {
+  ...
+}
+{{< / highlight >}}
 
-`[class]` matches elements with a `class` attribute, empty or not
+The one will match elements with the attribute attr only if `val` is one of a space-separated list of words contained in attr's value. Note that even adjoining sentence style punctuation like commas will invalidate this, e.g. an element `<div data-program="harsh discipline, no reprieve">` would not match the above selector.
 
-## [attr='val'] → EXACT attribute VALUE
-[class='btn-label'] matches elements with a `class` attribute exactly equal to `btn-label`
+## *= → Attribute value contains substring …
+{{< highlight css >}}
+/* matches elements with a fill @attr containing the string "flood" ANYWHERE */
+[fill*="flood"] {
+  ...
+}
+{{< / highlight >}}
 
-## [attr$="-val-suffix"] → attribute VALUE ends with 
-`[href$=".pdf"]` matches elements with an `href` whose value **ends** in `.pdf`
-
-## [attr~=val] → attribute VALUE containing word
-`[class~=discipline]` matches elements with `attr`, but only if `val` is one of a space-separated list of words contained in attr's value. Even adjoining puncutation will invalidate this, ie. "harsh discipline, no reprieve" would not match. 
-
-
-
-
-
-
-
-
+This matches elements with the attribute value containing the requested substring, whether it be at the beginning, middle, end, the entire string, etc.
 
 <!-- unused reference links -->
 
