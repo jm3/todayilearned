@@ -23,6 +23,7 @@ styling based on their attribute values.
 Attribute `foo` exists &mdash; it may be a value-less boolean (like "autoplay"), or have any value.
 
 ## = → Attribute value matches exactly
+
 {{< highlight css >}}
 /* matches elements with a data-dongle attribute of "rubidium" */
 [data-dongle="rubidium"] {
@@ -31,6 +32,7 @@ Attribute `foo` exists &mdash; it may be a value-less boolean (like "autoplay"),
 {{< / highlight >}}
 
 ## ^= → Attribute value begins with …
+
 {{< highlight css >}}
 /* matches SVG images with a viewBox value beginning with "0 " */
 svg[viewBox^="0 "] {
@@ -40,8 +42,8 @@ svg[viewBox^="0 "] {
 
 Nerds who know Perl, [ruby](https://rubular.com/), PHP, or grep/unix will recoginze the `$` character that denotes an end of string / end of line.
 
-
 ## $= → Attribute value ends with …
+
 {{< highlight css >}}
 /* matches elements with an href whose value ends in .pdf */
 [href$=".pdf"] {
@@ -52,6 +54,7 @@ Nerds who know Perl, [ruby](https://rubular.com/), PHP, or grep/unix will recogi
 Nerds who know Perl, [ruby](https://rubular.com/), PHP, or grep/unix will recoginze the `$` character that denotes an end of string / end of line.
 
 ## ~= → Attribute value contains word …
+
 {{< highlight css >}}
 /* matches elements with a class list containing the WORD "discipline" */
 [data-program~="discipline"] {
@@ -62,6 +65,7 @@ Nerds who know Perl, [ruby](https://rubular.com/), PHP, or grep/unix will recogi
 The one will match elements with the attribute attr only if `val` is one of a space-separated list of words contained in attr's value. Note that even adjoining sentence style punctuation like commas will invalidate this, e.g. an element `<div data-program="harsh discipline, no reprieve">` would not match the above selector.
 
 ## *= → Attribute value contains substring …
+
 {{< highlight css >}}
 /* matches elements with a fill @attr containing the string "flood" ANYWHERE */
 [fill*="flood"] {
@@ -77,4 +81,3 @@ This matches elements with the attribute value containing the requested substrin
 [w3s]: https://www.w3schools.com/css/css_attribute_selectors.asp
 [w3s-all-selectors]: https://www.w3schools.com/cssref/css_selectors.asp
 [treehouse-substr-selectors]: https://blog.teamtreehouse.com/css3-substring-matching-attribute-selectors
-
