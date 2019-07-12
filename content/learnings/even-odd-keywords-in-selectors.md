@@ -8,13 +8,8 @@ categories: [code]
 
 ---
 
-For "zebra-row" styling of alternating elements.
-
-This matches the odd childen of TR (table rows), presumably TDs (table cell data).
-
-Notably, because of the CSS cascade, you may not often need even and odd, because you can just apply one style to all rows, and then override just the even, giving and even / odd result.
-
-But if you were, e.g. applying icons to even rows and different icons to odd rows, or something like that, then you might still use both.
+This matches the odd childen of TR (table rows), presumably TDs (table cell data), 
+for "zebra-row" styling of alternating elements.
 
 {{< highlight css >}}
 /* select the odd children of TR */
@@ -27,5 +22,7 @@ tr:nth-child(even) {
   ...
 }
 {{< / highlight >}}
+
+Notably, because of the CSS cascade, you may not often need even and odd, because you can just apply one style to all rows, and then override just the even rows with `nth-child(even)`, giving an even / odd result.  `¯\_(ツ)_/¯` 
 
 {{< codepen id="QXPJVr" tab="result" >}}
