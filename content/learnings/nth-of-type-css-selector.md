@@ -3,6 +3,7 @@ title: The nth-of-type(num) CSS element selector
 tags:  [CSS3]
 goal:  Front-End Engineering
 date:  2019-06-01
+summary: They say you're not supposed to have a favorite child. But what if you do?
 
 ---
 
