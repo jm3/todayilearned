@@ -200,7 +200,10 @@ a bigger problem back then. Inline styles appearing in **template
 markup** are less burdensome because they might appear only once or
 twice, and may offer a great benefit if they allow the page stylist to
 sidestep CSS Pitfalls Two and Three that deal with how styles are
-matched to markup.
+matched to markup. This is the appeal of so-called Atomic CSS: small
+(hence atomic), utility classes embedded inline, matched to style
+definition by class-name only, thus avoiding selector complexity and
+precedence wrangling.
 
 The Atomic or Utility (-First) CSS frameworks take a classes-only
 approach to styling, so that no cascade is used and no selector
@@ -217,9 +220,11 @@ frameworks_
 
 Adam W has a great video course introducing Tailwind CSS with a deep-dive
 through creating a sample project. I'm progressing through it now. Check
-out the full site.
+out [the beautiful screencasts section of the Tailwind CSS site][tailwind-course] 
+(actually all his stuff looks great, he clearly puts a lot of work into it).
 
-{{< vimeo 345586861 >}}
+<!-- course link - vimeo 345586861 -->
 
+[tailwind-course]: https://tailwindcss.com/screencasts/
 [why]: https://tailwindcss.com/#what-is-tailwind
 [rails]: https://guides.rubyonrails.org/getting_started.html#what-is-rails-questionmark
