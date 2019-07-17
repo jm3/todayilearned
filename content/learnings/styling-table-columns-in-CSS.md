@@ -9,7 +9,12 @@ categories: code
 
 ---
 
-The primary (only) grouping for table cell data in HTML are rows, and always have been. But! There's a little known `<col>` marker, to be inserted at the beginning of the table, once per desired column. It doesn't wrap `<td>` content, the way that `<tr>` does — it's just a weird, forlorn magical orphan that then lets you select vertical regions of your table.
+The primary (only) grouping for table cell data in HTML are rows, not
+columns, much to the consternation of spreadsheet users. But! HTML also
+contains a seldom-seen `<col>` marker element, to be inserted at the
+beginning of the table, once per desired column. It doesn't wrap `<td>`
+content, the way that `<tr>` does — it's just a weird, forlorn magical
+orphan that then lets you select vertical regions of your table.
 
 
 ## Selecting vertical table regions with `<col>` markers
