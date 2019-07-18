@@ -17,7 +17,7 @@ articles:
   public code sandbox site [CodePen][codepen])
 * [My struggle to learn React][mein-kampf] by Brad Frost 
   (author of Atomic Design and Pattern Lab)'s 
-* "[Why Did I Have Difficulty Learning React?][snook]" by Jonathan Snook,
+* [Why Did I Have Difficulty Learning React?][snook] by Jonathan Snook,
   which includes the amazing sentence, "The rings and knots of The Old
   Ways are made visible under the light of debugging."
 
@@ -54,13 +54,51 @@ instead feeling like a junior."
 
 Wow. Honesty! So rare, so refreshing. This stuff is complicated. It
 seems clear beyond being obvious that Javascript is far from a perfect
-language, and that its subsuming all adjacent territory of web
-development not for its own superiority, but simply because between
-Javascript, CSS, and HTML, only Javascript is a programming language
-(barely) with the ability to subsume anything else.
+language, and that Javascript's subsuming of the adjacent territory of
+web development is happening not because of the great superiority of
+Javascipt to mark up documents, or templates, or style them, but simply
+because between Javascript, CSS, and HTML, only Javascript is actually a
+programming language (barely) with the ability to subsume anything.
 
-I have a lot of thoughts and feelings about this but they aren't
-organized yet. I'll keep learning and we'll see what evolves here.
+As a front-end developer and full-stack-y person who is also old af,
+I've lived this transition before, more than once, to be honest.
+
+It happened around the millennium when the amateur web of documents was
+subsumed by the influx of Java programmers writing server-side Java to
+build what at the time were called "three-tier" (MVC) or "enterprise"
+web apps with application server frameworks. As the Dot Com Boom became
+the Dot Bomb, one thing that continued up and to the right was that the
+role of the front end developer, previously enshrined in the powerful
+title of "WebMaster" (#wow), was rapidly and irreversibly demoted to a
+sort of subservient, attendant role to the "real" development work of
+scaling databases and juggling authentication tokens and other critical
+back-end tasks. Web development, which was now called front-end
+development, was now something barely better than "graphic design," but
+clearly adjacent to code.
+
+This happened again on a smaller scale in a second wave in The Rails
+Age, with the advent of meta-languages like RJS and Coffeescript which
+aimed to replace the role of the front end developer with a small
+function performed by the back-end developer. Now a single Ruby
+developer could and might aim to preside over both the front- and
+back-end of the entire web app by driving everything via Rails.
+Of course, a seemingly magnanimous gesture was often made that front-end
+developers were welcome to contribute, they simply needed to learn ruby,
+RJS, bundler, Rails, ERB, the correct role of models, views, and
+controllers, and then they were welcome to contribute code. This
+high-handed approach meant that many front-end developers were
+effectively shut out of the dev cycle. Notably, this did not
+particularly occur in the world of PHP, which was always perhaps a more
+rough and ready, inclusive, duct-tape melting pot, unlike the Ruby Tower
+of Rails.
+
+Perhaps its my half-Armenian heritage that sees the repeated coopting
+and erasure of my web development world as invasions and erasure rather
+than simply "evolution." Far be it for me to conflate the two — they are
+not similar, but we see the world not as it is, but as we are.
+
+Let's let small stay small, if that's what it wants. Let's allow CSS and
+HTML and JS to coexist.
 
 [buzz]: https://www.twitter.com/buzz
 [codepen]: https://codepen.io/jm3
