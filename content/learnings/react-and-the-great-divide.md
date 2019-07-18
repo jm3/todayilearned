@@ -13,10 +13,10 @@ Today [@buzz][buzz] shared a great article on Twitter called
 Divide][via-buzz]", which in turns references some great, highly-related
 articles:
 
-* [The Great Divide][great-divide] by Chris Coyier (creator of the 
+* [The Great Divide][great-divide] by Chris Coyier (creator of the
   public code sandbox site [CodePen][codepen])
-* [My struggle to learn React][mein-kampf] by Brad Frost 
-  (author of Atomic Design and Pattern Lab)'s 
+* [My struggle to learn React][struggle] by Brad Frost
+  (author of Atomic Design and Pattern Lab)'s
 * [Why Did I Have Difficulty Learning React?][snook] by Jonathan Snook,
   which includes the amazing sentence, "The rings and knots of The Old
   Ways are made visible under the light of debugging."
@@ -92,12 +92,7 @@ particularly occur in the world of PHP, which was always perhaps a more
 rough and ready, inclusive, duct-tape melting pot, unlike the Ruby Tower
 of Rails.
 
-Perhaps its my half-Armenian heritage that sees the repeated coopting
-and erasure of my web development world as invasions and erasure rather
-than simply "evolution." Far be it for me to conflate the two — they are
-not similar, but we see the world not as it is, but as we are.
-
-Let's let small stay small, if that's what it wants. Let's allow CSS and
+Let's let small stay small, when that's what's called for. Let's allow CSS and
 HTML and JS to coexist.
 
 [buzz]: https://www.twitter.com/buzz
@@ -105,6 +100,6 @@ HTML and JS to coexist.
 [snook]: https://snook.ca/archives/javascript/difficulty-with-react
 [via-buzz]: http://bradfrost.com/blog/post/frontend-design-react-and-a-bridge-over-the-great-divide/
 [great-divide]: https://css-tricks.com/the-great-divide/
-[mein-kampf]: http://bradfrost.com/blog/post/my-struggle-to-learn-react/
+[struggle]: http://bradfrost.com/blog/post/my-struggle-to-learn-react/
 
 [brad-gif]: http://bradfrost.com/wp-content/uploads/2016/02/frontend-design.gif
