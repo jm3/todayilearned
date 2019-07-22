@@ -52,12 +52,15 @@ svg.feather {
   list-style-type: none;
 }
 
-/* index */
 .recent-posts,
 ul.posts,
 .tags {
   margin: 0 0 1rem 0;
   padding: 1rem 1.5rem 0;
+
+  li {
+    display: inline-block;
+  }
 }
 
 a.paginator {

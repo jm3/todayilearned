@@ -9,8 +9,7 @@
   feather.replace();
 
   // hugo shortcode to html5 image tags to actual images;
-  // currently, the image size variations are exported PAINFULLY and manually
-  // maybe we'll use cloudinary or a competitor soon
+  // image size variations are batched via Gulp
   var lazyLoadInstance = new LazyLoad({
     // to narrow the search scope, add a class to images you want lazy-loaded
     //  elements_selector: ".lazy"

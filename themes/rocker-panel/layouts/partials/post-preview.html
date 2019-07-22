@@ -13,7 +13,13 @@
     {{else }}
     <i data-feather="bookmark"></i>
     {{ end }}
-    {{.Title}}</a> &mdash; <span class="description">
+    {{.Title}}</a> &mdash;
+  <span class="description">
     {{ .Summary }}
   </span>
+  <div>
+
+    {{ partial "tags-list.html" . }}
+
+  </div>
 </div>
