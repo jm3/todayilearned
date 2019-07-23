@@ -3,7 +3,7 @@
   {{ range .Param $taxo }}
     {{ $name := . }}
     {{ with $.Site.GetPage (printf "/%s/%s" $taxo ($name | urlize)) }}
-      <li><a class="content-tag" href="{{ .Permalink }}">{{ $name }}</a></li>
+      <li><a class="content-tag" href="{{ .Permalink }}"><i class="{{ .Params.iconClassList }}"></i>{{ $name }}</a></li>
     {{ end }}
   {{ end }}
 </ul>
