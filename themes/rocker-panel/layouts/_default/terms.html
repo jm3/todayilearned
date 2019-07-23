@@ -6,7 +6,7 @@
   {{ $data := .Data }}
   <div class="tag-cloud">
   {{ range $key, $value := .Data.Terms.ByCount }}
-  <div class="terms-tag">
+  <li class="content-tag tag-with-count">
     <span class="tag-counter">{{ $value.Count }}</span>
     <a
       href="{{ $.Site.LanguagePrefix | absURL }}{{ $data.Plural }}/{{ $value.Name | urlize }}/"

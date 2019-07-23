@@ -143,17 +143,17 @@ a.post-preview-title {
   color: var(--major-text);
 }
 
-.terms-tag {
+.content-tag {
   background-color: hsl(120, 45%, 85%);
 }
 
-.terms-tag:hover {
+.content-tag:hover {
   color: hsl(120, 32%, 33%);
 
   background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */
 }
 
-.terms-tag:active {
+.content-tag:active {
   color: white;
 
   background-color: hsl(120, 28%, 67%); /* similar to darkslategray but not so dark */

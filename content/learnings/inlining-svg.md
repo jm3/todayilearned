@@ -1,7 +1,7 @@
 ---
 title: Inline-ing SVG
 summary: Save a network call and gain styling benefits
-tags:  [ code, HTML5 ]
+tags:  [ Code, HTML, SVG ]
 date:  2019-06-16
 goal:  Front-End Engineering
 categories: code
