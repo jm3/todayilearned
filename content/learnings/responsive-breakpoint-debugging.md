@@ -1,7 +1,7 @@
 ---
 title: Debugging responsive breakpoints in browser
 summary: using media queries and some clever but simple CSS
-tags:  [ Code, CSS3, HTML5, Debugging ]
+tags:  [ Code, CSS3, HTML5, Debugging, Responsive ]
 date:  2019-07-11T16:23:37-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering

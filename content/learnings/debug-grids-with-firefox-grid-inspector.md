@@ -1,7 +1,7 @@
 ---
 title: Debug CSS grids with the Firefox Grid Inspector
 summary: Once again, Firefox kicks butt with its built-in developer tools that started it all.
-tags:  [CSS3, Grid, Debugging]
+tags:  [CSS3, CSS Grid, Debugging]
 goal:  Front-End Engineering
 date:  2019-06-16
 

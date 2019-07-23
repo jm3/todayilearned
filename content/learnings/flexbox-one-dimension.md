@@ -1,7 +1,7 @@
 ---
 title: FlexBox 101
 summary: one-dimensional (linear) layouts
-tags:  [code, CSS3]
+tags:  [code, CSS3, Flexbox]
 date:  2019-06-01
 goal:  Front-End Engineering
 categories: code

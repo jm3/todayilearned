@@ -1,0 +1,5 @@
+---
+iconClassList: "fas fa-truck"
+
+---
+

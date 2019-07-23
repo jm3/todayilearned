@@ -1,7 +1,7 @@
 ---
 title: Responsive Image Directory Structure
 summary: Or, why my images are not in "img"
-tags:  [ CSS3, Command Line, Images, Command Line ]
+tags:  [ CSS3, Command Line, Images, Command Line, Responsive ]
 date:  2019-07-11T14:58:24-07:00
 images: [/img/todayilearned.jm3.net.png]
 goal:  Front-End Engineering
