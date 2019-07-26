@@ -1,4 +1,3 @@
-ruby '2.5.0'
 source 'https://rubygems.org'
 
 # ensure that gems with :github repo sources load securely over HTTPS
