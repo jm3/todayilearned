@@ -8,10 +8,10 @@ goal:  Front-End Engineering
 
 ---
 
-Today [@buzz][buzz] shared a great article on Twitter called
-"[Front-End Design, React, and a Bridge over the Great
-Divide][via-buzz]", which in turns references some great, highly-related
-articles:
+This week [@buzz][Buzz] shared a great article about the state of
+front-end web development called "[Front-End Design, React, and a Bridge
+over the Great Divide][via-buzz]", which in turns references some more great
+writing on the topic:
 
 * [The Great Divide][great-divide] by Chris Coyier (creator of the
   public code sandbox site [CodePen][codepen])
@@ -41,11 +41,9 @@ accomplished front-end developers and designers who have woken up and
 found they no longer recognize their own previously familiar worlds.
 Suddenly they seem to work only on the "front of the front end" as more
 application-style programmers who want everything to be Node or React or
-Gulp or whatever replace entire portions of the stacks with pure,
-future-fucked (my term for the opposite of future-proofed, where
-developers deliberately write code that DOES NOT WORK in current
-browsers, then pass it through an additional compiler (transpiler) to
-output second-order code that will run.
+Gulp or whatever replace entire portions of the stack with pure, that
+may not even run directly in modern browsers without the additional step
+of transpilation.
 
 [Snook][snook] expresses some heroic vulnerability by admitting that,
 
