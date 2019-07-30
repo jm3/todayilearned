@@ -1,7 +1,5 @@
-$tmp: red;
-
 :root {
-  --bg-color: hsl(239, 49%, 45%);
+  --bg-color: white; /* random blue: hsl(239, 49%, 45%); */
   --accent-color: hsl(168, 100%, 50%);
   --alter-accent-color: hsl(310, 100%, 80%);
   --bg-subtle-color: hsl(239, 65%, 79%);
