@@ -36,5 +36,5 @@ npm start
 [licensing]: https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned
 [licensing-big]: https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned
 [licensing-img]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned.svg?type=shield
-[visual-testing]: https://percy.io/jm3/today-i-learned
+[visual-testing]: https://percy.io/jm3/todayilearned
 [visual-testing-img]: https://percy.io/static/images/percy-badge.svg
