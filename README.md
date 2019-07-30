@@ -32,7 +32,7 @@ npm start
 
 [code-size]: https://img.shields.io/github/repo-size/jm3/todayilearned.svg
 [deps]: https://david-dm.org/jm3/todayilearned
-[deps-img]: https://david-dm.org/jm3/todayilearned/dev-status.svg
+[deps-img]: https://david-dm.org/jm3/todayilearned/status.svg
 [licensing]: https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned
 [licensing-big]: https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned
 [licensing-img]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned.svg?type=shield
