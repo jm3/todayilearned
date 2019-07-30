@@ -1,5 +1,7 @@
 ## todayilearned blog
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jm3/todayilearned.svg)](https://greenkeeper.io/)
+
 ![GitHub repo size][code-size]
 [![Dependencies][deps-img]][deps]
 [![Licensing][licensing-img]][licensing]
