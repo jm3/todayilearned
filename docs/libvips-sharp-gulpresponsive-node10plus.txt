@@ -1,0 +1,2 @@
+brew install node@10 
+# libvips (required by sharp [required by gulp-responsive to save images]) requires node 10(+)

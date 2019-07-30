@@ -11,20 +11,20 @@ A summer of code project wherein I revisit and reboot my front-end web dev skill
 
 ```bash
 brew install hugo
-# note that libvips (which is required by sharp [which is required by gulp-responsive for saving images]) requires node 10 (TEN)
-brew install node@10
 npm install
 npm run setup
 npm start
 ```
 
-### Uses:
+### Third-Party Components
 
 - [Hugo](https://gohugo.io/) for generating the site files: `hugo serve` ... `open http://localhost:1313/`
 - [AWS Amplify Console](https://aws.amazon.com/amplify/) for CI, deployment/hosting, CDN, and SSL
 - a bespoke, Boostrap-less Hugo theme
 - [PostCSS](https://github.com/postcss/postcss) for CSS processing
 - [Stylelint](https://stylelint.io/) for enforcing [stylesheet discipline](https://getyarn.io/yarn-clip/7e8ae3a9-17c6-4ed5-83aa-71110490590f)
+- [Percy](https://percy.io/jm3/todayilearned) for automated [visual testing](https://percy.io/)
+- [Fossa][licensing] for license compliance monitoring
 
 ### License
 
