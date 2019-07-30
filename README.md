@@ -2,13 +2,10 @@
 
 ![GitHub repo size][code-size]
 [![Dependencies][deps-img]][deps]
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned?ref=badge_shield)
+[![Licensing][licensing-img]][licensing]
+[![Visual Testing][visual-testing-img]][visual-testing]
 
-[code-size]: https://img.shields.io/github/repo-size/jm3/todayilearned.svg
-[deps-img]: https://david-dm.org/jm3/todayilearned.svg
-[deps]: https://david-dm.org/jm3/todayilearned
-
-A summer of code project wherein I reboot my front-end web dev skills.
+A summer of code project wherein I revisit and reboot my front-end web dev skills.
 
 ### Setup
 
@@ -29,6 +26,15 @@ npm start
 - [PostCSS](https://github.com/postcss/postcss) for CSS processing
 - [Stylelint](https://stylelint.io/) for enforcing [stylesheet discipline](https://getyarn.io/yarn-clip/7e8ae3a9-17c6-4ed5-83aa-71110490590f)
 
+### License
 
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned?ref=badge_large)
+[![Licensing][licensing-big]][licensing]
+
+[code-size]: https://img.shields.io/github/repo-size/jm3/todayilearned.svg
+[deps]: https://david-dm.org/jm3/todayilearned
+[deps-img]: https://david-dm.org/jm3/todayilearned.svg
+[licensing]: https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned
+[licensing-big]: https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned
+[licensing-img]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned.svg?type=shield
+[visual-testing]: https://percy.io/jm3/today-i-learned
+[visual-testing-img]: https://percy.io/static/images/percy-badge.svg
