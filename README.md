@@ -28,13 +28,13 @@ npm start
 
 ### License
 
-[![Licensing][licensing-big]][licensing]
+[![Licensing][licensing-img-big]][licensing]
 
 [code-size]: https://img.shields.io/github/repo-size/jm3/todayilearned.svg
 [deps]: https://david-dm.org/jm3/todayilearned
 [deps-img]: https://david-dm.org/jm3/todayilearned/status.svg
 [licensing]: https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned
-[licensing-big]: https://app.fossa.io/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned
 [licensing-img]: https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned.svg?type=shield
+[licensing-img-big]: https://app.fossa.com/api/projects/git%2Bgithub.com%2Fjm3%2Ftodayilearned.svg?type=large
 [visual-testing]: https://percy.io/jm3/todayilearned
 [visual-testing-img]: https://percy.io/static/images/percy-badge.svg
