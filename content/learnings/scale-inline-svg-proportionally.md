@@ -1,6 +1,6 @@
 ---
 title: Scale inline SVG proportionally using calc() and var()
-tags:  [CSS3, HTML5]
+tags:  [CSS3, HTML5, SVG]
 goal:  Front-End Engineering
 date:  2019-06-05
 featured: true
